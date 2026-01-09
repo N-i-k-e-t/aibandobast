@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import { prisma } from '@/lib/db';
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-});
+
 
 const stageDescriptions: Record<string, string> = {
     STAGE_1: 'Ground Reality & Inputs - Initial data collection and ground surveys',
@@ -24,6 +22,10 @@ export async function POST(request: NextRequest) {
                 { status: 500 }
             );
         }
+
+        const openai = new OpenAI({
+            apiKey: process.env.OPENAI_API_KEY,
+        });
 
         const { stage, evidenceIds } = await request.json();
 
