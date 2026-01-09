@@ -30,6 +30,7 @@ model Event {
   zones         Zone[]
   evidenceFiles EvidenceFile[]
   decisionNotes DecisionNote[]
+  insights      Insight[]
 
   @@map("events")
 }
@@ -183,6 +184,8 @@ model EvidenceFile {
   fileUrl     String   @map("file_url")
   fileType    String   @map("file_type")
   uploadedAt  DateTime @default(now()) @map("uploaded_at")
+  aiSummary         String?  @map("ai_summary")
+  extractedMetadata String?  @map("extracted_metadata") // JSON
 
   // Relations
   event         Event          @relation(fields: [eventId], references: [id])
@@ -191,6 +194,7 @@ model EvidenceFile {
   route         Route?         @relation(fields: [routeId], references: [id])
   ghat          Ghat?          @relation(fields: [ghatId], references: [id])
   zone          Zone?          @relation(fields: [zoneId], references: [id])
+  extractionJobs ExtractionJob[]
 
   @@map("evidence_files")
 }
@@ -244,4 +248,54 @@ model ArchiveYear {
   createdAt         DateTime @default(now()) @map("created_at")
 
   @@map("archive_years")
+}
+
+// Extraction Job - for tracking file processing
+model ExtractionJob {
+  id               String   @id @default(uuid())
+  fileId           String   @map("file_id")
+  status           String   @default("PENDING") // PENDING, RUNNING, NEEDS_REVIEW, APPROVED, REJECTED
+  extractorVersion String   @map("extractor_version")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  file             EvidenceFile      @relation(fields: [fileId], references: [id])
+  extractedEntities ExtractedEntity[]
+
+  @@map("extraction_jobs")
+}
+
+// Extracted Entity - potential data before becoming official
+model ExtractedEntity {
+  id             String   @id @default(uuid())
+  jobId          String   @map("job_id")
+  entityType     String   @map("entity_type") // UNIT, ROUTE, GHAT, ZONE, INCIDENT, PERMISSION
+  extractedJson  String   @map("extracted_json") // JSON content
+  confidence     Float
+  needsReview    Boolean  @default(true) @map("needs_review")
+  approved       Boolean  @default(false)
+  mappedTable    String?  @map("mapped_table") // event_unit, route, etc.
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  // Relations
+  job            ExtractionJob @relation(fields: [jobId], references: [id])
+
+  @@map("extracted_entities")
+}
+
+// Insight - generated analysis
+model Insight {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  insightType String   @map("insight_type") // HOTSPOT, RISK_TREND, OVERLAP, CLUSTER, GHAT_LOAD, YEAR_COMPARE
+  title       String
+  summary     String
+  dataJson    String   @map("data_json") // JSON for charts/maps
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  event       Event    @relation(fields: [eventId], references: [id])
+
+  @@map("insights")
 }

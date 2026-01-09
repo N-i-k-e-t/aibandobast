@@ -1,7 +1,9 @@
 /* Import Premium Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
 
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --sidebar-width: 280px;
@@ -9,53 +11,21 @@
 
   /* Government Premium Palette */
   --color-primary: #1e3a8a;
-  /* Deep Blue */
   --color-primary-dark: #172554;
   --color-secondary: #0f172a;
-  /* Slate 900 */
   --color-accent: #f97316;
-  /* Vibrant Orange */
   --color-bg: #f8fafc;
-  /* Slate 50 */
   --color-success: #15803d;
   --color-warning: #b45309;
   --color-danger: #b91c1c;
 
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-bg: rgba(255, 255, 255, 0.7);
-}
 
-@theme {
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-display: 'Outfit', system-ui, sans-serif;
-
-  --animate-fade-in: fadeIn 0.4s ease-out;
-  --animate-slide-up: slideUp 0.5s ease-out;
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 }
 
-/* Custom Scrollbar */
 @layer utilities {
   .custom-scrollbar::-webkit-scrollbar {
     width: 6px;
@@ -176,13 +146,4 @@ h6 {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 2px solid #fbbf24;
-}
-
-/* Timeline */
-.timeline-line {
-  @apply absolute left-4top-0 bottom-0 w-0.5 bg-slate-200;
-}
-
-.timeline-dot {
-  @apply absolute left-0 w-8 h-8 rounded-full border-4 border-white shadow-sm flex items-center justify-center z-10;
 }
