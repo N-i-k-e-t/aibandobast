@@ -12,6 +12,8 @@ interface Stats {
     mediumRiskCount: number;
     lowRiskCount: number;
     totalEvidenceFiles: number;
+    resourceDemand: number;
+    resourceAvailable: number;
 }
 
 interface Upload {
@@ -28,10 +30,39 @@ interface DecisionNote {
     title: string;
 }
 
+interface RiskUnit {
+    id: string;
+    unitName: string;
+    riskTier: string;
+    score: number;
+}
+
+interface HeavyRoute {
+    id: string;
+    routeName: string;
+    notes: string | null;
+}
+
+interface CrowdedGhat {
+    id: string;
+    ghatName: string;
+    capacityEst: number;
+}
+
+interface TrendPoint {
+    year: number;
+    crowd: number;
+    incidents: number;
+}
+
 interface Props {
     stats: Stats;
     latestUploads: Upload[];
     decisionNotes: DecisionNote[];
+    topRiskUnits: RiskUnit[];
+    heavyRoutes: HeavyRoute[];
+    crowdedGhats: CrowdedGhat[];
+    trendData: TrendPoint[];
 }
 
 const stages = [
@@ -44,7 +75,7 @@ const stages = [
     { tag: 'STAGE_7', name: 'Outputs & Documentation', description: 'Final documentation and reports' },
 ];
 
-export default function OverviewClient({ stats, latestUploads, decisionNotes }: Props) {
+export default function OverviewClient({ stats, latestUploads, decisionNotes, topRiskUnits, heavyRoutes, crowdedGhats, trendData }: Props) {
     const [explainMode, setExplainMode] = useState(false);
 
     useEffect(() => {
@@ -54,6 +85,8 @@ export default function OverviewClient({ stats, latestUploads, decisionNotes }: 
         window.addEventListener('explainModeChange', handleExplainModeChange as EventListener);
         return () => window.removeEventListener('explainModeChange', handleExplainModeChange as EventListener);
     }, []);
+
+    const resourceHealth = (stats.resourceAvailable / stats.resourceDemand) * 100;
 
     return (
         <div className="page-container">
@@ -100,59 +133,112 @@ export default function OverviewClient({ stats, latestUploads, decisionNotes }: 
                 </div>
             </div>
 
+            {/* Dashboard Metrics */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                {/* Hotspots */}
+                <div className="card">
+                    <h3 className="text-sm font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                        <span className="text-red-500">🔥</span> Top Risk Hotspots
+                    </h3>
+                    <div className="space-y-3">
+                        {topRiskUnits.slice(0, 5).map(unit => (
+                            <div key={unit.id} className="flex items-center justify-between p-2 bg-red-50 rounded border border-red-100">
+                                <span className="text-sm font-medium text-gray-900 truncate flex-1 mr-2">{unit.unitName}</span>
+                                <span className="bg-red-200 text-red-800 text-xs px-2 py-0.5 rounded-full font-bold">
+                                    {Math.round(unit.score)}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Resource Demand */}
+                <div className="card">
+                    <h3 className="text-sm font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                        <span className="text-blue-500">👮</span> Resource Demand vs Availability
+                    </h3>
+                    <div className="flex flex-col h-full justify-center">
+                        <div className="flex items-end justify-between mb-2">
+                            <span className="text-2xl font-bold text-gray-900">{stats.resourceAvailable.toLocaleString()}</span>
+                            <span className="text-sm text-gray-500">Available</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden mb-1">
+                            <div
+                                className={`h-full rounded-full transition-all ${resourceHealth < 100 ? 'bg-red-500' : 'bg-green-500'}`}
+                                style={{ width: `${Math.min(resourceHealth, 100)}%` }}
+                            ></div>
+                        </div>
+                        <div className="flex justify-between text-xs text-gray-500 mb-4">
+                            <span>Demand: {stats.resourceDemand.toLocaleString()}</span>
+                            <span className={resourceHealth < 100 ? 'text-red-500 font-bold' : 'text-green-500'}>
+                                {resourceHealth < 100 ? `${(stats.resourceDemand - stats.resourceAvailable)} Shortfall` : 'Adequate'}
+                            </span>
+                        </div>
+
+                        <h4 className="text-xs font-semibold text-gray-700 mt-4 mb-2">Ghat Load (Capacity)</h4>
+                        <div className="space-y-2">
+                            {crowdedGhats.slice(0, 3).map(ghat => (
+                                <div key={ghat.id} className="flex justify-between text-xs border-b border-dashed pb-1">
+                                    <span>{ghat.ghatName}</span>
+                                    <span className="font-mono font-bold">{ghat.capacityEst.toLocaleString()}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Trends */}
+                <div className="card">
+                    <h3 className="text-sm font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                        <span className="text-purple-500">📈</span> 5-Year Trends
+                    </h3>
+                    <div className="h-40 flex items-end justify-between px-2 gap-2">
+                        {trendData.map(d => (
+                            <div key={d.year} className="flex flex-col items-center w-full">
+                                <div className="w-full flex gap-1 items-end justify-center h-full">
+                                    <div
+                                        className="w-3 bg-blue-400 rounded-t"
+                                        style={{ height: `${(d.crowd / 600000) * 100}%` }}
+                                        title={`Crowd: ${d.crowd}`}
+                                    ></div>
+                                    <div
+                                        className="w-3 bg-amber-400 rounded-t"
+                                        style={{ height: `${(d.incidents * 10) * 100}%` }} // Scaling incidents for visibility
+                                        title={`Incidents: ${d.incidents}`}
+                                    ></div>
+                                </div>
+                                <span className="text-[10px] text-gray-500 mt-1">{d.year}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="flex justify-center gap-4 mt-2 text-xs text-gray-500">
+                        <span className="flex items-center gap-1"><span className="w-2 h-2 bg-blue-400 rounded-full"></span> Crowd</span>
+                        <span className="flex items-center gap-1"><span className="w-2 h-2 bg-amber-400 rounded-full"></span> Incidents</span>
+                    </div>
+                </div>
+            </div>
+
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                {/* What This Portal Demonstrates */}
+                {/* What This Portal Demonstrates - Consolidated and smaller */}
                 <div className="lg:col-span-2">
                     <div className="card">
-                        <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">What This Portal Demonstrates</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className="p-4 bg-gray-50 rounded-lg">
-                                <div className="flex items-center gap-3 mb-2">
-                                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <h3 className="font-medium text-gray-900">What</h3>
-                                </div>
-                                <p className="text-sm text-gray-600">Complete bandobast planning documentation for Ganpati Utsav 2025 with all evidence and decisions recorded.</p>
-                            </div>
-
-                            <div className="p-4 bg-gray-50 rounded-lg">
-                                <div className="flex items-center gap-3 mb-2">
-                                    <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-                                        </svg>
-                                    </div>
-                                    <h3 className="font-medium text-gray-900">How</h3>
-                                </div>
-                                <p className="text-sm text-gray-600">Step-by-step 7-stage planning flow with inputs, considerations, and outputs at each stage.</p>
-                            </div>
-
-                            <div className="p-4 bg-gray-50 rounded-lg">
-                                <div className="flex items-center gap-3 mb-2">
-                                    <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg>
-                                    </div>
-                                    <h3 className="font-medium text-gray-900">Why</h3>
-                                </div>
-                                <p className="text-sm text-gray-600">Decision rationale documented for every major choice, ensuring transparency and accountability.</p>
-                            </div>
-
-                            <div className="p-4 bg-gray-50 rounded-lg">
-                                <div className="flex items-center gap-3 mb-2">
-                                    <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                        </svg>
-                                    </div>
-                                    <h3 className="font-medium text-gray-900">AI + GIS</h3>
-                                </div>
-                                <p className="text-sm text-gray-600">AI provided assistive analysis; GIS enabled spatial visualization. All decisions made by officers.</p>
-                            </div>
+                        <h2 className="text-lg font-semibold text-[#1e3a5f] mb-4">Planning Flow & Timeline</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-7 gap-2">
+                            {stages.map((stage, index) => {
+                                const hasNote = decisionNotes.some(n => n.stageTag === stage.tag);
+                                return (
+                                    <Link
+                                        key={stage.tag}
+                                        href={`/planning-flow?stage=${stage.tag}`}
+                                        className={`relative p-2 rounded border hover:shadow-sm transition-all text-center flex flex-col items-center justify-center h-24 ${hasNote ? 'border-[#1e3a5f] bg-blue-50/50' : 'border-gray-200'
+                                            }`}
+                                    >
+                                        <div className="text-xs font-bold text-gray-400 mb-1">Step {index + 1}</div>
+                                        <div className="text-[10px] leading-tight font-medium text-gray-900">{stage.name}</div>
+                                        {hasNote && <span className="mt-1 text-green-500 text-[10px]">✓</span>}
+                                    </Link>
+                                );
+                            })}
                         </div>
 
                         {explainMode && (
@@ -160,8 +246,7 @@ export default function OverviewClient({ stats, latestUploads, decisionNotes }: 
                                 <div className="explain-block-title">Why This Structure Matters</div>
                                 <p className="text-sm text-gray-600">
                                     This portal provides a transparent audit trail for bandobast planning. By documenting what was done,
-                                    how it was done, and why decisions were taken, we enable institutional learning, evaluation by
-                                    oversight bodies, and continuous improvement in future planning cycles.
+                                    how it was done, and why decisions were taken, we enable institutional learning and continuous improvement.
                                 </p>
                             </div>
                         )}
@@ -202,51 +287,6 @@ export default function OverviewClient({ stats, latestUploads, decisionNotes }: 
                         View All Evidence
                     </Link>
                 </div>
-            </div>
-
-            {/* Planning Flow Timeline */}
-            <div className="card mt-6">
-                <h2 className="text-lg font-semibold text-[#1e3a5f] mb-6">Planning Flow Timeline</h2>
-                <div className="grid grid-cols-1 md:grid-cols-7 gap-4">
-                    {stages.map((stage, index) => {
-                        const hasNote = decisionNotes.some(n => n.stageTag === stage.tag);
-                        return (
-                            <Link
-                                key={stage.tag}
-                                href={`/planning-flow?stage=${stage.tag}`}
-                                className={`relative p-4 rounded-lg border-2 transition-all hover:shadow-md ${hasNote ? 'border-[#1e3a5f] bg-[#1e3a5f]/5' : 'border-gray-200 bg-white'
-                                    }`}
-                            >
-                                <div className={`absolute -top-3 left-4 px-2 py-0.5 text-xs font-bold rounded ${hasNote ? 'bg-[#1e3a5f] text-white' : 'bg-gray-200 text-gray-600'
-                                    }`}>
-                                    Stage {index + 1}
-                                </div>
-                                <h3 className="text-sm font-medium text-gray-900 mt-2 mb-1 line-clamp-2">{stage.name}</h3>
-                                <p className="text-xs text-gray-500 line-clamp-2">{stage.description}</p>
-                                {hasNote && (
-                                    <div className="mt-2 flex items-center gap-1 text-[10px] text-green-600">
-                                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                        </svg>
-                                        Documented
-                                    </div>
-                                )}
-                            </Link>
-                        );
-                    })}
-                </div>
-
-                {explainMode && (
-                    <div className="explain-block mt-6">
-                        <div className="explain-block-title">Understanding the 7-Stage Planning Flow</div>
-                        <p className="text-sm text-gray-600">
-                            Bandobast planning follows a structured 7-stage approach: gathering ground reality, applying risk-based
-                            thinking, mapping jurisdictions with GIS, planning routes and timing, organizing ghats, allocating
-                            resources, and generating final documentation. Each stage builds on the previous, creating a comprehensive
-                            and auditable planning record.
-                        </p>
-                    </div>
-                )}
             </div>
         </div>
     );

@@ -115,6 +115,7 @@ export default function PlaybooksPage() {
     const [activeTab, setActiveTab] = useState('bandobast');
     const currentPlaybook = playbooks.find(p => p.id === activeTab);
 
+    // Calculate progress (only for checklist tabs)
     const completedCount = currentPlaybook?.items.filter(i => i.done).length || 0;
     const totalCount = currentPlaybook?.items.length || 0;
     const progress = totalCount > 0 ? (completedCount / totalCount) * 100 : 0;
@@ -124,7 +125,7 @@ export default function PlaybooksPage() {
             <div className="mb-6">
                 <h1 className="section-title">Playbooks</h1>
                 <p className="section-subtitle">
-                    Standard checklists and best practices for bandobast planning
+                    Standard checklists, thresholds, and thumb rules for bandobast planning
                 </p>
             </div>
 
@@ -140,9 +141,95 @@ export default function PlaybooksPage() {
                         {playbook.name}
                     </button>
                 ))}
+                <button
+                    onClick={() => setActiveTab('thumb_rules')}
+                    className={`tab whitespace-nowrap ${activeTab === 'thumb_rules' ? 'active' : ''}`}
+                >
+                    <span className="mr-2">📏</span>
+                    Thresholds & Thumb Rules
+                </button>
             </div>
 
-            {currentPlaybook && (
+            {activeTab === 'thumb_rules' ? (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                    {/* Crowd Monitor */}
+                    <div className="card">
+                        <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                            <span className="text-2xl">👥</span> Crowd Thresholds
+                        </h2>
+                        <div className="space-y-4">
+                            <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg border border-green-100">
+                                <span className="font-medium text-green-900">Small</span>
+                                <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm font-bold">0 – 500</span>
+                            </div>
+                            <div className="flex items-center justify-between p-3 bg-amber-50 rounded-lg border border-amber-100">
+                                <span className="font-medium text-amber-900">Medium</span>
+                                <span className="bg-amber-200 text-amber-800 px-3 py-1 rounded-full text-sm font-bold">501 – 2,500</span>
+                            </div>
+                            <div className="flex items-center justify-between p-3 bg-red-50 rounded-lg border border-red-100">
+                                <span className="font-medium text-red-900">Large</span>
+                                <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full text-sm font-bold">2,501+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Risk Tier Boundaries */}
+                    <div className="card">
+                        <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                            <span className="text-2xl">⚠️</span> Risk Tier Boundaries
+                        </h2>
+                        <div className="space-y-4">
+                            <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg border border-green-100">
+                                <span className="font-medium text-green-900">LOW Risk</span>
+                                <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm font-bold">Score 0 – 34</span>
+                            </div>
+                            <div className="flex items-center justify-between p-3 bg-amber-50 rounded-lg border border-amber-100">
+                                <span className="font-medium text-amber-900">MEDIUM Risk</span>
+                                <span className="bg-amber-200 text-amber-800 px-3 py-1 rounded-full text-sm font-bold">Score 35 – 64</span>
+                            </div>
+                            <div className="flex items-center justify-between p-3 bg-red-50 rounded-lg border border-red-100">
+                                <span className="font-medium text-red-900">HIGH Risk</span>
+                                <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full text-sm font-bold">Score 65+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Operational Thumb Rules */}
+                    <div className="lg:col-span-2">
+                        <div className="card">
+                            <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                                <span className="text-2xl">⚡</span> Operational Thumb Rules
+                            </h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+                                    <h3 className="font-bold text-gray-900 mb-2">Chokepoint Rule</h3>
+                                    <p className="text-sm text-gray-700">
+                                        Every identified chokepoint must have <strong className="text-blue-700">+1 Static Point</strong> and barrier/rope management team.
+                                    </p>
+                                </div>
+                                <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+                                    <h3 className="font-bold text-gray-900 mb-2">Overlap Rule</h3>
+                                    <p className="text-sm text-gray-700">
+                                        If 2+ routes overlap within the same time window ⇒ <strong className="text-blue-700">Stagger Time</strong> OR <strong className="text-blue-700">Add Merge Control Points</strong>.
+                                    </p>
+                                </div>
+                                <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+                                    <h3 className="font-bold text-gray-900 mb-2">Compliance Rule</h3>
+                                    <p className="text-sm text-gray-700">
+                                        Pending permissions = <strong className="text-red-700">Increased Supervision</strong> + <strong className="text-red-700">Restricted Time Window</strong>.
+                                    </p>
+                                </div>
+                                <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
+                                    <h3 className="font-bold text-gray-900 mb-2">Terminal Safety Rule</h3>
+                                    <p className="text-sm text-gray-700">
+                                        Terminals (Ghats) require <strong className="text-blue-700">Extra Control Points</strong> + <strong className="text-blue-700">Medical</strong> + <strong className="text-blue-700">Queue Holding Areas</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            ) : currentPlaybook ? (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
                     {/* Checklist */}
                     <div className="lg:col-span-2">
@@ -174,8 +261,8 @@ export default function PlaybooksPage() {
                                             }`}
                                     >
                                         <div className={`w-5 h-5 rounded border-2 flex items-center justify-center ${item.done
-                                                ? 'bg-green-500 border-green-500 text-white'
-                                                : 'border-gray-300'
+                                            ? 'bg-green-500 border-green-500 text-white'
+                                            : 'border-gray-300'
                                             }`}>
                                             {item.done && (
                                                 <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
@@ -226,7 +313,7 @@ export default function PlaybooksPage() {
                         </div>
                     </div>
                 </div>
-            )}
+            ) : null}
         </div>
     );
 }
