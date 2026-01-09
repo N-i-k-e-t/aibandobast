@@ -24,7 +24,7 @@ async function getInsights() {
 
     // JARVIS specific: Deployment Gaps
     const posts = await prisma.deploymentPost.findMany();
-    const totalRequired = posts.reduce((acc, p) => acc + p.requiredPax, 0);
+    const totalRequired = posts.reduce((acc: number, p) => acc + p.requiredPax, 0);
 
     return { riskCounts, highRiskUnits, psLoad, psDetails, totalRequired };
 }
@@ -38,7 +38,7 @@ export default async function InsightsPage() {
     const { riskCounts, highRiskUnits, psLoad, psDetails, totalRequired } = await getInsights();
 
     const getRiskCount = (tier: string) => riskCounts.find(r => r.riskTier === tier)?._count.riskTier || 0;
-    const totalUnits = riskCounts.reduce((acc, curr) => acc + curr._count.riskTier, 0);
+    const totalUnits = riskCounts.reduce((acc: number, curr) => acc + curr._count.riskTier, 0);
 
     return (
         <div className="page-container">
