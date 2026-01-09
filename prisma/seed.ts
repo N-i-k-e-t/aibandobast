@@ -1,4 +1,5 @@
 import { PrismaClient } from '@prisma/client';
+import { seedJarvisData } from './seed_jarvis';
 
 const prisma = new PrismaClient();
 
@@ -701,6 +702,7 @@ async function main() {
     ]);
     console.log('✅ Created', archiveYears.length, 'archive years');
 
+    await seedJarvisData(prisma, event.id, policeStations[0].id);
     console.log('🎉 Seed completed successfully!');
 }
 

@@ -31,6 +31,11 @@ model Event {
   evidenceFiles EvidenceFile[]
   decisionNotes DecisionNote[]
   insights      Insight[]
+  deploymentPosts DeploymentPost[]
+  supplyPlans SupplyPlan[]
+  taskPlans TaskPlan[]
+  scenarioPlans ScenarioPlan[]
+  serviceDependencies ServiceDependency[]
 
   @@map("events")
 }
@@ -51,6 +56,7 @@ model PoliceStation {
   routes        Route[]
   zones         Zone[]
   evidenceFiles EvidenceFile[]
+  deploymentPosts DeploymentPost[]
 
   @@map("police_stations")
 }
@@ -296,6 +302,161 @@ model Insight {
 
   // Relations
   event       Event    @relation(fields: [eventId], references: [id])
-
   @@map("insights")
 }
+
+// --- JARVIS / RESOURCE PLANNING MODULES ---
+
+// --- JARVIS / RESOURCE PLANNING MODULES ---
+
+// Config Thresholds for Logic
+model ConfigThreshold {
+  id          String   @id @default(uuid())
+  category    String   // RISK, CROWD, SUPPLY, STAFFING
+  key         String   @unique // e.g., 'HIGH_RISK_CROWD_LIMIT'
+  value       Float
+  unit        String?  // 'people', 'meters', 'ratio'
+  description String?
+  updatedAt   DateTime @updatedAt
+
+  @@map("config_thresholds")
+}
+
+// Deployment Post - A specific location where staff is assigned
+model DeploymentPost {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  psId        String   @map("ps_id")
+  postName    String   @map("post_name")
+  postType    String   @map("post_type") // STATIC, PATROL, WATCHTOWER, QRT_POINT, BARRICADE
+  latitude    Float?
+  longitude   Float?
+  requiredPax Int      @default(1) @map("required_pax")
+  riskTier    String   @default("LOW") @map("risk_tier") // Derived from nearby units
+  
+  // Relations
+  event       Event         @relation(fields: [eventId], references: [id])
+  policeStation PoliceStation @relation(fields: [psId], references: [id])
+  shifts      DeploymentShift[]
+  tasks       TaskPlan[]
+
+  @@map("deployment_posts")
+}
+
+// Deployment Person - Staff database
+model DeploymentPerson {
+  id          String   @id @default(uuid())
+  name        String
+  rank        String   // CONSTABLE, PSI, API, PI, DCP, VOLUNTEER
+  badgeNumber String?  @unique @map("badge_number")
+  phone       String?
+  homePS      String?  @map("home_ps")
+  skills      String?  // JSON: ["DRIVER", "SWIMMER", "FIRST_AID"]
+  
+  // Relations
+  shifts      DeploymentShift[]
+
+  @@map("deployment_persons")
+}
+
+// Deployment Shift - Assignment of a person to a post at a time
+model DeploymentShift {
+  id          String   @id @default(uuid())
+  postId      String   @map("post_id")
+  personId    String?  @map("person_id") // Nullable if currently vacant/unassigned
+  shiftType   String   // MORNING, EVENING, NIGHT, 24HR
+  startTime   DateTime @map("start_time")
+  endTime     DateTime @map("end_time")
+  status      String   @default("PLANNED") // PLANNED, CONFIRMED, ON_DUTY, COMPLETED, ABSENT
+  
+  // Relations
+  post        DeploymentPost    @relation(fields: [postId], references: [id])
+  person      DeploymentPerson? @relation(fields: [personId], references: [id])
+
+  @@map("deployment_shifts")
+}
+
+// Supply Item - Catalog of resources
+model SupplyItem {
+  id          String   @id @default(uuid())
+  itemName    String   @unique @map("item_name")
+  category    String   // FOOD, WATER, MEDICAL, BARRICADE, TECH
+  unitCost    Float?   @map("unit_cost")
+  
+  // Relations
+  plans       SupplyPlan[]
+
+  @@map("supply_items")
+}
+
+// Supply Plan - Allocation of items to posts/zones
+model SupplyPlan {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  targetType  String   @map("target_type") // POST, ZONE, PS, GHAT
+  targetId    String   @map("target_id")
+  itemId      String   @map("item_id")
+  quantity    Int
+  status      String   @default("REQUESTED") // REQUESTED, APPROVED, DISPATCHED, DELIVERED
+  
+  // Relations
+  event       Event      @relation(fields: [eventId], references: [id])
+  item        SupplyItem @relation(fields: [itemId], references: [id])
+
+  @@map("supply_plans")
+}
+
+// Task Plan - Specific ground actions
+model TaskPlan {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  title       String
+  description String?
+  priority    String   @default("MEDIUM") // LOW, MEDIUM, HIGH, CRITICAL
+  stageTag    String?  @map("stage_tag") // Linked to planning stages
+  assignedToPostId String? @map("assigned_to_post_id")
+  status      String   @default("PENDING")
+  dueDate     DateTime? @map("due_date")
+  
+  // Relations
+  event       Event           @relation(fields: [eventId], references: [id])
+  post        DeploymentPost? @relation(fields: [assignedToPostId], references: [id])
+
+  @@map("task_plans")
+}
+
+// Scenario Plan - Simulation logic
+model ScenarioPlan {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  scenarioType String  @map("scenario_type") // STAMPEDE, FIRE, CLASH, RAIN, etc.
+  title       String
+  triggers    String   // Description of what sets this off
+  severity    String   // L1, L2, L3
+  responseSteps String @map("response_steps") // JSON array of steps
+  resourceChecklist String @map("resource_checklist") // JSON
+  mapOverlayJson String? @map("map_overlay_json") // GeoJSON specific to this scenario (e.g., evacuation routes)
+  createdAt   DateTime @default(now())
+
+  // Relations
+  event       Event    @relation(fields: [eventId], references: [id])
+
+  @@map("scenario_plans")
+}
+
+// Service Dependency - Linking external services
+model ServiceDependency {
+  id          String   @id @default(uuid())
+  eventId     String   @map("event_id")
+  serviceName String   @map("service_name") // AMBULANCE, FIRE_BRIGADE, MSEDCL, CORP, TRAFFIC
+  pointOfContact String? @map("point_of_contact")
+  contactPhone String?  @map("contact_phone")
+  dependencyDescription String @map("dependency_description")
+  status      String   @default("NOTIFIED") // NOTIFIED, CONFIRMED, ON_SITE
+
+  // Relations
+  event       Event    @relation(fields: [eventId], references: [id])
+
+  @@map("service_dependencies")
+}
+
