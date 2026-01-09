@@ -1,6 +1,8 @@
 import { prisma } from '@/lib/db';
 import OverviewClient from './OverviewClient';
 
+export const dynamic = 'force-dynamic';
+
 export default async function OverviewPage() {
     // Fetch data from database
     let stats = {

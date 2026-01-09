@@ -1,5 +1,7 @@
 import { prisma } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
     title: 'Planning Logic | JARVIS',
     description: 'Thresholds and Thumb Rules',

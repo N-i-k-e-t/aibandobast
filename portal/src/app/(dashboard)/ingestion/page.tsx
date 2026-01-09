@@ -1,6 +1,8 @@
 import IngestionClient from './IngestionClient';
 import { getJobs } from '../../actions/ingestion';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
     title: 'Ingestion & Extraction | AI BANDOBaST',
     description: 'Upload files and run AI extraction',

@@ -1,5 +1,7 @@
 import { prisma } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 async function getInsights() {
     const riskCounts = await prisma.eventUnit.groupBy({
         by: ['riskTier'],

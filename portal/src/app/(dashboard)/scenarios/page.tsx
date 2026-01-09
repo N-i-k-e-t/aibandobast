@@ -1,5 +1,7 @@
 import { prisma } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
     title: 'Scenario Library | JARVIS',
     description: 'Pre-planned response protocols',
