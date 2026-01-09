@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dargahs in Nashik</name>
+    <description>Corrected locations for prominent Dargahs in Nashik.</description>
+
+    <!-- Style for Dargah Markers -->
+    <Style id="dargahStyle">
+      <IconStyle>
+        <color>ff00ff00</color> <!-- Green color for the icon -->
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Folder>
+      <name>Dargah Locations</name>
+      
+      <Placemark>
+        <name>Dargah Hazrat Peer Syed Sadiq Shah Hussaini Madani Chishti Quadri R. A.</name>
+        <styleUrl>#dargahStyle</styleUrl>
+        <Point>
+          <coordinates>73.79164601671745,19.999756781473003,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Badi Dargah Masjid</name>
+        <styleUrl>#dargahStyle</styleUrl>
+        <Point>
+          <coordinates>73.79133110626356,19.999449990344438,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Sailani Baba Dargah</name>
+        <styleUrl>#dargahStyle</styleUrl>
+        <Point>
+          <coordinates>73.80039065784159,20.011180534268007,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Hazrat Adam Shah Dargah</name>
+        <styleUrl>#dargahStyle</styleUrl>
+        <Point>
+          <coordinates>73.79310064140948,19.998780330618953,0</coordinates>
+        </Point>
+      </Placemark>
+      
+    </Folder>
+  </Document>
+</kml>

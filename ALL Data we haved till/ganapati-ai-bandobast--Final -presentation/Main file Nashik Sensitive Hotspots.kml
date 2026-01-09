@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1lKWvUr_K7XdeafnZKadEf-ZFUglPVjFs">
+	<name>Main file Nashik Sensitive Hotspots</name>
+	<description>Visual representation of sensitive areas in Nashik with color-coded risk levels and influence radii.</description>
+	<gx:CascadingStyle kml:id="__managed_style_16C39BF75C3A13C1BEA8">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c0f5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_044ED68E403A13C1BEA8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_16C39BF75C3A13C1BEA8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22BBB548393A13C1BEA8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1200F04F943A13C03773">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>80ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00A566B4DE3A13C03773">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1200F04F943A13C03773</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0A44A3FE1B3A13C03778</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_07678297B73A13B6C35B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1F4A0EFEDF3A13B6C35B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D06588F6C3A13B6C35C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2FE4F60A823A13BDECCC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8026a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<div><b>Nashik junction cluster</b><br></div>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1BE8ECCFD33A13BDECCC">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8026a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<div><b>Nashik junction cluster</b><br></div>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D0ADBE1693A13BDECCC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1BE8ECCFD33A13BDECCC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2FE4F60A823A13BDECCC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2566CA5F3B3A13B98BE4">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c02f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1F4A0EFEDF3A13B6C35B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_034E270C313A13B86763">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8058eeff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_10749C3A513A13B6C360">
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=ffa500&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000a5ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_22BBB548393A13C1BEA8">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c0f5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0A44A3FE1B3A13C03778">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>80ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D53F41B7D3A13B6C360">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_10749C3A513A13B6C360</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26926B10CD3A13B6C360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2FE3CF063C3A13B6C35C">
+		<Style>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>data:image/png;base64,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</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>800000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_161648B69F3A13B86763">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8058eeff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0693BE48303A13B86761">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_034E270C313A13B86763</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_161648B69F3A13B86763</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_26926B10CD3A13B6C360">
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=ffa500&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>8000a5ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2AA8814CC53A13B72FFE">
+		<Style>
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.56</scale>
+				<Icon>
+					<href>data:image/png;base64,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</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19E3D5AA6A3A13B72FFE">
+		<Style>
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>data:image/png;base64,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</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_02482E27E53A13B72FFE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19E3D5AA6A3A13B72FFE</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2AA8814CC53A13B72FFE</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0A1A5FF2053A13B98BE4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14449FCA133A13B98BE4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2566CA5F3B3A13B98BE4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0D6C7280183A13B6C35E">
+		<Style>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.56</scale>
+				<Icon>
+					<href>data:image/png;base64,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</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>800000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_14449FCA133A13B98BE4">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c02f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_16535FDDFE3A13B6C35C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2FE3CF063C3A13B6C35C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D6C7280183A13B6C35E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0D06588F6C3A13B6C35C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Folder id="56F13E1AA6000001">
+		<name>High Risk Zones</name>
+		<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+		<Placemark id="56F13E1AA6000002">
+			<name>Ramkund / Godaghat</name>
+			<description><![CDATA[<b>High Risk</b><br>Reason: High crowd density, potential for flooding, and communal sensitivity.]]></description>
+			<styleUrl>#__managed_style_16535FDDFE3A13B6C35C</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>73.79216,20.00827,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.7944,20.00827,0 73.79434999999999,20.00871,0 73.79421000000001,20.00914,0 73.79398,20.00956,0 73.79367000000001,20.00995,0 73.79328,20.01031,0 73.79284,20.01062,0 73.79236,20.01087,0 73.79186,20.01105,0 73.79136,20.01115,0 73.79085000000001,20.01118,0 73.79034,20.01112,0 73.78985,20.01098,0 73.78939,20.01077,0 73.78897000000001,20.01048,0 73.7886,20.01013,0 73.78828,20.00971,0 73.78803000000001,20.00924,0 73.78785999999999,20.00874,0 73.78776000000001,20.00822,0 73.78775,20.00769,0 73.78782,20.00716,0 73.78797,20.00666,0 73.78819,20.00618,0 73.78849,20.00573,0 73.78885,20.00532,0 73.78927,20.00497,0 73.78973999999999,20.00467,0 73.79024,20.00444,0 73.79076999999999,20.00428,0 73.79131,20.0042,0 73.79185,20.0042,0 73.79239,20.00428,0 73.79291000000001,20.00444,0 73.79340000000001,20.00467,0 73.79384,20.00497,0 73.79421000000001,20.00532,0 73.79452000000001,20.00573,0 73.79474999999999,20.00618,0 73.7949,20.00666,0 73.79497000000001,20.00716,0 73.79496,20.00769,0 73.79488000000001,20.00822,0 73.79472,20.00874,0 73.79449,20.00924,0 73.79419,20.00971,0 73.79383,20.01013,0 73.79343,20.01048,0 73.79300000000001,20.01077,0 73.79255000000001,20.01098,0 73.7921,20.01112,0 73.79165,20.01118,0 73.79119,20.01115,0 73.79074,20.01105,0 73.7903,20.01087,0 73.7899,20.01062,0 73.78954,20.01031,0 73.78923,20.00995,0 73.78898,20.00956,0 73.78879999999999,20.00914,0 73.78869,20.00871,0 73.78865,20.00827,0 73.7944,20.00827,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="56F13E1AA6000003">
+			<name>Phule Mandai / Wakadi Barav</name>
+			<description><![CDATA[<b>High Risk</b><br>Reason: High crowd density and communal sensitivity.]]></description>
+			<styleUrl>#__managed_style_16535FDDFE3A13B6C35C</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>73.791,19.996,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.79324,19.996,0 73.79319,19.99644,0 73.79304999999999,19.99687,0 73.79282000000001,19.99729,0 73.79250999999999,19.99768,0 73.79212,19.99804,0 73.79168,19.99835,0 73.7912,19.9986,0 73.7907,19.99878,0 73.7902,19.99888,0 73.78968999999999,19.99891,0 73.78918,19.99885,0 73.78869,19.99871,0 73.78823,19.9985,0 73.78780999999999,19.99821,0 73.78744,19.99786,0 73.78712,19.99744,0 73.78686999999999,19.99697,0 73.7867,19.99647,0 73.78660000000001,19.99595,0 73.78659,19.99542,0 73.78666,19.99489,0 73.78681,19.99439,0 73.78703,19.99391,0 73.78733,19.99346,0 73.78769,19.99305,0 73.78811,19.9927,0 73.78858,19.9924,0 73.78908,19.99217,0 73.78961,19.99201,0 73.79015,19.99193,0 73.79069,19.99193,0 73.79123,19.99201,0 73.79174999999999,19.99217,0 73.79224000000001,19.9924,0 73.79268,19.9927,0 73.79304999999999,19.99305,0 73.79336000000001,19.99346,0 73.79358999999999,19.99391,0 73.79374,19.99439,0 73.79380999999999,19.99489,0 73.7938,19.99542,0 73.79371999999999,19.99595,0 73.79356,19.99647,0 73.79333,19.99697,0 73.79303,19.99744,0 73.79267,19.99786,0 73.79227,19.99821,0 73.79183999999999,19.9985,0 73.79139000000001,19.99871,0 73.79094000000001,19.99885,0 73.79049000000001,19.99891,0 73.79003,19.99888,0 73.78958,19.99878,0 73.78914,19.9986,0 73.78874,19.99835,0 73.78838,19.99804,0 73.78807,19.99768,0 73.78782,19.99729,0 73.78764,19.99687,0 73.78753,19.99644,0 73.78749000000001,19.996,0 73.79324,19.996,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Folder id="56F1668352000001">
+			<name>Dargahs in Nashik</name>
+			<open>1</open>
+			<description>Corrected locations for prominent Dargahs in Nashik.</description>
+			<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+			<Folder id="56F1668352000002">
+				<name>Dargah Locations</name>
+				<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+				<Placemark id="56F1668352000003">
+					<name>Dargah Hazrat Peer Syed Sadiq Shah Hussaini Madani Chishti Quadri R. A.</name>
+					<styleUrl>#__managed_style_02482E27E53A13B72FFE</styleUrl>
+					<Point>
+						<coordinates>73.79164601671745,19.999756781473,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="56F1668352000004">
+					<name>Badi Dargah Masjid</name>
+					<styleUrl>#__managed_style_02482E27E53A13B72FFE</styleUrl>
+					<Point>
+						<coordinates>73.79133110626356,19.99944999034444,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="56F1668352000005">
+					<name>Sailani Baba Dargah</name>
+					<styleUrl>#__managed_style_02482E27E53A13B72FFE</styleUrl>
+					<Point>
+						<coordinates>73.80039065784159,20.01118053426801,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="56F1668352000006">
+					<name>Hazrat Adam Shah Dargah</name>
+					<styleUrl>#__managed_style_02482E27E53A13B72FFE</styleUrl>
+					<Point>
+						<coordinates>73.79310064140948,19.99878033061895,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="028202F5C63A13B804BE">
+					<name>cricle dragah sailani baba</name>
+					<LookAt>
+						<longitude>73.79876496559176</longitude>
+						<latitude>20.0111111430961</latitude>
+						<altitude>603.9991473165766</altitude>
+						<heading>-1.489209925774532e-07</heading>
+						<tilt>0.2560997327986223</tilt>
+						<gx:fovy>35</gx:fovy>
+						<range>877.4259423166222</range>
+						<altitudeMode>absolute</altitudeMode>
+					</LookAt>
+					<styleUrl>#__managed_style_0693BE48303A13B86761</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.79934362704191,20.01188827567814,0 73.7992647551571,20.01133024173826,0 73.79896590842448,20.01061484409407,0 73.79928964412564,20.01001200005437,0 73.80020534110851,20.00986819660432,0 73.80076581789803,20.01009618791957,0 73.80096204780652,20.01061278255353,0 73.80112013839113,20.01099208798732,0 73.80119386654309,20.01149221790952,0 73.80077489237625,20.01183598352321,0 73.79972698368181,20.01201658094181,0 73.79934362704191,20.01188827567814,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="046057A3C93A13B91668">
+					<name>sensitve area </name>
+					<LookAt>
+						<longitude>73.79140117184231</longitude>
+						<latitude>20.00053329835045</latitude>
+						<altitude>605.4902558736993</altitude>
+						<heading>-1.341718049113807</heading>
+						<tilt>1.186536780644355</tilt>
+						<gx:fovy>35</gx:fovy>
+						<range>1379.198254408257</range>
+						<altitudeMode>absolute</altitudeMode>
+					</LookAt>
+					<styleUrl>#__managed_style_0A1A5FF2053A13B98BE4</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.79004125729816,20.0021334484555,0 73.78961737560861,20.00193374791315,0 73.78959777834976,20.00165315146151,0 73.78943780064881,20.00122771374763,0 73.78958514138536,20.00071502793067,0 73.78970826026199,20.00032555797366,0 73.79000196672609,19.99995568217677,0 73.79035073069133,19.9995648000732,0 73.79073446075445,19.99905659251417,0 73.79117587316898,19.99904105573881,0 73.79197642648649,19.99894286123963,0 73.79277262988424,19.99908927126504,0 73.79358864600172,19.99933937671189,0 73.79440933777437,19.99979317669701,0 73.79444248986661,20.00030190633587,0 73.79420872389034,20.00068644192794,0 73.79392683327113,20.00105451595511,0 73.7935871031064,20.00136114824449,0 73.79318353161302,20.00165551323491,0 73.79278146377941,20.00190850397558,0 73.79228976116909,20.00212548274856,0 73.7918212856396,20.00229746266733,0 73.79143239706328,20.00239081292561,0 73.79092749339927,20.00244798420776,0 73.79059126103662,20.00233993032533,0 73.79021645981717,20.00225765359398,0 73.79004125729816,20.0021334484555,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder id="56F13E1AA6000005">
+		<name>Medium Risk Zones</name>
+		<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+		<Placemark id="56F13E1AA6000007">
+			<name>Shahid Bhagat Singh Chowk / Talawadi</name>
+			<description><![CDATA[<b>Medium Risk</b><br>Reason: Market zone.]]></description>
+			<styleUrl>#__managed_style_0D53F41B7D3A13B6C360</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>73.7925,19.9985,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.79385000000001,19.9985,0 73.79380999999999,19.99876,0 73.79371999999999,19.99902,0 73.79356,19.99927,0 73.79334,19.99951,0 73.79307,19.99972,0 73.79275,19.99991,0 73.7924,20.00005,0 73.79201,20.00015,0 73.79161000000001,20.00019,0 73.7912,20.00018,0 73.7908,20.00011,0 73.79042,19.99998,0 73.79006,19.9998,0 73.78973000000001,19.99957,0 73.78944,19.9993,0 73.78919999999999,19.99898,0 73.78901,19.99864,0 73.78888000000001,19.99827,0 73.78882,19.99788,0 73.78883,19.99748,0 73.7889,19.99709,0 73.78904,19.99672,0 73.78924000000001,19.99638,0 73.7895,19.99607,0 73.78981,19.99579,0 73.79017,19.99556,0 73.79057,19.99538,0 73.79101,19.99526,0 73.79146,19.99521,0 73.79192,19.99523,0 73.79237000000001,19.99532,0 73.79281,19.99548,0 73.79322000000001,19.9957,0 73.79358999999999,19.99598,0 73.79391,19.9963,0 73.79416999999999,19.99665,0 73.79436,19.99702,0 73.79447999999999,19.99741,0 73.79452000000001,19.99781,0 73.79447999999999,19.99821,0 73.79436,19.9986,0 73.79416999999999,19.99897,0 73.79391,19.99931,0 73.79358999999999,19.99961,0 73.79322000000001,19.99985,0 73.79281,20.00003,0 73.79237000000001,20.00015,0 73.79192,20.00019,0 73.79146,20.00015,0 73.79101,20.00005,0 73.79057,19.99988,0 73.79017,19.99966,0 73.78981,19.99939,0 73.7895,19.99908,0 73.78924000000001,19.99876,0 73.78904,19.99842,0 73.7889,19.99806,0 73.78883,19.99769,0 73.78882,19.99732,0 73.78888000000001,19.99695,0 73.78901,19.9966,0 73.78919999999999,19.99626,0 73.78944,19.99594,0 73.78973000000001,19.99567,0 73.79006,19.99544,0 73.79042,19.99526,0 73.7908,19.99514,0 73.7912,19.99506,0 73.79161000000001,19.99505,0 73.79201,19.99509,0 73.7924,19.99519,0 73.79275,19.99533,0 73.79307,19.99552,0 73.79334,19.99573,0 73.79356,19.99598,0 73.79371999999999,19.99624,0 73.79380999999999,19.9965,0 73.79385000000001,19.99676,0 73.79385000000001,19.9985,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="56F13E1AA7000008">
+			<name>Kalaram Mandir East Gate</name>
+			<description><![CDATA[<b>Medium Risk</b><br>Reason: High footfall in a concentrated area.]]></description>
+			<styleUrl>#__managed_style_0D53F41B7D3A13B6C360</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>73.795,20.00694,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.79635,20.00694,0 73.79631000000001,20.0072,0 73.79622000000001,20.00746,0 73.79606,20.00771,0 73.79584,20.00795,0 73.79557,20.00816,0 73.79525,20.00835,0 73.7949,20.00849,0 73.79451,20.00859,0 73.79411,20.00863,0 73.7937,20.00862,0 73.7933,20.00855,0 73.78,20.00842,0 73.79255999999999,20.00824,0 73.79223,20.00801,0 73.79194,20.00774,0 73.79170000000001,20.00742,0 73.79151,20.00708,0 73.79138,20.00671,0 73.79132,20.00632,0 73.79133,20.00592,0 73.7914,20.00553,0 73.79154,20.00516,0 73.79174,20.00482,0 73.792,20.00451,0 73.79231,20.00423,0 73.79267,20.004,0 73.79307,20.00382,0 73.79351,20.0037,0 73.79396,20.00365,0 73.79442,20.00367,0 73.79487,20.00375,0 73.79531,20.00391,0 73.79572,20.00413,0 73.79609000000001,20.00441,0 73.79640999999999,20.00473,0 73.79667000000001,20.00508,0 73.79686,20.00545,0 73.79698,20.00584,0 73.79702,20.00624,0 73.79698,20.00664,0 73.79686,20.00703,0 73.79667000000001,20.00741,0 73.79640999999999,20.00775,0 73.79609000000001,20.00806,0 73.79572,20.00831,0 73.79531,20.00849,0 73.79487,20.00861,0 73.79442,20.00865,0 73.79396,20.00861,0 73.79351,20.00849,0 73.79307,20.00831,0 73.79267,20.00806,0 73.79231,20.00775,0 73.792,20.00741,0 73.79174,20.00703,0 73.79154,20.00664,0 73.7914,20.00624,0 73.79133,20.00584,0 73.79132,20.00545,0 73.79138,20.00508,0 73.79151,20.00473,0 73.79170000000001,20.00441,0 73.79194,20.00407,0 73.79223,20.00381,0 73.79255999999999,20.00358,0 73.79292,20.00342,0 73.7933,20.00332,0 73.7937,20.00328,0 73.79411,20.00332,0 73.79451,20.00342,0 73.7949,20.00358,0 73.79525,20.00381,0 73.79557,20.00407,0 73.79584,20.00435,0 73.79606,20.00465,0 73.79622000000001,20.00494,0 73.79631000000001,20.00522,0 73.79635,20.00548,0 73.79635,20.00694,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder id="56F1496219000001">
+		<name>Nashik Sensitive Hotspots (Corrected)</name>
+		<description>Visual representation of sensitive areas in Nashik with color-coded risk levels and corrected influence radii.</description>
+		<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+		<Folder id="56F1496219000006">
+			<name>Medium Risk Zones</name>
+			<open>1</open>
+			<styleUrl>#__managed_style_07678297B73A13B6C35B</styleUrl>
+		</Folder>
+	</Folder>
+	<Placemark id="0765EC55093A13B03566">
+		<name>Nashik junction cluster</name>
+		<LookAt>
+			<longitude>73.83857421456841</longitude>
+			<latitude>19.95546193663979</latitude>
+			<altitude>589.9263534722567</altitude>
+			<heading>1.116909239419859</heading>
+			<tilt>8.456573189310715</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2253.740810654126</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D0ADBE1693A13BDECCC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.83724546557805,19.9556946602391,0 73.83687193366796,19.9550503376984,0 73.83661496773777,19.95485372769433,0 73.8365674502853,19.95454911088322,0 73.83707122969953,19.95408501568567,0 73.83825305769695,19.95308757311239,0 73.83907061356368,19.95255944009953,0 73.83921489274172,19.95128645306486,0 73.83917417506177,19.94952972499702,0 73.8395952458112,19.94948628408741,0 73.84013206966503,19.94946224650202,0 73.84051169454926,19.94932789736802,0 73.84045964794554,19.94859095187078,0 73.84054230460889,19.94817539375427,0 73.84044790662098,19.94755482996933,0 73.84093416152136,19.9473979613931,0 73.84133108337507,19.94726814155544,0 73.84177512208791,19.94703324135286,0 73.84213647032654,19.9472910473335,0 73.84231236730331,19.94775886154596,0 73.84238470792587,19.948267318979,0 73.8422814839146,19.94877934093373,0 73.84216459388219,19.94926851928069,0 73.84231796279825,19.95011041051167,0 73.84290942443947,19.95126261280994,0 73.84275825389673,19.95217880495174,0 73.84171791749688,19.95280440228242,0 73.84086620641195,19.95281499408655,0 73.84060235648305,19.95351624940996,0 73.8409078993039,19.95429912047215,0 73.84116796804931,19.9551084114522,0 73.84064619811205,19.95545004832129,0 73.8395341583193,19.95580699318761,0 73.838486865036,19.95604068908082,0 73.83765190796977,19.95612296033304,0 73.83724546557805,19.9556946602391,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="00C10061EE3A13BF8C91">
+		<name>sambhajhi chowk</name>
+		<LookAt>
+			<longitude>73.81041714396474</longitude>
+			<latitude>20.01161339332907</latitude>
+			<altitude>606.2669793677917</altitude>
+			<heading>38.33453008508535</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>754.1048894030974</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_00A566B4DE3A13C03773</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.81027830261912,20.01137358512952,0 73.8098430359413,20.01130483264611,0 73.80954713127045,20.01103904864055,0 73.8097139583253,20.01062739344193,0 73.8099388325428,20.01020193773298,0 73.81053249398431,20.01004501475417,0 73.8110504752657,20.01021884025615,0 73.81138635940152,20.01048667129319,0 73.81146054854923,20.01084846009247,0 73.81140586772514,20.01108506330421,0 73.81110292743439,20.01137456427662,0 73.810735376832,20.01158667133599,0 73.81063623528799,20.01159632682923,0 73.81027830261912,20.01137358512952,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0E82AFE5513A13C0B176">
+		<name>Congestion  point 5 </name>
+		<LookAt>
+			<longitude>73.8072375831939</longitude>
+			<latitude>20.01059029528</latitude>
+			<altitude>604.1266446268718</altitude>
+			<heading>37.53227306097943</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2860.918818458158</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_044ED68E403A13C1BEA8</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.80618978350331,20.00971122559952,0 73.80558911968969,20.00920762851723,0 73.80609571470478,20.00875659861288,0 73.80689714109148,20.00868615643228,0 73.80711894088037,20.0089502745836,0 73.80695597507332,20.00923797180006,0 73.806562224065,20.00967232295429,0 73.80618978350331,20.00971122559952,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

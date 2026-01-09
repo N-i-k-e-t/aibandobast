@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganpati Utsav 2025 - Nashik Police Bandobast Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            overflow-x: hidden;
+        }
+
+        .presentation-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        .slide {
+            width: 100%;
+            height: 100vh;
+            min-height: 600px;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+            border-bottom: 1px solid #ecf0f1;
+            position: relative;
+        }
+
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            background: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* Cover Slide */
+        .cover-slide {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .cover-slide h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .cover-slide .subtitle {
+            font-size: 1.8em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .cover-slide .tagline {
+            font-size: 1.2em;
+            background: rgba(255,255,255,0.2);
+            padding: 15px 30px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Standard slide header */
+        .slide h2 {
+            font-size: 2.5em;
+            color: #2980b9;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+        .slide h3 {
+            font-size: 1.5em;
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+
+        /* Charts and Visual Elements */
+        .chart-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .chart-box {
+            background: #ecf0f1;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 5px solid #3498db;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+
+        /* Data Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .data-table th {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        /* Icons and Visual Elements */
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .icon-item {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .icon-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .risk-high { color: #e74c3c; }
+        .risk-medium { color: #f39c12; }
+        .risk-low { color: #27ae60; }
+
+        /* Timeline */
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+            padding: 20px 0;
+        }
+
+        .timeline-item {
+            text-align: center;
+            flex: 1;
+            position: relative;
+        }
+
+        .timeline-date {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2980b9;
+        }
+
+        .timeline-event {
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #7f8c8d;
+        }
+
+        /* Maps and Visual Placeholders */
+        .map-placeholder {
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border: 2px dashed #3498db;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin: 20px 0;
+        }
+
+        /* Police Station Grid */
+        .ps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .ps-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-top: 4px solid #3498db;
+        }
+
+        .ps-name {
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+
+        /* Flow Diagram */
+        .flow-diagram {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .flow-item {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px;
+            min-width: 150px;
+        }
+
+        .flow-arrow {
+            font-size: 2em;
+            color: #3498db;
+            margin: 0 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .slide {
+                padding: 30px;
+                height: auto;
+                min-height: 100vh;
+            }
+            
+            .slide h2 {
+                font-size: 2em;
+            }
+            
+            .cover-slide h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        .navigation {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(52, 152, 219, 0.9);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .nav-button {
+            background: white;
+            border: none;
+            padding: 8px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .nav-button:hover {
+            background: #ecf0f1;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <button class="nav-button" onclick="previousSlide()">← Prev</button>
+        <span id="currentSlide" style="color: white; margin: 0 15px;">1 / 20</span>
+        <button class="nav-button" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <div class="presentation-container">
+        <!-- Slide 1: Cover -->
+        <div class="slide cover-slide" data-slide="1">
+            <h1>Ganpati Utsav 2025</h1>
+            <div class="subtitle">Nashik City AI-Enabled Bandobast Plan</div>
+            <div class="tagline">Safe Ganpati • Smart Ganpati</div>
+            <div style="margin-top: 40px; opacity: 0.8;">
+                <div>📅 August 27 - September 7, 2025</div>
+                <div>🏛️ Nashik City Police & AI Labs Team</div>
+            </div>
+            <div class="slide-number">1</div>
+        </div>
+
+        <!-- Slide 2: Festival Context -->
+        <div class="slide" data-slide="2">
+            <h2>🕉️ Festival Context</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 27</div>
+                    <div class="timeline-event">Opening Day</div>
+                    <div class="icon" style="color: #27ae60;">🎉</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2</div>
+                    <div class="timeline-event risk-high">Gauri Visarjan + Eid Overlap</div>
+                    <div class="icon" style="color: #e74c3c;">⚠️</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 7</div>
+                    <div class="timeline-event risk-high">Anant Chaturdashi + Sunday</div>
+                    <div class="icon" style="color: #e74c3c;">🔥</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <div class="chart-box">
+                    <div class="stat-number">790</div>
+                    <div class="stat-label">Public Mandals</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">1.25L</div>
+                    <div class="stat-label">Household Ganpatis</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">15K+</div>
+                    <div class="stat-label">Peak Day Crowd</div>
+                </div>
+            </div>
+            <div class="slide-number">2</div>
+        </div>
+
+        <!-- Slide 3: Historical Trends -->
+        <div class="slide" data-slide="3">
+            <h2>📊 Historical Trends (2015-2024)</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px;">
+                <div>
+                    <h3>Growth Pattern</h3>
+                    <div class="map-placeholder">
+                        📈 Mandal Growth Chart<br>
+                        2015: 67 → 2024: 61 (Panchavati PS)<br>
+                        Household: 9,000 → 23,000
+                    </div>
+                </div>
+                <div>
+                    <h3>Critical Incidents</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr><th>Year</th><th>Incidents</th><th>Type</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>2017</td><td>2</td><td class="risk-high">Drowning</td></tr>
+                            <tr><td>2019</td><td>1</td><td class="risk-high">Drowning</td></tr>
+                            <tr><td>2023</td><td>4</td><td class="risk-high">Drowning</td></tr>
+                            <tr><td>2022</td><td>1</td><td class="risk-medium">Assault</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="slide-number">3</div>
+        </div>
+
+        <!-- Slide 4: 2025 Mandal Distribution -->
+        <div class="slide" data-slide="4">
+            <h2>🎪 2025 Mandal Distribution</h2>
+            <div class="chart-container">
+                <div class="chart-box">
+                    <div class="stat-number risk-high">201</div>
+                    <div class="stat-label">Large Mandals</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number risk-medium">562</div>
+                    <div class="stat-label">Small Mandals</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number risk-low">35</div>
+                    <div class="stat-label">Valuable Mandals</div>
+                </div>
+            </div>
+            <div class="ps-grid">
+                <div class="ps-card">
+                    <div class="ps-name">Bhadrakali PS</div>
+                    <div>Peak Crowd: 8-10K</div>
+                    <div>Ghat: Godaghat, Ramkund</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Panchavati PS</div>
+                    <div>Peak Crowd: 15K+</div>
+                    <div>Ghat: Kapila Sangam</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Nashik Road PS</div>
+                    <div>Peak Crowd: 5-6K</div>
+                    <div>Ghat: Valdevi River</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Adgaon PS</div>
+                    <div>Peak Crowd: 3-4K</div>
+                    <div>Ghat: Pajhar Lake</div>
+                </div>
+            </div>
+            <div class="slide-number">4</div>
+        </div>
+
+        <!-- Slide 5: Crowd Forecasts -->
+        <div class="slide" data-slide="5">
+            <h2>👥 Daily Crowd Forecast</h2>
+            <table class="data-table">
+                <thead>
+                    <tr><th>Date</th><th>Day</th><th>City Crowd</th><th>Bhadrakali Peak</th><th>Risk Level</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Aug 27</td><td>Wed</td><td>High</td><td>5-7K</td><td class="risk-high">High</td></tr>
+                    <tr><td>Aug 30</td><td>Sat</td><td>High</td><td>6-8K</td><td class="risk-high">High</td></tr>
+                    <tr><td>Sep 2</td><td>Tue</td><td>High</td><td>7-9K</td><td class="risk-high">High</td></tr>
+                    <tr><td>Sep 7</td><td>Sun</td><td>Peak</td><td>8-10K</td><td class="risk-high">Very High</td></tr>
+                </tbody>
+            </table>
+            <div class="highlight-box">
+                <h3>🚨 Critical Alert Days</h3>
+                <div>• September 2: Gauri Visarjan + Eid-e-Milad overlap</div>
+                <div>• September 7: Anant Chaturdashi + Sunday crowd surge</div>
+            </div>
+            <div class="slide-number">5</div>
+        </div>
+
+        <!-- Slide 6: Immersion Ghats Overview -->
+        <div class="slide" data-slide="6">
+            <h2>🌊 Immersion Ghats Overview</h2>
+            <div class="map-placeholder">
+                🗺️ Nashik City Immersion Points Map<br>
+                [Godaghat • Ramkund • Kapila Sangam • Valdevi • Pajhar Lake • Nasardi]
+            </div>
+            <div class="chart-container">
+                <div class="chart-box risk-high">
+                    <div class="icon">🏛️</div>
+                    <div class="stat-label">Godaghat (Bhadrakali)</div>
+                    <div>Capacity: 8K | Expected: 10K</div>
+                </div>
+                <div class="chart-box risk-high">
+                    <div class="icon">🕉️</div>
+                    <div class="stat-label">Ramkund (Panchavati)</div>
+                    <div>Capacity: 12K | Expected: 15K</div>
+                </div>
+                <div class="chart-box risk-medium">
+                    <div class="icon">🌊</div>
+                    <div class="stat-label">Valdevi (Nashik Road)</div>
+                    <div>Capacity: 5K | Expected: 6K</div>
+                </div>
+            </div>
+            <div class="slide-number">6</div>
+        </div>
+
+        <!-- Slide 7: Bhadrakali PS Playbook -->
+        <div class="slide" data-slide="7">
+            <h2>📋 Bhadrakali PS - Operational Playbook</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <div>
+                    <h3>Mandal Distribution</h3>
+                    <div class="chart-container">
+                        <div class="chart-box">
+                            <div class="stat-number">45</div>
+                            <div class="stat-label">Large Mandals</div>
+                        </div>
+                        <div class="chart-box">
+                            <div class="stat-number">9K</div>
+                            <div class="stat-label">Household Ganpatis</div>
+                        </div>
+                    </div>
+                    <div><strong>Key Points:</strong></div>
+                    <div>• Mandai, Phule Market</div>
+                    <div>• CBS Chowk, Dwarka Circle</div>
+                    <div>• Peak: 8-10K (3-9 PM)</div>
+                </div>
+                <div>
+                    <div class="map-placeholder">
+                        🗺️ Route Map:<br>
+                        Mandai → CBS → Godaghat<br>
+                        Tilakwadi → Dwarka → Ramkund
+                    </div>
+                    <div class="highlight-box">
+                        <strong>Emergency Readiness:</strong><br>
+                        • 2 ALS Ambulances<br>
+                        • 1 Fire Tender<br>
+                        • Lifeguards + Boats
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">7</div>
+        </div>
+
+        <!-- Slide 8: Panchavati PS Playbook -->
+        <div class="slide" data-slide="8">
+            <h2>📋 Panchavati PS - Critical Zone</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <div>
+                    <h3>Highest Density Zone</h3>
+                    <div class="chart-container">
+                        <div class="chart-box risk-high">
+                            <div class="stat-number">29</div>
+                            <div class="stat-label">Total Mandals</div>
+                        </div>
+                        <div class="chart-box risk-high">
+                            <div class="stat-number">15K+</div>
+                            <div class="stat-label">Peak Crowd</div>
+                        </div>
+                    </div>
+                    <div><strong>Risk History:</strong></div>
+                    <div class="risk-high">• 2017: 2 drowning incidents</div>
+                    <div class="risk-high">• 2023: 4 drowning incidents</div>
+                    <div class="risk-medium">• 2018: Crowd disturbance</div>
+                </div>
+                <div>
+                    <div class="map-placeholder">
+                        🗺️ Immersion Points:<br>
+                        Godaghat • Kapila Sangam<br>
+                        Talkuteshwar • Ramkund
+                    </div>
+                    <div class="highlight-box">
+                        <strong>Special Measures:</strong><br>
+                        • 3 Boats + 20 Lifeguards<br>
+                        • 2 ALS Ambulances<br>
+                        • SRPF Deployment
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">8</div>
+        </div>
+
+        <!-- Slide 9: Other PS Highlights -->
+        <div class="slide" data-slide="9">
+            <h2>🏛️ Police Station Network</h2>
+            <div class="ps-grid">
+                <div class="ps-card">
+                    <div class="ps-name">Adgaon PS</div>
+                    <div>📍 Pajhar Lake immersion</div>
+                    <div>👥 3-4K peak crowd</div>
+                    <div>🚩 Highway-side mandals</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Nashik Road PS</div>
+                    <div>📍 Valdevi/Darana Rivers</div>
+                    <div>👥 5-6K peak (11:30 AM-2 PM)</div>
+                    <div>🚩 Bytco Chowk traffic hub</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Satpur PS</div>
+                    <div>📍 Nasardi River sites</div>
+                    <div>👥 2-3K moderate density</div>
+                    <div>🚩 Industrial estate mandals</div>
+                </div>
+                <div class="ps-card">
+                    <div class="ps-name">Ambad PS</div>
+                    <div>📍 Trimurti Lake/Nasardi</div>
+                    <div>👥 2-3K moderate density</div>
+                    <div>🚩 Trimurti Chowk congestion</div>
+                </div>
+            </div>
+            <div class="slide-number">9</div>
+        </div>
+
+        <!-- Slide 10: Traffic Diversion Plan -->
+        <div class="slide" data-slide="10">
+            <h2>🚦 Traffic Management Strategy</h2>
+            <div class="map-placeholder">
+                🗺️ Traffic Flow Diagram<br>
+                🟢 Open Routes • 🔴 Restricted Zones • 🟡 Diversion Points<br>
+                Key Corridors: CBS-Godaghat • Bytco-Jail Road • Mumbai Naka-Dwarka
+            </div>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div class="icon risk-high">🚫</div>
+                    <div>One-way loops near ghats</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon risk-medium">🚧</div>
+                    <div>Emergency lanes marked</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon risk-low">🚚</div>
+                    <div>Heavy vehicle diversions</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon risk-low">🏥</div>
+                    <div>Ambulance corridors</div>
+                </div>
+            </div>
+            <div class="slide-number">10</div>
+        </div>
+
+        <!-- Slide 11: Manpower Deployment -->
+        <div class="slide" data-slide="11">
+            <h2>👮 Manpower Deployment Matrix</h2>
+            <table class="data-table">
+                <thead>
+                    <tr><th>Police Station</th><th>Officers</th><th>Men</th><th>Women</th><th>Home Guards</th><th>Volunteers</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Bhadrakali PS</td><td>6</td><td>105</td><td>37</td><td>85</td><td>115</td></tr>
+                    <tr><td>Panchavati PS</td><td>8</td><td>130</td><td>37</td><td>95</td><td>130</td></tr>
+                    <tr><td>Nashik Road PS</td><td>6</td><td>95</td><td>30</td><td>75</td><td>95</td></tr>
+                    <tr><td>Adgaon PS</td><td>5</td><td>85</td><td>26</td><td>65</td><td>85</td></tr>
+                </tbody>
+            </table>
+            <div class="chart-container">
+                <div class="chart-box">
+                    <div class="stat-number">2500+</div>
+                    <div class="stat-label">Total Personnel</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Police Stations</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Coverage</div>
+                </div>
+            </div>
+            <div class="slide-number">11</div>
+        </div>
+
+        <!-- Slide 12: Technology Integration -->
+        <div class="slide" data-slide="12">
+            <h2>🤖 AI & Technology in Bandobast</h2>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div class="icon" style="color: #3498db;">📹</div>
+                    <div><strong>CCTV Grid</strong></div>
+                    <div>Strategic ghat monitoring</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #e74c3c;">🚁</div>
+                    <div><strong>Drone Coverage</strong></div>
+                    <div>Aerial crowd scanning</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #f39c12;">📱</div>
+                    <div><strong>QR Route Maps</strong></div>
+                    <div>Digital mandal guidance</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #27ae60;">🧠</div>
+                    <div><strong>AI Predictions</strong></div>
+                    <div>Crowd density forecasts</div>
+                </div>
+            </div>
+            <div class="map-placeholder">
+                📊 Smart Control Dashboard<br>
+                Real-time crowd monitoring • Traffic flow analysis • Incident alerts<br>
+                WhatsApp helpline integration • Emergency response coordination
+            </div>
+            <div class="slide-number">12</div>
+        </div>
+
+        <!-- Slide 13: Risk Management Matrix -->
+        <div class="slide" data-slide="13">
+            <h2>⚠️ Risk Assessment & Mitigation</h2>
+            <div class="chart-container">
+                <div class="chart-box risk-high">
+                    <div class="icon">🌊</div>
+                    <div class="stat-label">Drowning Risk</div>
+                    <div>Lifeguards + Boats deployed</div>
+                </div>
+                <div class="chart-box risk-high">
+                    <div class="icon">🌧️</div>
+                    <div class="stat-label">Flood Alert</div>
+                    <div>Dam release monitoring</div>
+                </div>
+                <div class="chart-box risk-medium">
+                    <div class="icon">🚗</div>
+                    <div class="stat-label">Traffic Gridlock</div>
+                    <div>Diversion plans activated</div>
+                </div>
+                <div class="chart-box risk-medium">
+                    <div class="icon">🕌</div>
+                    <div class="stat-label">Communal Harmony</div>
+                    <div>Eid overlap management</div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <h3>🚨 Trigger Points</h3>
+                <div>• 24hr rain > 100mm → Flood Watch</div>
+                <div>• Gangapur dam release > 25,000 cusecs → Bridge closure</div>
+                <div>• Crowd density > 120% capacity → Emergency protocols</div>
+            </div>
+            <div class="slide-number">13</div>
+        </div>
+
+        <!-- Slide 14: Emergency Response Protocol -->
+        <div class="slide" data-slide="14">
+            <h2>🚨 Emergency Response Chain</h2>
+            <div class="flow-diagram">
+                <div class="flow-item">PI<br>Station Level</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-item">ACP<br>Division Level</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-item">DCP<br>Zone Level</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-item">CP<br>City Level</div>
+            </div>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div class="icon" style="color: #e74c3c;">🚑</div>
+                    <div><strong>Medical Response</strong></div>
+                    <div>ALS Ambulances at ghats</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #f39c12;">🚒</div>
+                    <div><strong>Fire Safety</strong></div>
+                    <div>Fire tenders positioned</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #3498db;">🛟</div>
+                    <div><strong>Water Rescue</strong></div>
+                    <div>Trained lifeguards + boats</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #9b59b6;">⚡</div>
+                    <div><strong>Quick Response</strong></div>
+                    <div>QRT/SRPF units</div>
+                </div>
+            </div>
+            <div class="slide-number">14</div>
+        </div>
+
+        <!-- Slide 15: Community Engagement -->
+        <div class="slide" data-slide="15">
+            <h2>🤝 Community Partnership</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <div>
+                    <h3>Digital Innovation</h3>
+                    <div class="map-placeholder">
+                        📱 QR Code Demo<br>
+                        Scan → Route Map<br>
+                        Immersion Timing<br>
+                        Emergency Contacts
+                    </div>
+                </div>
+                <div>
+                    <h3>Volunteer Network</h3>
+                    <div class="chart-container">
+                        <div class="chart-box">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Trained Volunteers</div>
+                        </div>
+                        <div class="chart-box">
+                            <div class="stat-number">790</div>
+                            <div class="stat-label">Mandal Coordinators</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div class="icon" style="color: #27ae60;">👥</div>
+                    <div>Peace Committees</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #e74c3c;">🆘</div>
+                    <div>WhatsApp Helpline</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #3498db;">📢</div>
+                    <div>Public Awareness</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #f39c12;">🤝</div>
+                    <div>NGO Partnership</div>
+                </div>
+            </div>
+            <div class="slide-number">15</div>
+        </div>
+
+        <!-- Slide 16: AI Modules & Future Readiness -->
+        <div class="slide" data-slide="16">
+            <h2>🧠 AI-Powered Smart Policing</h2>
+            <div class="map-placeholder">
+                🖥️ AI Control Dashboard<br>
+                Predictive Analytics • Real-time Monitoring • Automated Alerts<br>
+                Crowd Flow Optimization • Resource Deployment AI
+            </div>
+            <div class="chart-container">
+                <div class="chart-box">
+                    <div class="icon" style="color: #9b59b6;">📊</div>
+                    <div class="stat-label">Predictive Models</div>
+                    <div>Crowd density forecasting</div>
+                </div>
+                <div class="chart-box">
+                    <div class="icon" style="color: #e67e22;">🎯</div>
+                    <div class="stat-label">Smart Deployment</div>
+                    <div>AI-optimized manpower</div>
+                </div>
+                <div class="chart-box">
+                    <div class="icon" style="color: #1abc9c;">⚡</div>
+                    <div class="stat-label">Real-time Analytics</div>
+                    <div>Live situation awareness</div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <h3>🚀 Future Vision</h3>
+                <div>Smart City Control Centre • IoT Integration • Automated Response Systems</div>
+            </div>
+            <div class="slide-number">16</div>
+        </div>
+
+        <!-- Slide 17: Weather & Flood Management -->
+        <div class="slide" data-slide="17">
+            <h2>🌧️ Weather Risk Management</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <div>
+                    <h3>Historical Weather Impact</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr><th>Year</th><th>Rainfall (mm)</th><th>Impact</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>2015</td><td>429</td><td class="risk-low">Minimal</td></tr>
+                            <tr><td>2016</td><td>800</td><td class="risk-high">Severe flooding</td></tr>
+                            <tr><td>2019</td><td>1731</td><td class="risk-high">Highest ever</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3>2025 Preparedness</h3>
+                    <div class="chart-container">
+                        <div class="chart-box">
+                            <div class="icon risk-medium">🌊</div>
+                            <div class="stat-label">Dam Monitoring</div>
+                            <div>25K cusecs trigger</div>
+                        </div>
+                        <div class="chart-box">
+                            <div class="icon risk-high">⛈️</div>
+                            <div class="stat-label">Rain Alert</div>
+                            <div>100mm/24hr threshold</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <strong>Weather Protocol:</strong> Real-time monitoring • Bridge closure alerts • Evacuation procedures
+            </div>
+            <div class="slide-number">17</div>
+        </div>
+
+        <!-- Slide 18: Benefits & Outcomes -->
+        <div class="slide" data-slide="18">
+            <h2>🎯 Expected Benefits & Outcomes</h2>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <div class="icon" style="color: #27ae60;">🛡️</div>
+                    <div><strong>Safer Festival</strong></div>
+                    <div>• Reduced drowning incidents</div>
+                    <div>• Better crowd management</div>
+                    <div>• Faster emergency response</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #3498db;">⚡</div>
+                    <div><strong>Efficient Operations</strong></div>
+                    <div>• AI-optimized deployment</div>
+                    <div>• Real-time coordination</div>
+                    <div>• Data-driven decisions</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #e74c3c;">🎉</div>
+                    <div><strong>Better Experience</strong></div>
+                    <div>• Smooth traffic flow</div>
+                    <div>• Digital guidance</div>
+                    <div>• Community engagement</div>
+                </div>
+                <div class="icon-item">
+                    <div class="icon" style="color: #f39c12;">📈</div>
+                    <div><strong>Smart Policing</strong></div>
+                    <div>• Technology integration</div>
+                    <div>• Predictive capabilities</div>
+                    <div>• Future-ready systems</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <div class="chart-box">
+                    <div class="stat-number">Zero</div>
+                    <div class="stat-label">Target Incidents</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Coverage</div>
+                </div>
+                <div class="chart-box">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Monitoring</div>
+                </div>
+            </div>
+            <div class="slide-number">18</div>
+        </div>
+
+        <!-- Slide 19: Implementation Timeline -->
+        <div class="slide" data-slide="19">
+            <h2>📅 Implementation Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date risk-medium">Pre-Festival</div>
+                    <div class="timeline-event">• Manpower briefing</div>
+                    <div class="timeline-event">• Tech system testing</div>
+                    <div class="timeline-event">• Route marking</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date risk-high">Aug 27-31</div>
+                    <div class="timeline-event">• Opening phase</div>
+                    <div class="timeline-event">• System monitoring</div>
+                    <div class="timeline-event">• Weekend crowds</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date risk-high">Sep 1-6</div>
+                    <div class="timeline-event">• Mid-festival ops</div>
+                    <div class="timeline-event">• Eid coordination</div>
+                    <div class="timeline-event">• Risk monitoring</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date risk-high">Sep 7</div>
+                    <div class="timeline-event">• Peak day ops</div>
+                    <div class="timeline-event">• All hands deployment</div>
+                    <div class="timeline-event">• Emergency standby</div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <h3>🎯 Success Metrics</h3>
+                <div>• Zero drowning incidents • Smooth traffic flow • Zero communal incidents • 95% public satisfaction</div>
+            </div>
+            <div class="slide-number">19</div>
+        </div>
+
+        <!-- Slide 20: Closing -->
+        <div class="slide cover-slide" data-slide="20">
+            <h1>🕉️ Safe Ganpati</h1>
+            <div class="subtitle">Smart Ganpati 2025</div>
+            <div style="font-size: 1.2em; margin: 40px 0; opacity: 0.9;">
+                <div>🤖 AI-Powered Bandobast</div>
+                <div>👮 Professional Policing</div>
+                <div>🤝 Community Partnership</div>
+                <div>🛡️ Zero Incident Target</div>
+            </div>
+            <div class="tagline">
+                Ganpati Bappa Morya!<br>
+                <small style="opacity: 0.7;">Nashik City Police & AI Labs Team</small>
+            </div>
+            <div class="slide-number">20</div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlideIndex = 1;
+        const totalSlides = 20;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            if (n > totalSlides) currentSlideIndex = 1;
+            if (n < 1) currentSlideIndex = totalSlides;
+            
+            slides.forEach(slide => slide.style.display = 'none');
+            slides[currentSlideIndex - 1].style.display = 'flex';
+            
+            document.getElementById('currentSlide').textContent = `${currentSlideIndex} / ${totalSlides}`;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlideIndex += 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlideIndex -= 1);
+        }
+
+        // Initialize
+        showSlide(currentSlideIndex);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowRight') nextSlide();
+            if (event.key === 'ArrowLeft') previousSlide();
+        });
+
+        // Auto-advance option (uncomment to enable)
+        // setInterval(nextSlide, 10000); // 10 seconds per slide
+
+        // Print functionality for PDF export
+        function printPresentation() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach(slide => slide.style.display = 'flex');
+            window.print();
+            showSlide(currentSlideIndex); // Return to current slide view
+        }
+
+        // Add print button
+        document.querySelector('.navigation').innerHTML += 
+            '<button class="nav-button" onclick="printPresentation()">🖨️ Print</button>';
+    </script>
+</body>
+</html>

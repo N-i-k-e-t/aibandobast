@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled project</name>
+	<StyleMap id="__managed_style_01498BD76E3A0C789754">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_11F6F79A0A3A0C789754</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BD08640613A0C789754</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2BD08640613A0C789754">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_069A1950AA3A0C0A46F6">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_10F8C7E0CE3A0C0A46F4">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_002B1971A23A0C0A46F4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_10F8C7E0CE3A0C0A46F4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_069A1950AA3A0C0A46F6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_01E00A317D3A0C047123">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_11F6F79A0A3A0C789754">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19303DF72C3A0C047121">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_054289A21F3A0C047121">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19303DF72C3A0C047121</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_01E00A317D3A0C047123</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="02D03D78133A0C047109">
+		<name>TAMBAT GHAT, HANUMAN GHAT, GHARPURE GHAT</name>
+		<gx:mid>/g/11rd9ldb2d</gx:mid>
+		<gx:fid>0x3bddeb56029886e3:0x9c3c85d34bb03d92</gx:fid>
+		<LookAt>
+			<longitude>73.7830846</longitude>
+			<latitude>20.0089215</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.5848453238792</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7830953,20.0088639,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="065EC4DA663A0C04A121">
+		<name>Panchavati Ghat</name>
+		<gx:mid>/g/11f33fwdsj</gx:mid>
+		<gx:fid>0x3bddebac66623cb9:0x6b8c6516f052d95</gx:fid>
+		<LookAt>
+			<longitude>73.7913519</longitude>
+			<latitude>20.008284</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.5892916279181</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7913519,20.008284,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09ED448DDC3A0C04CEFC">
+		<name>Ramkund Panchwati</name>
+		<gx:mid>/g/11bv3v8j9f</gx:mid>
+		<gx:fid>0x3bddeb013af2e74b:0x82803f522403edf9</gx:fid>
+		<LookAt>
+			<longitude>73.7922971</longitude>
+			<latitude>20.0080653</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.5908169412982</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7922971,20.0080653,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0618270D553A0C04EBA4">
+		<name>Ramghat , Panchvati,Nashik</name>
+		<gx:mid>/g/11y28_mfkh</gx:mid>
+		<gx:fid>0x3bddeb003ddd0adb:0x6be8792c040b5aa7</gx:fid>
+		<LookAt>
+			<longitude>73.79222829999999</longitude>
+			<latitude>20.0082123</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.5897916980791</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7922494,20.008222,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07BF3FA7E83A0C0517C1">
+		<name>Goda Ghat</name>
+		<gx:mid>/g/11s4whmbrn</gx:mid>
+		<gx:fid>0x3bddebc5b7ef16cf:0x4cd8658e18833c9a</gx:fid>
+		<LookAt>
+			<longitude>73.7926148</longitude>
+			<latitude>20.007803</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.592646320412</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.79269699999999,20.0078042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A5203FC233A0C052998">
+		<name>Ganga Ghat</name>
+		<gx:mid>/g/11nz3l3tj2</gx:mid>
+		<gx:fid>0x3bddeb1a55e92a49:0x7f8babd9068382e1</gx:fid>
+		<LookAt>
+			<longitude>73.79260669999999</longitude>
+			<latitude>20.0075811</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.5941939172171</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.79340967622483,20.00636107433231,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00855FF8803A0C056A09">
+		<name>Someshwar Waterfall</name>
+		<gx:mid>/g/1tdd_thd</gx:mid>
+		<gx:fid>0x3bddec1682978165:0x75e5dfd33a421265</gx:fid>
+		<LookAt>
+			<longitude>73.72341489999999</longitude>
+			<latitude>20.0291612</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.4436129082867</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.72341489999999,20.0291612,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AED8923483A0C059BF8">
+		<name>Godavari-Nandini River Sangam Ghat , AgarTakli HANUMAN on Island</name>
+		<gx:mid>/g/11fmbyq80b</gx:mid>
+		<gx:fid>0x3bddeb03aadd0ab9:0x23a6c2f5452001c</gx:fid>
+		<LookAt>
+			<longitude>73.82216749999999</longitude>
+			<latitude>19.9893191</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.7215036536583</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.82216749999999,19.9893191,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02860D700D3A0C05CB91">
+		<name>Godavari - Nasardi Confluence</name>
+		<gx:mid>/g/11nxb_wnkx</gx:mid>
+		<gx:fid>0x3bddebf241e19fff:0xafe2758dda3dc5da</gx:fid>
+		<LookAt>
+			<longitude>73.82297749999999</longitude>
+			<latitude>19.9895241</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.7200751408631</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.82297749999999,19.9895241,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02D2525EF23A0C0759E9">
+		<name>Kapila Godavari Sangam Tapovan Nashik</name>
+		<gx:mid>/g/11gbz1594t</gx:mid>
+		<gx:fid>0x3bddeaf4f7d33169:0xc05b3f795afd5b4</gx:fid>
+		<LookAt>
+			<longitude>73.81546999999999</longitude>
+			<latitude>19.9998158</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.6483413490962</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.81546999999999,19.9998158,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01039402133A0C08382C">
+		<name>Ganga Ghat</name>
+		<gx:mid>/g/11xm5cnldg</gx:mid>
+		<gx:fid>0x3bddede85c43c90d:0xa1bb2ceeadf2f148</gx:fid>
+		<LookAt>
+			<longitude>73.71992879999999</longitude>
+			<latitude>19.9826234</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.7681541529037</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.71992879999999,19.9826234,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D9CAF14323A0C0A1ACE">
+		<name>Sant Shri Ashram bapu pool</name>
+		<gx:mid>/g/1tffsd0s</gx:mid>
+		<gx:fid>0x3bddeb8f2bfc480d:0x35cddbb71adffd54</gx:fid>
+		<LookAt>
+			<longitude>73.75438539999999</longitude>
+			<latitude>20.0210649</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.50012479259</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_002B1971A23A0C0A46F4</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.75438539999999,20.0210649,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="050D0196013A0C6A2134">
+		<name>Lakshmi Narayan Ghat</name>
+		<gx:mid>/g/11vc00d5_3</gx:mid>
+		<gx:fid>0x3bddebaa4213e369:0x9be77bd5811e1823</gx:fid>
+		<LookAt>
+			<longitude>73.8042765</longitude>
+			<latitude>20.0014897</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.6366709038115</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8042765,20.0014897,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0597FCDC343A0C6B2524">
+		<name>K.T.H.M College Boat Club</name>
+		<gx:mid>/g/11b77fzdv3</gx:mid>
+		<gx:fid>0x1157342f5215366d:0x9f12c4b10fc7b443</gx:fid>
+		<LookAt>
+			<longitude>73.7790258</longitude>
+			<latitude>20.0087112</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.586312095728</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.7790303,20.0087116,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06D73DB93B3A0C735C79">
+		<name>Dasak Gangaghat</name>
+		<gx:mid>/g/11b8_mrx8_</gx:mid>
+		<gx:fid>0x3bddc026c83e4713:0xc20d5649b0053b03</gx:fid>
+		<LookAt>
+			<longitude>73.8462406</longitude>
+			<latitude>19.9897589</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>985.7184389542886</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_054289A21F3A0C047121</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>73.8462406,19.9897589,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01ABB3EF383A0C78974B">
+		<name>Chopada Lawns</name>
+		<LookAt>
+			<longitude>73.77410260416798</longitude>
+			<latitude>20.01057882866118</latitude>
+			<altitude>583.5803814465417</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>71.73313450252863</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_01498BD76E3A0C789754</styleUrl>
+		<Point>
+			<coordinates>73.77425354607118,20.0105342906725,583.3292274520589</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

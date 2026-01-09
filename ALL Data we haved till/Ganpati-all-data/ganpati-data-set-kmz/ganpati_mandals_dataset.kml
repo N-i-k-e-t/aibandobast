@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <Placemark>
+        <name>कला क्रिडा शैक्षणिक व सांस्कृतिक मित्र मंडळ</name>
+        <description>साई दत्त मंदिर, गाडगे नगर, डिंडोरी रोड, नाशिकरोड - अपेक्षित जमाव: ४०० ते ५००</description>
+        <Point><coordinates>73.809298,20.038548,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>जिजाऊ कला क्रिडा व सांस्कृतिक मित्र मंडळ</name>
+        <description>जिजाऊ पेट्रोल पंप समोर, जिजाऊ चौक, डिंडोरी रोड, नाशिकरोड - अपेक्षित जमाव: मित्रमंडळ नाही</description>
+        <Point><coordinates>73.823481,20.034639,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>राजमुद्रा प्रतिष्ठान</name>
+        <description>मालंकर चौक, रेल्वे बिर्जजवळ, मालंकर पेट्रोल पंप, नाशिक - अपेक्षित जमाव: मित्रमंडळ नाही</description>
+        <Point><coordinates>73.819623,20.048998,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>स्वराज्य कला क्रिडा व सांस्कृतिक मंडळ शांतिनगर</name>
+        <description>शांतिनगर बस स्टॉप, नाशिकरोड - अपेक्षित जमाव: मित्रमंडळ नाही</description>
+        <Point><coordinates>73.817123,20.089409,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>म.गां. शाश्वत गणेश मित्र मंडळ</name>
+        <description>सुपर्ण सोसायटी जवळ, ममटा मंगल, देवलालीकॅम्प, नाशिक रोड - अपेक्षित जमाव: २०० ते २५०</description>
+        <Point><coordinates>73.83131,19.94598,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>साईनाथ बहुउद्देशीय संस्था</name>
+        <description>श्रीराम नगर चौक, पेट्रोल पंप जवळ, नाशिक रोड - अपेक्षित जमाव: ४०० ते ५५०</description>
+        <Point><coordinates>73.83291,19.9748,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>साठे फाउंडेशन</name>
+        <description>गोपाळ नगर, उत्सव हॉल जवळ, नाशिक रोड - अपेक्षित जमाव: २०० ते २५०</description>
+        <Point><coordinates>73.80737,19.97421,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>नवदुर्गा मित्र मंडळ</name>
+        <description>शिवकृपा काम्प्लेक्स विर सावरकर नगर, जेल रोड, नाशिक रोड - अपेक्षित जमाव: २०० ते २५०</description>
+        <Point><coordinates>73.83585,19.94744,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>श्री एकदंत गणेश मित्र मंडळ</name>
+        <description>माऊली नगर हनुमान मंदिराजवळ, नाशिक रोड - अपेक्षित जमाव: १५० ते २००</description>
+        <Point><coordinates>73.84076,19.97366,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>श्री गणेश मित्र मंडळ (देवळालीत)</name>
+        <description>देवळालीत (पासष्ट गणेश), नाशिक रोड - अपेक्षित जमाव: ४०० ते ५००</description>
+        <Point><coordinates>73.81124,19.97515,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>श्री गणेश कला व सांस्कृतिक मित्र मंडळ</name>
+        <description>रॉयल कॉलनी खुर्द साईकॉन हॉटेल जवळ, नाशिक रोड - अपेक्षित जमाव: १०० ते १५०</description>
+        <Point><coordinates>73.8352,19.94413,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>श्री खंडेराया महाराज मित्र मंडळ</name>
+        <description>खंडे मळा, श्री खंडेराया महाराज मंदिराजवळ, नाशिक रोड - अपेक्षित जमाव: ४०० ते ५५०</description>
+        <Point><coordinates>73.80576,19.97643,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>राधेकृष्ण फाउंडेशन (महिला मंडळ)</name>
+        <description>राधेकृष्ण नगर सोसायटी, नाशिक रोड - अपेक्षित जमाव: १०० ते २००</description>
+        <Point><coordinates>73.82693,19.94646,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+        <name>राधेकृष्ण फाउंडेशन (महिला मंडळ)</name>
+        <description>स्वानंद नगर सोसायटी जवळ, नाशिक रोड - अपेक्षित जमाव: ६०० ते १०००</description>
+        <Point><coordinates>73.82507,19.95251,0</coordinates></Point>
+    </Placemark></Document></kml>

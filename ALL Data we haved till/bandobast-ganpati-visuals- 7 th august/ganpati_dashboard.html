@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashik Ganpati Festival 2025 - Planning Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .timeline-banner {
+            background: #1e3d59;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 3px solid #f0f0f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .chart-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .chart-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+            border-bottom: 3px solid #ff6b35;
+            padding-bottom: 8px;
+        }
+        
+        .chart-canvas {
+            position: relative;
+            height: 400px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .timeline-section {
+            background: #f8f9fa;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #ff6b35;
+        }
+        
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .timeline-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        
+        .date-highlight {
+            font-weight: bold;
+            color: #ff6b35;
+            font-size: 1.1rem;
+        }
+        
+        .predictions-section {
+            background: #fff3cd;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #ffc107;
+        }
+        
+        .alert-high { background: #f8d7da; border-color: #dc3545; }
+        .alert-medium { background: #fff3cd; border-color: #ffc107; }
+        .alert-low { background: #d4edda; border-color: #28a745; }
+        
+        .deployment-matrix {
+            overflow-x: auto;
+            margin: 20px;
+        }
+        
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .matrix-table th,
+        .matrix-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .matrix-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: bold;
+        }
+        
+        .matrix-table tr:hover {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏛️ Nashik Ganpati Festival 2025</h1>
+            <p>Comprehensive Analysis & Bandobast Planning Dashboard</p>
+        </div>
+        
+        <div class="timeline-banner">
+            📅 Festival Period: August 27, 2025 - September 7, 2025 (12 Days) | ⚠️ Eid Overlap: September 5, 2025
+        </div>
+
+        <!-- Key Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">790</div>
+                <div class="stat-label">Total Public Mandals (2025 Est.)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">125,389</div>
+                <div class="stat-label">Household Ganpatis (City-wide)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">22.94L</div>
+                <div class="stat-label">City Population (2024)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">15</div>
+                <div class="stat-label">Total Incidents (2015-2024)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,500+</div>
+                <div class="stat-label">Total Personnel Required</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">21/31</div>
+                <div class="stat-label">Flood Vulnerable Wards</div>
+            </div>
+        </div>
+
+        <!-- Timeline Section -->
+        <div class="timeline-section">
+            <h2>📅 Ganpati 2025 - Day-wise Event Timeline</h2>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="date-highlight">August 27 (Wed)</div>
+                    <strong>Ganesh Sthapana</strong><br>
+                    Muhurat: 11:06 AM - 1:40 PM<br>
+                    <em>Peak installations expected</em>
+                </div>
+                <div class="timeline-item">
+                    <div class="date-highlight">August 28-30</div>
+                    <strong>Installation Period</strong><br>
+                    Daily crowds: 100-400 people<br>
+                    <em>Continuous monitoring required</em>
+                </div>
+                <div class="timeline-item">
+                    <div class="date-highlight">August 31 (Sun)</div>
+                    <strong>Gauri Agman</strong><br>
+                    5-Day Visarjan begins<br>
+                    <em>First immersion wave</em>
+                </div>
+                <div class="timeline-item">
+                    <div class="date-highlight">September 1 (Mon)</div>
+                    <strong>Gauri Pujan</strong><br>
+                    Special prayers and festivities<br>
+                    <em>Medium crowd expected</em>
+                </div>
+                <div class="timeline-item">
+                    <div class="date-highlight">September 2 (Tue)</div>
+                    <strong>Gauri Visarjan</strong><br>
+                    7-Day Ganpati Visarjan<br>
+                    <em>High crowd alert</em>
+                </div>
+                <div class="timeline-item alert-high">
+                    <div class="date-highlight">September 5 (Fri)</div>
+                    <strong>Eid-E-Milad</strong><br>
+                    Critical coordination day<br>
+                    <em>⚠️ Communal sensitivity</em>
+                </div>
+                <div class="timeline-item alert-high">
+                    <div class="date-highlight">September 7 (Sun)</div>
+                    <strong>Anant Chaturdashi</strong><br>
+                    Final Major Immersion<br>
+                    <em>⚠️ Peak crowds: 15,000+ people</em>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Charts -->
+        <div class="dashboard-grid">
+            <!-- Historical Trends -->
+            <div class="chart-container">
+                <div class="chart-title">📈 Historical Mandal & Household Trends (2015-2024)</div>
+                <div class="chart-canvas">
+                    <canvas id="historicalTrends"></canvas>
+                </div>
+            </div>
+
+            <!-- Incident Analysis -->
+            <div class="chart-container">
+                <div class="chart-title">🚨 Incident Analysis by Type & Year</div>
+                <div class="chart-canvas">
+                    <canvas id="incidentChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Weather Risk -->
+            <div class="chart-container">
+                <div class="chart-title">🌧️ Rainfall vs Incident Correlation</div>
+                <div class="chart-canvas">
+                    <canvas id="weatherRisk"></canvas>
+                </div>
+            </div>
+
+            <!-- Resource Deployment -->
+            <div class="chart-container">
+                <div class="chart-title">👮 Police Personnel Deployment Structure</div>
+                <div class="chart-canvas">
+                    <canvas id="resourceChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Daily Crowd Prediction -->
+            <div class="chart-container">
+                <div class="chart-title">📊 2025 Daily Crowd Predictions</div>
+                <div class="chart-canvas">
+                    <canvas id="crowdPrediction"></canvas>
+                </div>
+            </div>
+
+            <!-- Zone-wise Risk Assessment -->
+            <div class="chart-container">
+                <div class="chart-title">🗺️ Police Station-wise Risk Assessment</div>
+                <div class="chart-canvas">
+                    <canvas id="zoneRisk"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deployment Matrix -->
+        <div class="deployment-matrix">
+            <h2 style="margin: 20px; color: #333;">🎯 Zone-wise Resource Deployment Matrix</h2>
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th>Police Station</th>
+                        <th>Division</th>
+                        <th>Risk Level</th>
+                        <th>Police Personnel</th>
+                        <th>Home Guards</th>
+                        <th>Special Units</th>
+                        <th>Peak Day Requirement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Panchavati PS</td>
+                        <td>Central</td>
+                        <td style="background:#f8d7da;">Very High</td>
+                        <td>150-200</td>
+                        <td>80-100</td>
+                        <td>QRT, RCP</td>
+                        <td>Anant Chaturdashi</td>
+                    </tr>
+                    <tr>
+                        <td>Bhadrakali PS</td>
+                        <td>Central</td>
+                        <td style="background:#f8d7da;">Very High</td>
+                        <td>120-150</td>
+                        <td>60-80</td>
+                        <td>SRPF, Striking Force</td>
+                        <td>Anant Chaturdashi</td>
+                    </tr>
+                    <tr>
+                        <td>Nashik Road PS</td>
+                        <td>East</td>
+                        <td style="background:#fff3cd;">High</td>
+                        <td>80-120</td>
+                        <td>40-60</td>
+                        <td>QRT</td>
+                        <td>September 2, 7</td>
+                    </tr>
+                    <tr>
+                        <td>Gangapur PS</td>
+                        <td>North</td>
+                        <td style="background:#fff3cd;">Medium</td>
+                        <td>60-80</td>
+                        <td>30-40</td>
+                        <td>Local Reserve</td>
+                        <td>Immersion Days</td>
+                    </tr>
+                    <tr>
+                        <td>Upnagar PS</td>
+                        <td>North</td>
+                        <td style="background:#d4edda;">Medium</td>
+                        <td>40-60</td>
+                        <td>20-30</td>
+                        <td>Patrol Units</td>
+                        <td>September 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Predictions Section -->
+        <div class="predictions-section">
+            <h2>🔮 2025 Predictions & Risk Alerts</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin-top: 15px;">
+                <div class="alert-high" style="padding: 15px; border-radius: 10px;">
+                    <strong>⚠️ HIGH RISK - September 7</strong><br>
+                    Anant Chaturdashi coincides with Sunday<br>
+                    Expected: 15,000+ people at Godaghat
+                </div>
+                <div class="alert-medium" style="padding: 15px; border-radius: 10px;">
+                    <strong>🔶 MEDIUM RISK - September 5</strong><br>
+                    Eid-E-Milad overlap requires coordination<br>
+                    Communal sensitivity alert
+                </div>
+                <div class="alert-medium" style="padding: 15px; border-radius: 10px;">
+                    <strong>🌧️ WEATHER RISK</strong><br>
+                    Monsoon period: High flood probability<br>
+                    Dam discharge monitoring critical
+                </div>
+                <div class="alert-low" style="padding: 15px; border-radius: 10px;">
+                    <strong>✅ PREPAREDNESS</strong><br>
+                    1,500+ personnel deployment ready<br>
+                    Communication systems upgraded
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chart configurations and data
+        const chartConfig = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        usePointStyle: true,
+                        font: { size: 12, weight: 'bold' }
+                    }
+                }
+            }
+        };
+
+        // Historical Trends Chart
+        const historicalCtx = document.getElementById('historicalTrends').getContext('2d');
+        new Chart(historicalCtx, {
+            type: 'line',
+            data: {
+                labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+                datasets: [
+                    {
+                        label: 'Total Public Mandals',
+                        data: [67, 67, 58, 85, 67, 19, 40, 63, 74, 61],
+                        borderColor: '#ff6b35',
+                        backgroundColor: 'rgba(255, 107, 53, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Household Ganpatis (x100)',
+                        data: [90, 93, 97, 100, 102, 47.5, 78, 81, 140, 230],
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Count', font: { weight: 'bold' } }
+                    }
+                }
+            }
+        });
+
+        // Incident Analysis Chart
+        const incidentCtx = document.getElementById('incidentChart').getContext('2d');
+        new Chart(incidentCtx, {
+            type: 'bar',
+            data: {
+                labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+                datasets: [
+                    {
+                        label: 'Drowning',
+                        data: [0, 0, 2, 0, 1, 2, 0, 0, 4, 0],
+                        backgroundColor: '#dc3545'
+                    },
+                    {
+                        label: 'Noise Violation',
+                        data: [0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+                        backgroundColor: '#ffc107'
+                    },
+                    {
+                        label: 'Crowd Disturbance',
+                        data: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
+                        backgroundColor: '#fd7e14'
+                    },
+                    {
+                        label: 'Accidents',
+                        data: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+                        backgroundColor: '#6f42c1'
+                    }
+                ]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Number of Incidents', font: { weight: 'bold' } }
+                    }
+                }
+            }
+        });
+
+        // Weather Risk Chart
+        const weatherCtx = document.getElementById('weatherRisk').getContext('2d');
+        new Chart(weatherCtx, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Rainfall vs Incidents',
+                    data: [
+                        { x: 429, y: 0 },  // 2015
+                        { x: 800, y: 1 },  // 2016
+                        { x: 1200, y: 2 }, // 2017
+                        { x: 750, y: 1 },  // 2018
+                        { x: 1731, y: 1 }, // 2019
+                        { x: 1100, y: 2 }, // 2020
+                        { x: 850, y: 1 },  // 2021
+                        { x: 1200, y: 1 }, // 2022
+                        { x: 950, y: 4 },  // 2023
+                        { x: 800, y: 0 }   // 2024
+                    ],
+                    backgroundColor: '#17a2b8',
+                    borderColor: '#138496',
+                    pointRadius: 8,
+                    pointHoverRadius: 12
+                }]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    x: {
+                        title: { display: true, text: 'Monsoon Rainfall (mm)', font: { weight: 'bold' } }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Number of Incidents', font: { weight: 'bold' } }
+                    }
+                }
+            }
+        });
+
+        // Resource Deployment Chart
+        const resourceCtx = document.getElementById('resourceChart').getContext('2d');
+        new Chart(resourceCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Male Constables', 'Officers (PI/PSI/ASI)', 'Female Constables', 'Home Guards', 'Special Units'],
+                datasets: [{
+                    data: [1100, 260, 250, 1100, 200],
+                    backgroundColor: ['#ff6b35', '#667eea', '#764ba2', '#f7931e', '#28a745'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                ...chartConfig,
+                plugins: {
+                    ...chartConfig.plugins,
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Daily Crowd Prediction Chart
+        const crowdCtx = document.getElementById('crowdPrediction').getContext('2d');
+        new Chart(crowdCtx, {
+            type: 'line',
+            data: {
+                labels: ['Aug 27', 'Aug 28', 'Aug 29', 'Aug 30', 'Aug 31', 'Sep 1', 'Sep 2', 'Sep 3', 'Sep 4', 'Sep 5', 'Sep 6', 'Sep 7'],
+                datasets: [{
+                    label: 'Predicted Daily Crowd',
+                    data: [8000, 3000, 2500, 2800, 6000, 4500, 8500, 3500, 3000, 7000, 4000, 15000],
+                    borderColor: '#ff6b35',
+                    backgroundColor: 'rgba(255, 107, 53, 0.2)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 6,
+                    pointHoverRadius: 8
+                }]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Crowd Size', font: { weight: 'bold' } }
+                    }
+                }
+            }
+        });
+
+        // Zone Risk Assessment
+        const zoneCtx = document.getElementById('zoneRisk').getContext('2d');
+        new Chart(zoneCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Crowd Density', 'Historical Incidents', 'Flood Risk', 'Infrastructure', 'Communication', 'Resource Availability'],
+                datasets: [
+                    {
+                        label: 'Panchavati PS',
+                        data: [9, 8, 7, 6, 7, 8],
+                        backgroundColor: 'rgba(255, 107, 53, 0.2)',
+                        borderColor: '#ff6b35',
+                        borderWidth: 3
+                    },
+                    {
+                        label: 'Bhadrakali PS',
+                        data: [8, 6, 8, 7, 6, 7],
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderColor: '#667eea',
+                        borderWidth: 3
+                    },
+                    {
+                        label: 'Nashik Road PS',
+                        data: [7, 7, 6, 8, 7, 8],
+                        backgroundColor: 'rgba(118, 75, 162, 0.2)',
+                        borderColor: '#764ba2',
+                        borderWidth: 3
+                    }
+                ]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 10
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+year,date,incident_type,location,police_station,fatalities,severity,ipc_sections,details
+2016,,noise_pollution,Panchavati,Panchavati PS,0,minor,,Loudspeaker/DJ violations
+2017,,drowning,Darana River,Nashik Road PS,1,fatal,,Ganpati immersion drowning
+2017,,drowning,Godavari River,Panchavati PS,1,fatal,,Ganpati immersion drowning  
+2017,,noise_pollution,Panchavati,Panchavati PS,0,minor,,Loudspeaker/DJ violations
+2018,,crowd_disturbance,Kapila Sangam Tapovan,Panchavati PS,0,moderate,,Illegal gathering - pushing shouting
+2018,,noise_pollution,Bhadrakali,Bhadrakali PS,0,minor,,Loudspeaker/DJ violations
+2019,,drowning,Godavari River,Gangapur PS,1,fatal,,Ganpati immersion drowning
+2020,,drowning,Darana River,Nashik Road PS,1,fatal,,Ganpati immersion drowning
+2020,,drowning,Valdevi River,Upnagar PS,1,fatal,,Ganpati immersion drowning
+2021,,accidental_death,Mhasoba Patangan,Panchavati PS,1,fatal,,Negligent driving of mini-truck
+2022,2022-09-09,assault,Panchavati area,Panchavati PS,0,serious,"326,324,323,504,34","Knife assault during procession dispute at 20:45"
+2023,2023-09-28,drowning,Gangaghat Panchavati,Panchavati PS,4,fatal,,Four individuals drowned during immersion

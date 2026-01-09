@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CCTV Camera Points</name>
+    
+    <!-- Style definitions for different priorities -->
+    <Style id="priorityA">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- Red for Priority A -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="priorityB">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- Yellow for Priority B -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="priorityC">
+      <IconStyle>
+        <color>ffff00ff</color> <!-- Purple for Priority C -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Placemarks for each CCTV camera point -->
+    <Placemark>
+      <name>More Mala Chauk</name>
+      <description>Police Station: PANCHAVATI 1, Sr. No.: 1, Purpose: IMPORTANT SQURE,AREA ENTRY/EXIT, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.783227,20.015597,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Datta Nagar</name>
+      <description>Police Station: PANCHAVATI 2, Sr. No.: 2, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793593,20.02094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navnath Nagar</name>
+      <description>Police Station: PANCHAVATI 3, Sr. No.: 3, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.79111,20.018159,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phule Nagar Pat Near Devi Mandir</name>
+      <description>Police Station: PANCHAVATI 4, Sr. No.: 4, Purpose: IMPORTANT SQURE, CROWDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.794419,20.022199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hutatma Punjanana Bhoir Chauk, Patawar, Makhamalabad Road</name>
+      <description>Police Station: PANCHAVATI 5, Sr. No.: 5, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.783586,20.02795,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phulenagar, Sailanibaba Darbar Chauk</name>
+      <description>Police Station: PANCHAVATI 6, Sr. No.: 6, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.795406,20.02178,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mhada Bulding, Phule Nagar</name>
+      <description>Police Station: PANCHAVATI 7, Sr. No.: 7, Purpose: CROWDED PLACE,CRIMINAL AREA,COMMUNAL SENSITIVE, Cameras: 3</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.795786,20.019162,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Munjoba Chauk, Near Mhasoba Mandir, Phulenagar</name>
+      <description>Police Station: PANCHAVATI 8, Sr. No.: 8, Purpose: CROWDED PLACE,CRIMINAL AREA,COMMUNAL SENSITIVE, Cameras: 3</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.79612,20.021541,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MP Shobhatai Bachav Res. Peth Road</name>
+      <description>Police Station: PANCHAVATI 9, Sr. No.: 9, Purpose: CROWDED PLACE,CRIMINAL AREA,COMMUNAL SENSITIVE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.794082,20.019903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalikanagar</name>
+      <description>Police Station: PANCHAVATI 10, Sr. No.: 10, Purpose: CROWDED PLACE,CRIMINAL AREA,COMMUNAL SENSITIVE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.796938,20.015339,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phadol Mala Corner</name>
+      <description>Police Station: PANCHAVATI 11, Sr. No.: 11, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.784884,20.025213,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samarthnagar corner, near Pat, Chauk</name>
+      <description>Police Station: PANCHAVATI 12, Sr. No.: 12, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.786773,20.026109,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sharadchandra Pawar Market Gate</name>
+      <description>Police Station: PANCHAVATI 13, Sr. No.: 13, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.795463,20.029907,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karnnagar</name>
+      <description>Police Station: PANCHAVATI 14, Sr. No.: 14, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.790488,20.031922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MLA Zirwal Res.</name>
+      <description>Police Station: PANCHAVATI 15, Sr. No.: 15, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.778569,20.033242,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krantinagar, Near Bhatawala Shop</name>
+      <description>Police Station: PANCHAVATI 16, Sr. No.: 16, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 3</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.78774,20.015547,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krantinagar, Near Shiv Maruti Mandir</name>
+      <description>Police Station: PANCHAVATI 17, Sr. No.: 17, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 3</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.78764,20.013989,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HemKunj, Nilesh Collection Shop Chauk</name>
+      <description>Police Station: PANCHAVATI 18, Sr. No.: 18, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.789836,20.014024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dream Castel Chauk, Swami Samarth Kendra</name>
+      <description>Police Station: PANCHAVATI 19, Sr. No.: 19, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.789328,20.018222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sudarshan Colony, Near Accused Anil Pawar res.</name>
+      <description>Police Station: PANCHAVATI 20, Sr. No.: 20, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.78977,20.019566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shani chauk</name>
+      <description>Police Station: PANCHAVATI 21, Sr. No.: 21, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793104,20.017741,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adarsh Nagar</name>
+      <description>Police Station: PANCHAVATI 22, Sr. No.: 22, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.783773,20.011502,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shradha Lawns, Near HP Petrol Pump</name>
+      <description>Police Station: PANCHAVATI 23, Sr. No.: 23, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.777404,20.012043,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lamkhede Mala Road Corner, Near Pat, Phulenagar</name>
+      <description>Police Station: PANCHAVATI 24, Sr. No.: 24, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 3</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.802432,20.020772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NIT College Bridge</name>
+      <description>Police Station: PANCHAVATI 25, Sr. No.: 25, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.804285,20.019348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mhikusa Mile Corner, Near Pat</name>
+      <description>Police Station: PANCHAVATI 26, Sr. No.: 26, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.808616,20.016693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Talathi Colony corner</name>
+      <description>Police Station: PANCHAVATI 27, Sr. No.: 27, Purpose: IMPORTANT SQURE, Cameras: 3</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.806132,20.027484,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Janardhanswami Nagar Chauk, Vijay Nagar</name>
+      <description>Police Station: PANCHAVATI 28, Sr. No.: 28, Purpose: IMPORTANT SQURE,CROWDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.810832,20.014135,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Datta Chauk, Trimurti Nagar</name>
+      <description>Police Station: PANCHAVATI 29, Sr. No.: 29, Purpose: IMPORTANT SQURE,CROWDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.809383,20.01369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dattanagar, Swami Samarth Chauk</name>
+      <description>Police Station: PANCHAVATI 30, Sr. No.: 30, Purpose: IMPORTANT SQURE,CROWDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.82593,20.026091,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SSD Nagar Corner</name>
+      <description>Police Station: PANCHAVATI 31, Sr. No.: 31, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.818258,20.02201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trikoni Bangala Corner</name>
+      <description>Police Station: PANCHAVATI 32, Sr. No.: 32, Purpose: IMPORTANT SQURE, Cameras: 3</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.820661,20.025598,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mandlik Corner Chufully</name>
+      <description>Police Station: PANCHAVATI 33, Sr. No.: 33, Purpose: IMPORTANT SQURE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.823021,20.019555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minatai Thakare Stadium Turn</name>
+      <description>Police Station: PANCHAVATI 34, Sr. No.: 34, Purpose: IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.813966,20.012537,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minatai Thakare Stadium Near Pat</name>
+      <description>Police Station: PANCHAVATI 35, Sr. No.: 35, Purpose: IMPORTANT SQURE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.814578,20.01554,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalikanagar, Near Pandit Dindayal Garden</name>
+      <description>Police Station: PANCHAVATI 36, Sr. No.: 36, Purpose: IMPORTANT SQURE, Cameras: 3</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.824164,20.023695,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Datta Chauk, Kalikanagar</name>
+      <description>Police Station: PANCHAVATI 37, Sr. No.: 37, Purpose: IMPORTANT SQURE, Cameras: 3</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.826154,20.023938,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amrutdham, Pandit Dindayal Garden Road Chauk</name>
+      <description>Police Station: PANCHAVATI 38, Sr. No.: 38, Purpose: IMPORTANT SQURE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.822204,20.023516,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RP School Chauk</name>
+      <description>Police Station: PANCHAVATI 39, Sr. No.: 39, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.798839,20.011208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanjay Nagar</name>
+      <description>Police Station: PANCHAVATI 40, Sr. No.: 40, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.79963,20.01123,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Erandwadi</name>
+      <description>Police Station: PANCHAVATI 41, Sr. No.: 41, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792297,20.01272,0</coordinates>
+      </Point>
+    </Placemark>
+    <!-- Duplicated entries from the provided data -->
+    <Placemark>
+      <name>Datta Nagar</name>
+      <description>Police Station: PANCHAVATI 1, Sr. No.: 1, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793593,20.02094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navnath Nagar</name>
+      <description>Police Station: PANCHAVATI 2, Sr. No.: 2, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.79111,20.018159,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Phulenagar, Sailanibaba Darbar Chauk</name>
+      <description>Police Station: PANCHAVATI 3, Sr. No.: 3, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.795406,20.02178,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RP School Chauk</name>
+      <description>Police Station: PANCHAVATI 4, Sr. No.: 4, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.798839,20.011208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanjay Nagar</name>
+      <description>Police Station: PANCHAVATI 5, Sr. No.: 5, Purpose: IMPORTANT SQURE ,CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.79963,20.01123,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krantinagar, Near Shiv Maruti Mandir</name>
+      <description>Police Station: PANCHAVATI 6, Sr. No.: 6, Purpose: CROWDED PLACE,CRIMINAL AREA, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.78764,20.013989,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>gajanan chouk,panchvati</name>
+      <description>Police Station: PANCHAVATI 7, Sr. No.: 7, Purpose: , Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.796938,20.015339,0</coordinates> <!-- Assuming coordinates for Gajanan Chowk based on previous data -->
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

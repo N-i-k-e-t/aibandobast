@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ganpati Bandobast 2025 — Master Map (R1)</name>
+    <open>1</open>
+    <Style id="mandal_valuable"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+    <Style id="mandal_general"><IconStyle><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
+    <Style id="ghat"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-square.png</href></Icon></IconStyle></Style>
+    <Style id="sensitive"><IconStyle><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href></Icon></IconStyle></Style>
+    <Style id="post"><IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-triangle.png</href></Icon></IconStyle></Style>
+    <Style id="route"><LineStyle><color>ff00aaff</color><width>3</width></LineStyle></Style>
+    <Style id="diversion"><LineStyle><color>ffffaa00</color><width>3</width></LineStyle></Style>
+    <Style id="boundary"><PolyStyle><color>5500ff00</color></PolyStyle><LineStyle><color>ff00ff00</color></LineStyle></Style>
+
+    <!-- Folders by PS (Zone mapping TO-VERIFY) -->
+    <Folder><name>Panchavati</name></Folder>
+    <Folder><name>Adgaon</name></Folder>
+    <Folder><name>Mhasrul</name></Folder>
+    <Folder><name>Bhadrakali</name>
+      <Placemark>
+        <name>Sample Valuable Mandal (TO-VERIFY)</name>
+        <styleUrl>#mandal_valuable</styleUrl>
+        <ExtendedData>
+          <Data name="id"><value>M-0001</value></Data>
+          <Data name="type"><value>valuable</value></Data>
+          <Data name="ps"><value>Bhadrakali</value></Data>
+          <Data name="crowd_band"><value>XL</value></Data>
+          <Data name="risk_flags"><value>congestion</value></Data>
+        </ExtendedData>
+        <Point><coordinates>0,0,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Procession Route — P01 (TO-VERIFY)</name>
+        <styleUrl>#route</styleUrl>
+        <ExtendedData>
+          <Data name="procession_id"><value>P01</value></Data>
+          <Data name="priority"><value>1</value></Data>
+          <Data name="time_window"><value>15:00–21:00</value></Data>
+        </ExtendedData>
+        <LineString><tessellate>1</tessellate><coordinates>0,0,0 0.001,0.001,0 0.002,0.0015,0</coordinates></LineString>
+      </Placemark>
+    </Folder>
+    <Folder><name>Sarkarwada</name></Folder>
+    <Folder><name>Mumbai Naka</name></Folder>
+    <Folder><name>Ambad</name></Folder>
+    <Folder><name>Indiranagar</name></Folder>
+    <Folder><name>Satpur</name></Folder>
+    <Folder><name>Upnagar</name></Folder>
+    <Folder><name>Nashik Road</name></Folder>
+    <Folder><name>Deolali Camp</name></Folder>
+    <Folder><name>Gangapur</name></Folder>
+    <Folder><name>MIDC Chunchale</name></Folder>
+    <Folder><name>Ghats (Citywide)</name>
+      <Placemark>
+        <name>Godaghat (TO-VERIFY)</name>
+        <styleUrl>#ghat</styleUrl>
+        <ExtendedData>
+          <Data name="lifeguards"><value>12 (min)</value></Data>
+          <Data name="boats_available"><value>3 (min)</value></Data>
+          <Data name="nearest_hospital"><value>TO-VERIFY</value></Data>
+        </ExtendedData>
+        <Point><coordinates>0,0,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- Optional: PS boundary placeholder polygon -->
+    <Placemark>
+      <name>Bhadrakali Boundary (placeholder)</name>
+      <styleUrl>#boundary</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing><coordinates>0,0,0 0.005,0,0 0.005,0.005,0 0,0.005,0 0,0,0</coordinates></LinearRing></outerBoundaryIs>
+      </Polygon>
+      <ExtendedData>
+        <Data name="ps"><value>Bhadrakali</value></Data>
+        <Data name="source"><value>placeholder</value></Data>
+      </ExtendedData>
+    </Placemark>
+
+  </Document>
+</kml>

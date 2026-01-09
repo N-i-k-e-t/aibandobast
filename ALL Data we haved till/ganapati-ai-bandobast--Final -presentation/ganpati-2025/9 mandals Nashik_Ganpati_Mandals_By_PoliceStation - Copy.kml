@@ -1,0 +1,2148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashik Ganpati Mandals By Police Station</name>
+    <description>KML representation of Ganesh Mandals in Nashik, categorized by Police Station, with unique codes and styling.</description>
+
+    <!-- Styles for each Police Station -->
+    <Style id="GangapurStyle">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- Red -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0000ff</color>
+      </LabelStyle>
+    </Style>
+    <Style id="MhasrulStyle">
+      <IconStyle>
+        <color>ffff0000</color> <!-- Blue -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffff0000</color>
+      </LabelStyle>
+    </Style>
+    <Style id="NashikRoadStyle">
+      <IconStyle>
+        <color>ff00ff00</color> <!-- Green -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ff00</color>
+      </LabelStyle>
+    </Style>
+    <Style id="AmbadStyle">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- Yellow -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+      </LabelStyle>
+    </Style>
+    <Style id="BhadrakaliStyle">
+      <IconStyle>
+        <color>ff00a5ff</color> <!-- Orange -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/orange-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00a5ff</color>
+      </LabelStyle>
+    </Style>
+    <Style id="SatpurStyle">
+      <IconStyle>
+        <color>ff800080</color> <!-- Purple -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff800080</color>
+      </LabelStyle>
+    </Style>
+    <Style id="UpnagarStyle">
+      <IconStyle>
+        <color>ffc0c0c0</color> <!-- Silver -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffc0c0c0</color>
+      </LabelStyle>
+    </Style>
+    <Style id="PanchavatiStyle">
+      <IconStyle>
+        <color>ff008000</color> <!-- Dark Green -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff008000</color>
+      </LabelStyle>
+    </Style>
+    <Style id="IndiranagarStyle">
+      <IconStyle>
+        <color>ffb366ff</color> <!-- Pink -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffb366ff</color>
+      </LabelStyle>
+    </Style>
+
+    <!-- Style for No-Geo -->
+    <Style id="NoGeoStyle">
+      <IconStyle>
+        <color>ff808080</color> <!-- Grey -->
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/no-icon.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff808080</color>
+      </LabelStyle>
+    </Style>
+
+    <Folder>
+      <name>Gangapur Police Station - Major Ganesh Groups</name>
+      <Placemark>
+        <name>Rajmudra Sanskrutik Kala, Krida Mandal (GAN-001)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.725199,20.022582,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bhosla Circle, College Road, Nashik<br/><b>Crowd (Procession):</b> 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rajmudra Sanskrutik Kala, Krida Mandal</value></Data>
+          <Data name="Mandal Address"><value>Bhosla Circle, College Road, Nashik</value></Data>
+          <Data name="Latitude"><value>20.022582</value></Data>
+          <Data name="Longitude"><value>73.725199</value></Data>
+          <Data name="Procession Crowd"><value>300 to 400</value></Data>
+          <Data name="Mandal Code"><value>GAN-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jai Bajrang Mitra Mandal Nashik (GAN-002)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.764052,20.005632,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Shraddha Mall, Yevlekar Mala<br/><b>Crowd (Procession):</b> 250 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Jai Bajrang Mitra Mandal Nashik</value></Data>
+          <Data name="Mandal Address"><value>Near Shraddha Mall, Yevlekar Mala</value></Data>
+          <Data name="Latitude"><value>20.005632</value></Data>
+          <Data name="Longitude"><value>73.764052</value></Data>
+          <Data name="Procession Crowd"><value>250 to 300</value></Data>
+          <Data name="Mandal Code"><value>GAN-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivsamarth Kala Krida Mitra Mandal (GAN-003)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.71837,20.032573,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kranti Chowk, Gangapur Gaon, Nashik<br/><b>Crowd (Procession):</b> 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivsamarth Kala Krida Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Kranti Chowk, Gangapur Gaon, Nashik</value></Data>
+          <Data name="Latitude"><value>20.032573</value></Data>
+          <Data name="Longitude"><value>73.71837</value></Data>
+          <Data name="Procession Crowd"><value>300 to 400</value></Data>
+          <Data name="Mandal Code"><value>GAN-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Gangapur Road Cha Maharaja Mitra Mandal (GAN-004)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.764096,20.005625,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In front of Hotel Durga, K.B.T. Circle, Gangapur Road, Nashik<br/><b>Crowd (Procession):</b> 200 to 260<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Gangapur Road Cha Maharaja Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>In front of Hotel Durga, K.B.T. Circle, Gangapur Road, Nashik</value></Data>
+          <Data name="Latitude"><value>20.005625</value></Data>
+          <Data name="Longitude"><value>73.764096</value></Data>
+          <Data name="Procession Crowd"><value>200 to 260</value></Data>
+          <Data name="Mandal Code"><value>GAN-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivshambho Yuva Pratishthan Mitra Mandal (Gangapur Road Cha Chintamani) (GAN-005)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.764096,20.005625,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Body Master Gym, Pumping Station, Gangapur Road, Nashik<br/><b>Crowd (Procession):</b> 200 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivshambho Yuva Pratishthan Mitra Mandal (Gangapur Road Cha Chintamani)</value></Data>
+          <Data name="Mandal Address"><value>Near Body Master Gym, Pumping Station, Gangapur Road, Nashik</value></Data>
+          <Data name="Latitude"><value>20.005625</value></Data>
+          <Data name="Longitude"><value>73.764096</value></Data>
+          <Data name="Procession Crowd"><value>200 to 300</value></Data>
+          <Data name="Mandal Code"><value>GAN-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Goda Shraddha Mitra Mandal (GAN-006)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.764096,20.005625,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Shraddha Mall, College Road, Nashik<br/><b>Crowd (Procession):</b> 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Goda Shraddha Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Shraddha Mall, College Road, Nashik</value></Data>
+          <Data name="Latitude"><value>20.005625</value></Data>
+          <Data name="Longitude"><value>73.764096</value></Data>
+          <Data name="Procession Crowd"><value>300 to 400</value></Data>
+          <Data name="Mandal Code"><value>GAN-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shiv Kesari Bahuudeshiya Vikas Mandal (GAN-007)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.767831,20.015161,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Chintamani Mangal Karyalaya, Ekta Nagar, Nashik<br/><b>Crowd (Procession):</b> 200 to 270<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shiv Kesari Bahuudeshiya Vikas Mandal</value></Data>
+          <Data name="Mandal Address"><value>Chintamani Mangal Karyalaya, Ekta Nagar, Nashik</value></Data>
+          <Data name="Latitude"><value>20.015161</value></Data>
+          <Data name="Longitude"><value>73.767831</value></Data>
+          <Data name="Procession Crowd"><value>200 to 270</value></Data>
+          <Data name="Mandal Code"><value>GAN-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Roshan Bhau Ghate Charitable Trust Pranit Sahyadri Yuva Pratishthan (GAN-008)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.755379,20.008743,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Samvidhan Chowk, City Center Mall, Gangapur Road, Pumping Station Road,<br/><b>Crowd (Procession):</b> 200 to 260<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Roshan Bhau Ghate Charitable Trust Pranit Sahyadri Yuva Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Samvidhan Chowk, City Center Mall, Gangapur Road, Pumping Station Road,</value></Data>
+          <Data name="Latitude"><value>20.008743</value></Data>
+          <Data name="Longitude"><value>73.755379</value></Data>
+          <Data name="Procession Crowd"><value>200 to 260</value></Data>
+          <Data name="Mandal Code"><value>GAN-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ekta Mitra Mandal (GAN-009)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.71818,20.033688,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Rickshaw Stand, Gangapur Gaon, Nashik<br/><b>Crowd (Procession):</b> 200 to 270<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Ekta Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Rickshaw Stand, Gangapur Gaon, Nashik</value></Data>
+          <Data name="Latitude"><value>20.033688</value></Data>
+          <Data name="Longitude"><value>73.71818</value></Data>
+          <Data name="Procession Crowd"><value>200 to 270</value></Data>
+          <Data name="Mandal Code"><value>GAN-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Chhatrapati Shivaji Mitra Mandal (GAN-010)</name>
+        <styleUrl>#GangapurStyle</styleUrl>
+        <Point><coordinates>73.711392,20.005382,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Chhatrapati Shivajinagar, Nashik<br/><b>Crowd (Procession):</b> 200 to 260<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Chhatrapati Shivaji Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Chhatrapati Shivajinagar, Nashik</value></Data>
+          <Data name="Latitude"><value>20.005382</value></Data>
+          <Data name="Longitude"><value>73.711392</value></Data>
+          <Data name="Procession Crowd"><value>200 to 260</value></Data>
+          <Data name="Mandal Code"><value>GAN-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Mhasrul Police Station - Major Ganesh Groups</name>
+      <Placemark>
+        <name>Kala Krida Shikshanik Va Sanskrutik Mitra Mandal (MHA-001)</name>
+        <styleUrl>#MhasrulStyle</styleUrl>
+        <Point><coordinates>73.807216,20.034649,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sai Datt Dham Mandir, Gayatri Nagar, Dindori Road, Mhasrul, Nashik<br/><b>Crowd (Procession):</b> 400 to 500<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Kala Krida Shikshanik Va Sanskrutik Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Sai Datt Dham Mandir, Gayatri Nagar, Dindori Road, Mhasrul, Nashik</value></Data>
+          <Data name="Latitude"><value>20.034649</value></Data>
+          <Data name="Longitude"><value>73.807216</value></Data>
+          <Data name="Procession Crowd"><value>400 to 500</value></Data>
+          <Data name="Mandal Code"><value>MHA-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jijau Kala Krida Va Sanskrutik Mitra Mandal (MHA-002)</name>
+        <styleUrl>#MhasrulStyle</styleUrl>
+        <Point><coordinates>73.803949,20.035631,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In front of Jio Petrol Pump, Jijau Chowk, Dindori Road, Mhasrul, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Jijau Kala Krida Va Sanskrutik Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>In front of Jio Petrol Pump, Jijau Chowk, Dindori Road, Mhasrul, Nashik</value></Data>
+          <Data name="Latitude"><value>20.035631</value></Data>
+          <Data name="Longitude"><value>73.803949</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>MHA-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rajmudra Pratishthan (MHA-003)</name>
+        <styleUrl>#MhasrulStyle</styleUrl>
+        <Point><coordinates>73.778583,20.045998,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Mankar Nagar, near Runtha Building, Mankar Petrol Pump, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rajmudra Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Mankar Nagar, near Runtha Building, Mankar Petrol Pump, Nashik</value></Data>
+          <Data name="Latitude"><value>20.045998</value></Data>
+          <Data name="Longitude"><value>73.778583</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>MHA-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Swaraj Kala Krida Va Sanskrutik Mandal (MHA-004)</name>
+        <styleUrl>#MhasrulStyle</styleUrl>
+        <Point><coordinates>73.779939,20.041554,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shanti Nagar Shanti Nagar Bus Stop, Makhmalabad, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Swaraj Kala Krida Va Sanskrutik Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shanti Nagar Shanti Nagar Bus Stop, Makhmalabad, Nashik</value></Data>
+          <Data name="Latitude"><value>20.041554</value></Data>
+          <Data name="Longitude"><value>73.779939</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>MHA-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Nashik Road Police Station - Major Ganesh Groups</name>
+      <Placemark>
+        <name>D. Nashik Road Deolali Vyapari Sahakari Bank Karmachari Ganeshotsav Mandal, Nashik Road (NAS-001)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.838915,19.953722,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> The immersion procession starts from Ashanagar , goes to<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>D. Nashik Road Deolali Vyapari Sahakari Bank Karmachari Ganeshotsav Mandal, Nashik Road</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.953722</value></Data>
+          <Data name="Longitude"><value>73.838915</value></Data>
+          <Data name="Procession Crowd"><value>The immersion procession starts from Ashanagar , goes to</value></Data>
+          <Data name="Mandal Code"><value>NAS-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Chhatrapati Shivaji Maharaj Mitra Mandal, Nashik Road (NAS-002)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.840554,19.951489,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> No procession .<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Chhatrapati Shivaji Maharaj Mitra Mandal, Nashik Road</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.951489</value></Data>
+          <Data name="Longitude"><value>73.840554</value></Data>
+          <Data name="Procession Crowd"><value>No procession .</value></Data>
+          <Data name="Mandal Code"><value>NAS-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rickshaw Chalak Malak Sanghatana (NAS-003)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.837756,19.953518,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bitco Chowk, Nashik Road<br/><b>Crowd (Procession):</b> No procession .<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rickshaw Chalak Malak Sanghatana</value></Data>
+          <Data name="Mandal Address"><value>Bitco Chowk, Nashik Road</value></Data>
+          <Data name="Latitude"><value>19.953518</value></Data>
+          <Data name="Longitude"><value>73.837756</value></Data>
+          <Data name="Procession Crowd"><value>No procession .</value></Data>
+          <Data name="Mandal Code"><value>NAS-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sarvajanik Ganesh Utsav Mandal, Eklahare Colony, Eklahare, Nashik (NAS-004)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.872944,19.974917,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> The arrival and immersion processions use traditional<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sarvajanik Ganesh Utsav Mandal, Eklahare Colony, Eklahare, Nashik</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.974917</value></Data>
+          <Data name="Longitude"><value>73.872944</value></Data>
+          <Data name="Procession Crowd"><value>The arrival and immersion processions use traditional</value></Data>
+          <Data name="Mandal Code"><value>NAS-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Asha Nagar Tarun Mitra Mandal, Asha Nagar, Bitco Point, Nashik Road (NAS-005)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.838622,19.954147,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> The arrival procession goes through Ashanagar , Shivaji<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Asha Nagar Tarun Mitra Mandal, Asha Nagar, Bitco Point, Nashik Road</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.954147</value></Data>
+          <Data name="Longitude"><value>73.838622</value></Data>
+          <Data name="Procession Crowd"><value>The arrival procession goes through Ashanagar , Shivaji</value></Data>
+          <Data name="Mandal Code"><value>NAS-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>ISP / CNP Welfare Fund Committee Ganeshotsav 2024 (NAS-006)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.840278,19.952709,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> No procession .<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>ISP / CNP Welfare Fund Committee Ganeshotsav 2024</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.952709</value></Data>
+          <Data name="Longitude"><value>73.840278</value></Data>
+          <Data name="Procession Crowd"><value>No procession .</value></Data>
+          <Data name="Mandal Code"><value>NAS-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Anuradha Friends Circle (Shivsena Pranit) Nashik Road (NAS-007)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.83689,19.947204,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> No procession .<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Anuradha Friends Circle (Shivsena Pranit) Nashik Road</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.947204</value></Data>
+          <Data name="Longitude"><value>73.83689</value></Data>
+          <Data name="Procession Crowd"><value>No procession .</value></Data>
+          <Data name="Mandal Code"><value>NAS-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Ganesh Ekta Mitra Mandal Ganesh Nagar, Jail Road, Nashik Road (NAS-008)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.842554,19.975095,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> No procession .<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Ganesh Ekta Mitra Mandal Ganesh Nagar, Jail Road, Nashik Road</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.975095</value></Data>
+          <Data name="Longitude"><value>73.842554</value></Data>
+          <Data name="Procession Crowd"><value>No procession .</value></Data>
+          <Data name="Mandal Code"><value>NAS-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dnyaneshwar Mitra Mandal Sant (NAS-009)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.844535,19.980199,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Dnyaneshwar Nagar, Jail Road, Nashik Road<br/><b>Crowd (Procession):</b> The arrival procession route is from Ganesh Vyayamsh<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Dnyaneshwar Mitra Mandal Sant</value></Data>
+          <Data name="Mandal Address"><value>Dnyaneshwar Nagar, Jail Road, Nashik Road</value></Data>
+          <Data name="Latitude"><value>19.980199</value></Data>
+          <Data name="Longitude"><value>73.844535</value></Data>
+          <Data name="Procession Crowd"><value>The arrival procession route is from Ganesh Vyayamsh</value></Data>
+          <Data name="Mandal Code"><value>NAS-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Angad Foundation, Shinde, Taluka District Nashik (NAS-010)</name>
+        <styleUrl>#NashikRoadStyle</styleUrl>
+        <Point><coordinates>73.898355,19.915319,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> <br/><b>Crowd (Procession):</b> The arrival procession , with traditional instruments , goes<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Angad Foundation, Shinde, Taluka District Nashik</value></Data>
+          <Data name="Mandal Address"><value></value></Data>
+          <Data name="Latitude"><value>19.915319</value></Data>
+          <Data name="Longitude"><value>73.898355</value></Data>
+          <Data name="Procession Crowd"><value>The arrival procession , with traditional instruments , goes</value></Data>
+          <Data name="Mandal Code"><value>NAS-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Ambad Police Station - Major Ganesh Groups</name>
+      <Placemark>
+        <name>Pelican Bahu-uddeshiya Sanstha (Valuable) (AMB-001)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.76594444,19.96688888,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Swami Vivekananda Nagar, Navin Cidco, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Pelican Bahu-uddeshiya Sanstha (Valuable)</value></Data>
+          <Data name="Mandal Address"><value>Swami Vivekananda Nagar, Navin Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.96688888</value></Data>
+          <Data name="Longitude"><value>73.76594444</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ekta Vividh Vikas Seva Sansthan (Valuable) (AMB-002)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.75655555,19.97036110,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Rajratnanagar Cidco, Nashik<br/><b>Crowd (Procession):</b> Immersion procession Rajratnanagar - Uttamnagar,<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Ekta Vividh Vikas Seva Sansthan (Valuable)</value></Data>
+          <Data name="Mandal Address"><value>Rajratnanagar Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97036110</value></Data>
+          <Data name="Longitude"><value>73.75655555</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession Rajratnanagar - Uttamnagar,</value></Data>
+          <Data name="Mandal Code"><value>AMB-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Krishna Kala Va Krida Sanskrutik Mitra Mandal (Valuable) (AMB-003)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.74099999,19.96777777,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shri Krishna Nagar, Ambad, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Krishna Kala Va Krida Sanskrutik Mitra Mandal (Valuable)</value></Data>
+          <Data name="Mandal Address"><value>Shri Krishna Nagar, Ambad, Nashik</value></Data>
+          <Data name="Latitude"><value>19.96777777</value></Data>
+          <Data name="Longitude"><value>73.74099999</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Raje Chhatrapati Educational, Cultural, Arts and Sports Mandal (AMB-004)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.68866666,19.97563888,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Raje Chhatrapati Mandal Sports Ground, Old Cidco, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Raje Chhatrapati Educational, Cultural, Arts and Sports Mandal</value></Data>
+          <Data name="Mandal Address"><value>Raje Chhatrapati Mandal Sports Ground, Old Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97563888</value></Data>
+          <Data name="Longitude"><value>73.68866666</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shrimant Cidcocha Maharaja Cidco Colony Mitra Mandal (AMB-005)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.76977777,19.97641666,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Chhatrapati Shivaji Chowk, Cidco, Nashik<br/><b>Crowd (Procession):</b> Arrival procession on 23/08/2025 with 500 to 600<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shrimant Cidcocha Maharaja Cidco Colony Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Chhatrapati Shivaji Chowk, Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97641666</value></Data>
+          <Data name="Longitude"><value>73.76977777</value></Data>
+          <Data name="Procession Crowd"><value>Arrival procession on 23/08/2025 with 500 to 600</value></Data>
+          <Data name="Mandal Code"><value>AMB-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivraj Yuvak Mitra Mandal (AMB-006)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.75355555,19.97041666,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Bhole Mangal Karyalaya, Shubham Park, Cidco, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivraj Yuvak Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Bhole Mangal Karyalaya, Shubham Park, Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97041666</value></Data>
+          <Data name="Longitude"><value>73.75355555</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Raje Sambhaji Kala Va Krida Mandal (AMB-007)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.756,19.97466666,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Jijamata vegetable Market, Pawan Nagar, Cidco, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Raje Sambhaji Kala Va Krida Mandal</value></Data>
+          <Data name="Mandal Address"><value>Jijamata vegetable Market, Pawan Nagar, Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97466666</value></Data>
+          <Data name="Longitude"><value>73.756</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cidcocha Raja Mitra Mandal (AMB-008)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.75597222,19.98555555,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Hedgewar Nagar, Volleyball ground, Trimurti Chowk, Cidco,<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Cidcocha Raja Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Hedgewar Nagar, Volleyball ground, Trimurti Chowk, Cidco,</value></Data>
+          <Data name="Latitude"><value>19.98555555</value></Data>
+          <Data name="Longitude"><value>73.75597222</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Datdham Chowk Mitra Mandal (AMB-009)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.76025,19.9825,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Naik Farm, Cidco, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Datdham Chowk Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Naik Farm, Cidco, Nashik</value></Data>
+          <Data name="Latitude"><value>19.9825</value></Data>
+          <Data name="Longitude"><value>73.76025</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hulk Fitness Social Foundation (AMB-010)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.75036111,19.98869444,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> I.T.I. Bridge Sahane Nagar<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Hulk Fitness Social Foundation</value></Data>
+          <Data name="Mandal Address"><value>I.T.I. Bridge Sahane Nagar</value></Data>
+          <Data name="Latitude"><value>19.98869444</value></Data>
+          <Data name="Longitude"><value>73.75036111</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sarvagnya Foundation (AMB-011)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.74616666,19.97302777,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> D.G.P. Nagar, near Ankur Hospital Sarvagnya Kirana Mauli Lawns, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sarvagnya Foundation</value></Data>
+          <Data name="Mandal Address"><value>D.G.P. Nagar, near Ankur Hospital Sarvagnya Kirana Mauli Lawns, Nashik</value></Data>
+          <Data name="Latitude"><value>19.97302777</value></Data>
+          <Data name="Longitude"><value>73.74616666</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-011</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mauli Mitra Mandal (AMB-012)</name>
+        <styleUrl>#AmbadStyle</styleUrl>
+        <Point><coordinates>73.74769444,19.97280555,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sarvagnya Kirana Mauli Lawns, Nashik, next to Sai Hall, Mauli Lawns D.G.P.<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Mauli Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Sarvagnya Kirana Mauli Lawns, Nashik, next to Sai Hall, Mauli Lawns D.G.P.</value></Data>
+          <Data name="Latitude"><value>19.97280555</value></Data>
+          <Data name="Longitude"><value>73.74769444</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>AMB-012</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Bhadrakali Police Station - Major Ganesh Groups</name>
+      <Placemark>
+        <name>Bhadrakali Karanja Mitra Mandal (BHA-001)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.791292,20.001916,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sakshi Ganesh Temple, Tivandha, Nashik<br/><b>Crowd (Procession):</b> Immersion procession 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bhadrakali Karanja Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Sakshi Ganesh Temple, Tivandha, Nashik</value></Data>
+          <Data name="Latitude"><value>20.001916</value></Data>
+          <Data name="Longitude"><value>73.791292</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivseva Yuvak Mitra Mandal (BHA-002)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78887,20.00196,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Gadge Maharaj Statue, Nashik<br/><b>Crowd (Procession):</b> Immersion procession 700 to 800<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivseva Yuvak Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Gadge Maharaj Statue, Nashik</value></Data>
+          <Data name="Latitude"><value>20.00196</value></Data>
+          <Data name="Longitude"><value>73.78887</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 700 to 800</value></Data>
+          <Data name="Mandal Code"><value>BHA-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Janata Raja Mitra Mandal (BHA-003)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.792865,19.999691,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Dingarali, Old Nashik<br/><b>Crowd (Procession):</b> Immersion procession 200 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Janata Raja Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Dingarali, Old Nashik</value></Data>
+          <Data name="Latitude"><value>19.999691</value></Data>
+          <Data name="Longitude"><value>73.792865</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 200 to 300</value></Data>
+          <Data name="Mandal Code"><value>BHA-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri. Raje Chhatrapati Samajik Sanskrutik Kala Va Krida Mitra Mandal (BHA-004)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78483,19.9993,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri. Raje Chhatrapati Samajik Sanskrutik Kala Va Krida Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan, Nashik</value></Data>
+          <Data name="Latitude"><value>19.9993</value></Data>
+          <Data name="Longitude"><value>73.78483</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Yuvak Unnati Mitra Mandal (BHA-005)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78927,20.00179,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bhadrakali Foot Market, Nashik<br/><b>Crowd (Procession):</b> Arrival ceremony 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Yuvak Unnati Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Bhadrakali Foot Market, Nashik</value></Data>
+          <Data name="Latitude"><value>20.00179</value></Data>
+          <Data name="Longitude"><value>73.78927</value></Data>
+          <Data name="Procession Crowd"><value>Arrival ceremony 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Utkarsh Mitra Mandal (BHA-006)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79446,19.99874,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Naikwadipura, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Utkarsh Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Naikwadipura, Nashik</value></Data>
+          <Data name="Latitude"><value>19.99874</value></Data>
+          <Data name="Longitude"><value>73.79446</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Bhakti Mitra Mandal (BHA-007)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79093,19.99985,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Old Tambat Lane, near Rahad, Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Bhakti Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Old Tambat Lane, near Rahad, Nashik</value></Data>
+          <Data name="Latitude"><value>19.99985</value></Data>
+          <Data name="Longitude"><value>73.79093</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Satyam Sanskrutik Kala Va Krida Mandal (BHA-008)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.7902,20.00109,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Taksal Lane Corner<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Satyam Sanskrutik Kala Va Krida Mandal</value></Data>
+          <Data name="Mandal Address"><value>Taksal Lane Corner</value></Data>
+          <Data name="Latitude"><value>20.00109</value></Data>
+          <Data name="Longitude"><value>73.7902</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Bharat Mitra Mandal (BHA-009)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79091,20.00187,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Old Tambat Lane, near Sakshi Ganesh Ganpati, Khandve Ganpati Aai<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Bharat Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Old Tambat Lane, near Sakshi Ganesh Ganpati, Khandve Ganpati Aai</value></Data>
+          <Data name="Latitude"><value>20.00187</value></Data>
+          <Data name="Longitude"><value>73.79091</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Welcome Sahakarya Mitra Mandal (BHA-010)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79195,20.00216,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Nav Darwaza, Nashik<br/><b>Crowd (Procession):</b> Immersion procession 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Welcome Sahakarya Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Nav Darwaza, Nashik</value></Data>
+          <Data name="Latitude"><value>20.00216</value></Data>
+          <Data name="Longitude"><value>73.79195</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rokdoba Mitra Mandal (BHA-011)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79329,20.00311,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Nav Darwaza, Nashik<br/><b>Crowd (Procession):</b> Immersion procession 400 to 500<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rokdoba Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Nav Darwaza, Nashik</value></Data>
+          <Data name="Latitude"><value>20.00311</value></Data>
+          <Data name="Longitude"><value>73.79329</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 400 to 500</value></Data>
+          <Data name="Mandal Code"><value>BHA-011</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dande Hanuman Mitra Mandal (BHA-012)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79262,19.99678,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kazipura Chowk, Old Nashik<br/><b>Crowd (Procession):</b> Immersion procession 700 to 800<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Dande Hanuman Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Kazipura Chowk, Old Nashik</value></Data>
+          <Data name="Latitude"><value>19.99678</value></Data>
+          <Data name="Longitude"><value>73.79262</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 700 to 800</value></Data>
+          <Data name="Mandal Code"><value>BHA-012</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri. Shaneshwara Yuvak Samiti (BHA-013)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79293,19.99576,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Chowk Mandai<br/><b>Crowd (Procession):</b> Immersion procession 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri. Shaneshwara Yuvak Samiti</value></Data>
+          <Data name="Mandal Address"><value>Chowk Mandai</value></Data>
+          <Data name="Latitude"><value>19.99576</value></Data>
+          <Data name="Longitude"><value>73.79293</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-013</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Gajanan Mitra Mandal (BHA-014)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79177,20.00264,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Somwar Peth, Tibandha<br/><b>Crowd (Procession):</b> Immersion procession 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Gajanan Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Somwar Peth, Tibandha</value></Data>
+          <Data name="Latitude"><value>20.00264</value></Data>
+          <Data name="Longitude"><value>73.79177</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-014</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mahalakshmi Chal Social Foundation (BHA-015)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79534,19.99586,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bagwanpura, Old Nashik<br/><b>Crowd (Procession):</b> Immersion procession 200 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Mahalakshmi Chal Social Foundation</value></Data>
+          <Data name="Mandal Address"><value>Bagwanpura, Old Nashik</value></Data>
+          <Data name="Latitude"><value>19.99586</value></Data>
+          <Data name="Longitude"><value>73.79534</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 200 to 300</value></Data>
+          <Data name="Mandal Code"><value>BHA-015</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Burud Galli Lokpriya Mitra Mandal (BHA-016)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.7917,19.9969,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Burud Galli, Kokanipura<br/><b>Crowd (Procession):</b> Immersion procession 200 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Burud Galli Lokpriya Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Burud Galli, Kokanipura</value></Data>
+          <Data name="Latitude"><value>19.9969</value></Data>
+          <Data name="Longitude"><value>73.7917</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 200 to 300</value></Data>
+          <Data name="Mandal Code"><value>BHA-016</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bhoi Mitra Mandal, Bhoi Galli (BHA-017)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79567,19.99609,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bhoi Galli, Kathada<br/><b>Crowd (Procession):</b> Immersion procession 300 to 400<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bhoi Mitra Mandal, Bhoi Galli</value></Data>
+          <Data name="Mandal Address"><value>Bhoi Galli, Kathada</value></Data>
+          <Data name="Latitude"><value>19.99609</value></Data>
+          <Data name="Longitude"><value>73.79567</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 300 to 400</value></Data>
+          <Data name="Mandal Code"><value>BHA-017</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nehru Chowk Mitra Mandal (BHA-018)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79168,20.004,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Pimpalpar, Nehru Chowk<br/><b>Crowd (Procession):</b> Immersion procession 200 to 300<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Nehru Chowk Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Pimpalpar, Nehru Chowk</value></Data>
+          <Data name="Latitude"><value>20.004</value></Data>
+          <Data name="Longitude"><value>73.79168</value></Data>
+          <Data name="Procession Crowd"><value>Immersion procession 200 to 300</value></Data>
+          <Data name="Mandal Code"><value>BHA-018</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Namco Bank Parivar Ganeshotsav Mandal (BHA-019)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78731,20.00199,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Nepali Corner<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Namco Bank Parivar Ganeshotsav Mandal</value></Data>
+          <Data name="Mandal Address"><value>Nepali Corner</value></Data>
+          <Data name="Latitude"><value>20.00199</value></Data>
+          <Data name="Longitude"><value>73.78731</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-019</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Butan Aikya Mitra Mandal (BHA-020)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79326,19.9993,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Budhwar Peth, Buttaro Corner<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Butan Aikya Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Budhwar Peth, Buttaro Corner</value></Data>
+          <Data name="Latitude"><value>19.9993</value></Data>
+          <Data name="Longitude"><value>73.79326</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-020</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hanuman Yuvak Mitra Mandal (BHA-021)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79588,19.99774,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Miradatar Dargah<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Hanuman Yuvak Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Miradatar Dargah</value></Data>
+          <Data name="Latitude"><value>19.99774</value></Data>
+          <Data name="Longitude"><value>73.79588</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-021</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Old Nashik Friend Circle (BHA-022)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79691,19.99864,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Darbar Road, Nanavali<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Old Nashik Friend Circle</value></Data>
+          <Data name="Mandal Address"><value>Darbar Road, Nanavali</value></Data>
+          <Data name="Latitude"><value>19.99864</value></Data>
+          <Data name="Longitude"><value>73.79691</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-022</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bhadrakali Yuvak Mandal (BHA-023)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78972,20.0013,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bhadrakali Patio, Old Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bhadrakali Yuvak Mandal</value></Data>
+          <Data name="Mandal Address"><value>Bhadrakali Patio, Old Nashik</value></Data>
+          <Data name="Latitude"><value>20.0013</value></Data>
+          <Data name="Longitude"><value>73.78972</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-023</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dharmveer Sambhaji Mitra Mandal (BHA-024)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79824,19.99833,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In front of Nanavali Police Chowky, Nanavali<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Dharmveer Sambhaji Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>In front of Nanavali Police Chowky, Nanavali</value></Data>
+          <Data name="Latitude"><value>19.99833</value></Data>
+          <Data name="Longitude"><value>73.79824</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-024</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Seva Pimpal Tauk Kala Va Krida Mandal, Nashik (BHA-025)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78889,19.99995,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Thackeray Road, Pimpal Chowk<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Seva Pimpal Tauk Kala Va Krida Mandal, Nashik</value></Data>
+          <Data name="Mandal Address"><value>Thackeray Road, Pimpal Chowk</value></Data>
+          <Data name="Latitude"><value>19.99995</value></Data>
+          <Data name="Longitude"><value>73.78889</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-025</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>H.L. Kamgar Mitra Mandal (BHA-026)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78446,19.99941,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>H.L. Kamgar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan</value></Data>
+          <Data name="Latitude"><value>19.99941</value></Data>
+          <Data name="Longitude"><value>73.78446</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-026</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Yashwant Sanskrutik Kala Va Krida Mandal (BHA-027)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78447,19.99953,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Yashwant Sanskrutik Kala Va Krida Mandal</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan</value></Data>
+          <Data name="Latitude"><value>19.99953</value></Data>
+          <Data name="Longitude"><value>73.78447</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-027</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Samarth Mitra Mandal (BHA-028)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.80422,19.98986,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shankar Nagar, Takli Road<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Samarth Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shankar Nagar, Takli Road</value></Data>
+          <Data name="Latitude"><value>19.98986</value></Data>
+          <Data name="Longitude"><value>73.80422</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-028</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Navkanti Mitra Mandal (BHA-029)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79828,19.99251,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Hanuman Chowk, Kathe Galli<br/><b>Crowd (Procession):</b> New application for procession this year with 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Navkanti Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Hanuman Chowk, Kathe Galli</value></Data>
+          <Data name="Latitude"><value>19.99251</value></Data>
+          <Data name="Longitude"><value>73.79828</value></Data>
+          <Data name="Procession Crowd"><value>New application for procession this year with 150</value></Data>
+          <Data name="Mandal Code"><value>BHA-029</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Balaji Mitra Mandal (BHA-030)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.80422,19.98996,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shankar Nagar, Takli Road, Dwarka<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Balaji Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shankar Nagar, Takli Road, Dwarka</value></Data>
+          <Data name="Latitude"><value>19.98996</value></Data>
+          <Data name="Longitude"><value>73.80422</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-030</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Arjun Kala Va Krida Mandal (BHA-031)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79935,19.99071,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Jahangir Complex, Kathe Galli Signal<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Arjun Kala Va Krida Mandal</value></Data>
+          <Data name="Mandal Address"><value>Jahangir Complex, Kathe Galli Signal</value></Data>
+          <Data name="Latitude"><value>19.99071</value></Data>
+          <Data name="Longitude"><value>73.79935</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-031</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rammukti Mitra Mandal (BHA-032)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.7926,19.99616,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Rammukti Chowk, Chowk Mandai<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rammukti Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Rammukti Chowk, Chowk Mandai</value></Data>
+          <Data name="Latitude"><value>19.99616</value></Data>
+          <Data name="Longitude"><value>73.7926</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-032</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bosch Ganesh Mandal (BHA-033)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78469,19.99888,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bosch Ganesh Mandal</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan</value></Data>
+          <Data name="Latitude"><value>19.99888</value></Data>
+          <Data name="Longitude"><value>73.78469</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-033</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mahindra &amp; Mahindra Utsav Samiti (BHA-034)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78459,19.99887,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Mahindra &amp; Mahindra Utsav Samiti</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan</value></Data>
+          <Data name="Latitude"><value>19.99887</value></Data>
+          <Data name="Longitude"><value>73.78459</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-034</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>H.L. Kamgar Mandal (BHA-035)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78438,19.99894,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> B.D. Bhalekar Maidan<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>H.L. Kamgar Mandal</value></Data>
+          <Data name="Mandal Address"><value>B.D. Bhalekar Maidan</value></Data>
+          <Data name="Latitude"><value>19.99894</value></Data>
+          <Data name="Longitude"><value>73.78438</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-035</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Gajanan Maharaj Mitra Mandal (BHA-036)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79032,20.00154,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Taksal Lane<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Gajanan Maharaj Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Taksal Lane</value></Data>
+          <Data name="Latitude"><value>20.00154</value></Data>
+          <Data name="Longitude"><value>73.79032</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-036</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Prerna Sanskrutik Mitra Mandal (BHA-037)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78887,20.00157,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bagul Corner, Main Road<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Prerna Sanskrutik Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Bagul Corner, Main Road</value></Data>
+          <Data name="Latitude"><value>20.00157</value></Data>
+          <Data name="Longitude"><value>73.78887</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-037</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bhoiraj Foundation (BHA-038)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79546,19.99716,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bhoi Galli, Old Nashik<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bhoiraj Foundation</value></Data>
+          <Data name="Mandal Address"><value>Bhoi Galli, Old Nashik</value></Data>
+          <Data name="Latitude"><value>19.99716</value></Data>
+          <Data name="Longitude"><value>73.79546</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-038</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivraj Mitra Mandal (BHA-039)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.80039,19.99028,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Maneqsha Nagar, Dwarka<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivraj Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Maneqsha Nagar, Dwarka</value></Data>
+          <Data name="Latitude"><value>19.99028</value></Data>
+          <Data name="Longitude"><value>73.80039</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-039</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hindu Ekta Andolan Paksha Pranit Shahid Bhagatsing Kranti Dal (BHA-040)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.79677,19.99453,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shahid Bhagat Singh Chowk<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Hindu Ekta Andolan Paksha Pranit Shahid Bhagatsing Kranti Dal</value></Data>
+          <Data name="Mandal Address"><value>Shahid Bhagat Singh Chowk</value></Data>
+          <Data name="Latitude"><value>19.99453</value></Data>
+          <Data name="Longitude"><value>73.79677</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-040</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nataraj Mitra Mandal (BHA-041)</name>
+        <styleUrl>#BhadrakaliStyle</styleUrl>
+        <Point><coordinates>73.78925,20.0004,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Talawadi, Central Market<br/><b>Crowd (Procession):</b> No procession<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Nataraj Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Talawadi, Central Market</value></Data>
+          <Data name="Latitude"><value>20.0004</value></Data>
+          <Data name="Longitude"><value>73.78925</value></Data>
+          <Data name="Procession Crowd"><value>No procession</value></Data>
+          <Data name="Mandal Code"><value>BHA-041</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Satpur Police Station - Information on Major Groups</name>
+      <Placemark>
+        <name>Shri Pavan Ganpati Pratishthan (SAT-001)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.737365,20.006358,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Ganesh Nagar Ganpati mandir udyan satpur<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Pavan Ganpati Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Ganesh Nagar Ganpati mandir udyan satpur</value></Data>
+          <Data name="Latitude"><value>20.006358</value></Data>
+          <Data name="Longitude"><value>73.737365</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bajrang Mitra Mandal (Vadar Yuva Pratishthan) (SAT-002)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.733558,19.991048,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> j.p Nagar Satpur<br/><b>Crowd (Procession):</b> 100-125<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bajrang Mitra Mandal (Vadar Yuva Pratishthan)</value></Data>
+          <Data name="Mandal Address"><value>j.p Nagar Satpur</value></Data>
+          <Data name="Latitude"><value>19.991048</value></Data>
+          <Data name="Longitude"><value>73.733558</value></Data>
+          <Data name="Procession Crowd"><value>100-125</value></Data>
+          <Data name="Mandal Code"><value>SAT-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Amarjyot Mitra Mandal (SAT-003)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.733843,19.989552,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shri Hans Chowk, Maruti Mandir, Satpur<br/><b>Crowd (Procession):</b> 125-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Amarjyot Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shri Hans Chowk, Maruti Mandir, Satpur</value></Data>
+          <Data name="Latitude"><value>19.989552</value></Data>
+          <Data name="Longitude"><value>73.733843</value></Data>
+          <Data name="Procession Crowd"><value>125-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Satpurcha Raja Ganeshutsav Samiti 2025 (SAT-004)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.722744,19.991278,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Swaraj chowk, Satpur colony<br/><b>Crowd (Procession):</b> 200-250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Satpurcha Raja Ganeshutsav Samiti 2025</value></Data>
+          <Data name="Mandal Address"><value>Swaraj chowk, Satpur colony</value></Data>
+          <Data name="Latitude"><value>19.991278</value></Data>
+          <Data name="Longitude"><value>73.722744</value></Data>
+          <Data name="Procession Crowd"><value>200-250</value></Data>
+          <Data name="Mandal Code"><value>SAT-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Om Sairam Mitra Mandal Pranit Satpurcha Raja (SAT-005)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.722614,19.990489,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> 1251 Satpur Colony, Shivneri Garden satpur<br/><b>Crowd (Procession):</b> 200-250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Om Sairam Mitra Mandal Pranit Satpurcha Raja</value></Data>
+          <Data name="Mandal Address"><value>1251 Satpur Colony, Shivneri Garden satpur</value></Data>
+          <Data name="Latitude"><value>19.990489</value></Data>
+          <Data name="Longitude"><value>73.722614</value></Data>
+          <Data name="Procession Crowd"><value>200-250</value></Data>
+          <Data name="Mandal Code"><value>SAT-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>P.L. Group Mitra Mandal Pranit Republican Social Group (SAT-006)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.721322,19.989424,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Anand Chhaya Bus Stop, Satpur Colony<br/><b>Crowd (Procession):</b> 200-250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>P.L. Group Mitra Mandal Pranit Republican Social Group</value></Data>
+          <Data name="Mandal Address"><value>Anand Chhaya Bus Stop, Satpur Colony</value></Data>
+          <Data name="Latitude"><value>19.989424</value></Data>
+          <Data name="Longitude"><value>73.721322</value></Data>
+          <Data name="Procession Crowd"><value>200-250</value></Data>
+          <Data name="Mandal Code"><value>SAT-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Leo King Social Foundation (SAT-007)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.718878,19.987531,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Tambe Complex, Jadhav Sankul, Ashoknagar, Satpur, Nashik<br/><b>Crowd (Procession):</b> 150-200<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Leo King Social Foundation</value></Data>
+          <Data name="Mandal Address"><value>Tambe Complex, Jadhav Sankul, Ashoknagar, Satpur, Nashik</value></Data>
+          <Data name="Latitude"><value>19.987531</value></Data>
+          <Data name="Longitude"><value>73.718878</value></Data>
+          <Data name="Procession Crowd"><value>150-200</value></Data>
+          <Data name="Mandal Code"><value>SAT-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rajat Navshya Ganpati Mitra Mandal (SAT-008)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.717275,19.989805,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Karmachari Rajya Society, Savarkar Nagar Bus Stop<br/><b>Crowd (Procession):</b> 150-200<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rajat Navshya Ganpati Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Karmachari Rajya Society, Savarkar Nagar Bus Stop</value></Data>
+          <Data name="Latitude"><value>19.989805</value></Data>
+          <Data name="Longitude"><value>73.717275</value></Data>
+          <Data name="Procession Crowd"><value>150-200</value></Data>
+          <Data name="Mandal Code"><value>SAT-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Raigad Pratishthan (SAT-009)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.713849,19.989172,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Ambika Sweet, Maharana Pratap Chowk, Ashoknagar<br/><b>Crowd (Procession):</b> 150-200<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Raigad Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Ambika Sweet, Maharana Pratap Chowk, Ashoknagar</value></Data>
+          <Data name="Latitude"><value>19.989172</value></Data>
+          <Data name="Longitude"><value>73.713849</value></Data>
+          <Data name="Procession Crowd"><value>150-200</value></Data>
+          <Data name="Mandal Code"><value>SAT-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shaurya Yuva Pratishthan (SAT-010)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.707491,19.996469,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Manohar Chowk, Shramik Nagar, Satpur<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shaurya Yuva Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Manohar Chowk, Shramik Nagar, Satpur</value></Data>
+          <Data name="Latitude"><value>19.996469</value></Data>
+          <Data name="Longitude"><value>73.707491</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivratna Mitra Mandal (SAT-011)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.710576,19.992739,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> D.S. Park, Sambhaji Nagar<br/><b>Crowd (Procession):</b> 200-250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivratna Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>D.S. Park, Sambhaji Nagar</value></Data>
+          <Data name="Latitude"><value>19.992739</value></Data>
+          <Data name="Longitude"><value>73.710576</value></Data>
+          <Data name="Procession Crowd"><value>200-250</value></Data>
+          <Data name="Mandal Code"><value>SAT-011</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sai Rudra Bahuuddeshiya Sanstha (SAT-012)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.715498,19.986839,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Jadhav Sankul, Ashoknagar<br/><b>Crowd (Procession):</b> 150-200<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sai Rudra Bahuuddeshiya Sanstha</value></Data>
+          <Data name="Mandal Address"><value>Jadhav Sankul, Ashoknagar</value></Data>
+          <Data name="Latitude"><value>19.986839</value></Data>
+          <Data name="Longitude"><value>73.715498</value></Data>
+          <Data name="Procession Crowd"><value>150-200</value></Data>
+          <Data name="Mandal Code"><value>SAT-012</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Chhatrapati Shivaji Maharaj Bhaji Mandai (SAT-013)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.733455,19.989692,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Chhatrapati Shivaji Maharaj Bhaji Mandai, Satpurgaon<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Chhatrapati Shivaji Maharaj Bhaji Mandai</value></Data>
+          <Data name="Mandal Address"><value>Chhatrapati Shivaji Maharaj Bhaji Mandai, Satpurgaon</value></Data>
+          <Data name="Latitude"><value>19.989692</value></Data>
+          <Data name="Longitude"><value>73.733455</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-013</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bajrang Mitra Mandal (Mulyavan Ganpati) (SAT-014)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.727007,19.978786,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Bajrang Nagar, Satpur<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Bajrang Mitra Mandal (Mulyavan Ganpati)</value></Data>
+          <Data name="Mandal Address"><value>Bajrang Nagar, Satpur</value></Data>
+          <Data name="Latitude"><value>19.978786</value></Data>
+          <Data name="Longitude"><value>73.727007</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-014</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kamgar Nagar Mitra Mandal (Kamgar Nagarcha Raja) (SAT-015)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.74681,20.002849,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kamgar Nagar Bus Stand, Satpur, Nashik<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Kamgar Nagar Mitra Mandal (Kamgar Nagarcha Raja)</value></Data>
+          <Data name="Mandal Address"><value>Kamgar Nagar Bus Stand, Satpur, Nashik</value></Data>
+          <Data name="Latitude"><value>20.002849</value></Data>
+          <Data name="Longitude"><value>73.74681</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-015</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rajya Karmachari Tarun Mitra Mandal (SAT-016)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.713553,19.989111,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Ashoknagar Police Chowki<br/><b>Crowd (Procession):</b> 100-125<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Rajya Karmachari Tarun Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Ashoknagar Police Chowki</value></Data>
+          <Data name="Latitude"><value>19.989111</value></Data>
+          <Data name="Longitude"><value>73.713553</value></Data>
+          <Data name="Procession Crowd"><value>100-125</value></Data>
+          <Data name="Mandal Code"><value>SAT-016</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sangharsh Mitra Mandal (SAT-017)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.7452984,20.0025328,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Durgadevi Mitra Mandal, Kamgar Nagar<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sangharsh Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Durgadevi Mitra Mandal, Kamgar Nagar</value></Data>
+          <Data name="Latitude"><value>20.0025328</value></Data>
+          <Data name="Longitude"><value>73.7452984</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>SAT-017</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Dakshinmukhi Hanuman Mitra Mandal (SAT-018)</name>
+        <styleUrl>#SatpurStyle</styleUrl>
+        <Point><coordinates>73.710578,19.994372,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shri Dakshinmukhi Hanuman, Sambhaji Nagar<br/><b>Crowd (Procession):</b> 200-225<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Dakshinmukhi Hanuman Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shri Dakshinmukhi Hanuman, Sambhaji Nagar</value></Data>
+          <Data name="Latitude"><value>19.994372</value></Data>
+          <Data name="Longitude"><value>73.710578</value></Data>
+          <Data name="Procession Crowd"><value>200-225</value></Data>
+          <Data name="Mandal Code"><value>SAT-018</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Upnagar Police Station - Information on Major Groups</name>
+      <Placemark>
+        <name>Kai. Nanasaheb jadhav mitra mandal (UPN-001)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.83131,19.94598,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Suvarna society jadhav mala deolali gaon nasgik road nashik<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Kai. Nanasaheb jadhav mitra mandal</value></Data>
+          <Data name="Mandal Address"><value>Suvarna society jadhav mala deolali gaon nasgik road nashik</value></Data>
+          <Data name="Latitude"><value>19.94598</value></Data>
+          <Data name="Longitude"><value>73.83131</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>UPN-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sairaj Bahuuddeshiya Sanstha (UPN-002)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.83291,19.9748,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shriram nagar Holi Flower School Near Nashik Road Nashik<br/><b>Crowd (Procession):</b> 100 to 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sairaj Bahuuddeshiya Sanstha</value></Data>
+          <Data name="Mandal Address"><value>Shriram nagar Holi Flower School Near Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.9748</value></Data>
+          <Data name="Longitude"><value>73.83291</value></Data>
+          <Data name="Procession Crowd"><value>100 to 150</value></Data>
+          <Data name="Mandal Code"><value>UPN-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shahi Foundation (UPN-003)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.80737,19.97421,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Tagore Nagar Utsav Chowk Nashik Road Nashik<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shahi Foundation</value></Data>
+          <Data name="Mandal Address"><value>Tagore Nagar Utsav Chowk Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.97421</value></Data>
+          <Data name="Longitude"><value>73.80737</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>UPN-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Sports &amp; Social Club (UPN-004)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.83585,19.94744,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Adhitya Huts Near Jain Bhavan Nashik Road Nashik<br/><b>Crowd (Procession):</b> 40 to 50<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Eagle Sports &amp; Social Club</value></Data>
+          <Data name="Mandal Address"><value>Adhitya Huts Near Jain Bhavan Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.94744</value></Data>
+          <Data name="Longitude"><value>73.83585</value></Data>
+          <Data name="Procession Crowd"><value>40 to 50</value></Data>
+          <Data name="Mandal Code"><value>UPN-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Navnath Mitra Mandal (UPN-005)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.84076,19.97366,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sena Kaman Veer Savarkar Nagar Jail Road Nashik Road<br/><b>Crowd (Procession):</b> 500 to 450<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Navnath Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Sena Kaman Veer Savarkar Nagar Jail Road Nashik Road</value></Data>
+          <Data name="Latitude"><value>19.97366</value></Data>
+          <Data name="Longitude"><value>73.84076</value></Data>
+          <Data name="Procession Crowd"><value>500 to 450</value></Data>
+          <Data name="Mandal Code"><value>UPN-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Ichchapurti Ganesh Mitra Mandal (UPN-006)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.81124,19.97515,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Near Patbandhare Vahat Mahabali Hanuman Mandir Nashik Road Nashik<br/><b>Crowd (Procession):</b> 15 to 20<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Ichchapurti Ganesh Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Near Patbandhare Vahat Mahabali Hanuman Mandir Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.97515</value></Data>
+          <Data name="Longitude"><value>73.81124</value></Data>
+          <Data name="Procession Crowd"><value>15 to 20</value></Data>
+          <Data name="Mandal Code"><value>UPN-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Balaji Social Foundation (20 kg silver hands, ears, feet) (UPN-007)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.83729,19.95295,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Regimental Point Bitco Point Near Nashik Road Nashik<br/><b>Crowd (Procession):</b> 600 to 700<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Balaji Social Foundation (20 kg silver hands, ears, feet)</value></Data>
+          <Data name="Mandal Address"><value>Regimental Point Bitco Point Near Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.95295</value></Data>
+          <Data name="Longitude"><value>73.83729</value></Data>
+          <Data name="Procession Crowd"><value>600 to 700</value></Data>
+          <Data name="Mandal Code"><value>UPN-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Ganesh Mitra Mandal (21 kg of silver, single statue) (UPN-008)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.8352,19.94413,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Deolali Gaon (Paravari Ganesh) Nashik Road Nashik<br/><b>Crowd (Procession):</b> 10 to 15<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Ganesh Mitra Mandal (21 kg of silver, single statue)</value></Data>
+          <Data name="Mandal Address"><value>Deolali Gaon (Paravari Ganesh) Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.94413</value></Data>
+          <Data name="Longitude"><value>73.8352</value></Data>
+          <Data name="Procession Crowd"><value>10 to 15</value></Data>
+          <Data name="Mandal Code"><value>UPN-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jagruti Pratishthan Kala &amp; Krida Sanskrutik Mitra Mandal (UPN-009)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.80576,19.97643,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Royal Colony Khule Maidan Shri Shri Ravi Shankar Marg Nashik<br/><b>Crowd (Procession):</b> 100 to 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Jagruti Pratishthan Kala &amp; Krida Sanskrutik Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Royal Colony Khule Maidan Shri Shri Ravi Shankar Marg Nashik</value></Data>
+          <Data name="Latitude"><value>19.97643</value></Data>
+          <Data name="Longitude"><value>73.80576</value></Data>
+          <Data name="Procession Crowd"><value>100 to 150</value></Data>
+          <Data name="Mandal Code"><value>UPN-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Mhasoba Maharaj Mitra Mandal (UPN-010)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.82693,19.94646,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Khole Mala, B Mhasoba Maharaj Bhik, Jai Bhavani Road Nashik Road Nashik<br/><b>Crowd (Procession):</b> 90 to 100<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Mhasoba Maharaj Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Khole Mala, B Mhasoba Maharaj Bhik, Jai Bhavani Road Nashik Road Nashik</value></Data>
+          <Data name="Latitude"><value>19.94646</value></Data>
+          <Data name="Longitude"><value>73.82693</value></Data>
+          <Data name="Procession Crowd"><value>90 to 100</value></Data>
+          <Data name="Mandal Code"><value>UPN-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Radhekrishna Foundation (Mahila Mandal) (UPN-011)</name>
+        <styleUrl>#UpnagarStyle</styleUrl>
+        <Point><coordinates>73.82507,19.95251,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In Bajaj Showroom Daroa, Nashik<br/><b>Crowd (Procession):</b> 600 to 700<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Radhekrishna Foundation (Mahila Mandal)</value></Data>
+          <Data name="Mandal Address"><value>In Bajaj Showroom Daroa, Nashik</value></Data>
+          <Data name="Latitude"><value>19.95251</value></Data>
+          <Data name="Longitude"><value>73.82507</value></Data>
+          <Data name="Procession Crowd"><value>600 to 700</value></Data>
+          <Data name="Mandal Code"><value>UPN-011</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Panchavati Police Station</name>
+      <Placemark>
+        <name>Shivrudraksh Mitra Mandal (PAN-001)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.78317,20.012973,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kalashrushti Apartment, Adarsh Nagar, Ramwadi, Panchavati<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivrudraksh Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Kalashrushti Apartment, Adarsh Nagar, Ramwadi, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.012973</value></Data>
+          <Data name="Longitude"><value>73.78317</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Achanak Mitra Mandal (PAN-002)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.799299,20.008755,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Gajanan Chowk, Gurudwara Road, Komati Galli, Panchavati<br/><b>Crowd (Procession):</b> 200-250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Achanak Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Gajanan Chowk, Gurudwara Road, Komati Galli, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.008755</value></Data>
+          <Data name="Longitude"><value>73.799299</value></Data>
+          <Data name="Procession Crowd"><value>200-250</value></Data>
+          <Data name="Mandal Code"><value>PAN-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivmalhar Mitra Mandal (PAN-003)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.822983,20.015851,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Ashadeep Mangal Karyalaya, near jogging track on Patakinari<br/><b>Crowd (Procession):</b> 150-200<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivmalhar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Ashadeep Mangal Karyalaya, near jogging track on Patakinari</value></Data>
+          <Data name="Latitude"><value>20.015851</value></Data>
+          <Data name="Longitude"><value>73.822983</value></Data>
+          <Data name="Procession Crowd"><value>150-200</value></Data>
+          <Data name="Mandal Code"><value>PAN-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Chal Haribhai Agrawal Cultural Arts and Sports Mandal (PAN-004)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.795566,20.011186,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Trikoni Garden, Meghraj Bakery, Dindori Naka<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Chal Haribhai Agrawal Cultural Arts and Sports Mandal</value></Data>
+          <Data name="Mandal Address"><value>Trikoni Garden, Meghraj Bakery, Dindori Naka</value></Data>
+          <Data name="Latitude"><value>20.011186</value></Data>
+          <Data name="Longitude"><value>73.795566</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nayshiv Bajrang Arts, Sports and Cultural Charitable Institution (PAN-005)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.793827,20.01796,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shani Mandir, Ramnagar Peth Road, Panchavati<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Nayshiv Bajrang Arts, Sports and Cultural Charitable Institution</value></Data>
+          <Data name="Mandal Address"><value>Shani Mandir, Ramnagar Peth Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.01796</value></Data>
+          <Data name="Longitude"><value>73.793827</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jai Mahakal Friend Circle (PAN-006)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.796262,20.01807,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Behind Myco Hospital, Rajdoot Nagar, Dindori Road, Panchavati<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Jai Mahakal Friend Circle</value></Data>
+          <Data name="Mandal Address"><value>Behind Myco Hospital, Rajdoot Nagar, Dindori Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.01807</value></Data>
+          <Data name="Longitude"><value>73.796262</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sheshrao Maharaj Mitra Mandal (PAN-007)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.795267,20.02116,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sheshrao Maharaj Chowk, Mahatma Phule Nagar Peth Road,<br/><b>Crowd (Procession):</b> 100-125<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sheshrao Maharaj Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Sheshrao Maharaj Chowk, Mahatma Phule Nagar Peth Road,</value></Data>
+          <Data name="Latitude"><value>20.02116</value></Data>
+          <Data name="Longitude"><value>73.795267</value></Data>
+          <Data name="Procession Crowd"><value>100-125</value></Data>
+          <Data name="Mandal Code"><value>PAN-007</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sardar Chowk Mitra Mandal, Trust (PAN-008)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.793506,20.005902,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Sardar Chowk, Panchavati, Nashik<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sardar Chowk Mitra Mandal, Trust</value></Data>
+          <Data name="Mandal Address"><value>Sardar Chowk, Panchavati, Nashik</value></Data>
+          <Data name="Latitude"><value>20.005902</value></Data>
+          <Data name="Longitude"><value>73.793506</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-008</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Samarth Friend Circle (PAN-009)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.785793,20.015504,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Rickshaw Stand, Hanumanwadi, Panchavati<br/><b>Crowd (Procession):</b> 200-225<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Samarth Friend Circle</value></Data>
+          <Data name="Mandal Address"><value>Rickshaw Stand, Hanumanwadi, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.015504</value></Data>
+          <Data name="Longitude"><value>73.785793</value></Data>
+          <Data name="Procession Crowd"><value>200-225</value></Data>
+          <Data name="Mandal Code"><value>PAN-009</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Navjeevan Art and Sports Cultural Mandal, Trust (PAN-010)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.804503,20.012069,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Apla Maharashtra Colony, Hirawadi Road, Panchavati<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Navjeevan Art and Sports Cultural Mandal, Trust</value></Data>
+          <Data name="Mandal Address"><value>Apla Maharashtra Colony, Hirawadi Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.012069</value></Data>
+          <Data name="Longitude"><value>73.804503</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-010</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shriman Satyawadi Mitra Mandal (PAN-011)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.793708,20.01758,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Peth Road, next to Public Library, in front of Shani Mandir, Peth Road,<br/><b>Crowd (Procession):</b> 100 to 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shriman Satyawadi Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Peth Road, next to Public Library, in front of Shani Mandir, Peth Road,</value></Data>
+          <Data name="Latitude"><value>20.01758</value></Data>
+          <Data name="Longitude"><value>73.793708</value></Data>
+          <Data name="Procession Crowd"><value>100 to 150</value></Data>
+          <Data name="Mandal Code"><value>PAN-011</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Savarkar Chowk Mitra Mandal (PAN-012)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.790235,20.017622,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Savarkar Chowk, Navnath Nagar Peth Road, Panchavati<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Savarkar Chowk Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Savarkar Chowk, Navnath Nagar Peth Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.017622</value></Data>
+          <Data name="Longitude"><value>73.790235</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-012</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shivmanagar Mitra Mandal (PAN-013)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.805732,20.012674,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shivmanagar Mitra Mandal, Hirawadi, Panchavati<br/><b>Crowd (Procession):</b> 40 to 50<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shivmanagar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shivmanagar Mitra Mandal, Hirawadi, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.012674</value></Data>
+          <Data name="Longitude"><value>73.805732</value></Data>
+          <Data name="Procession Crowd"><value>40 to 50</value></Data>
+          <Data name="Mandal Code"><value>PAN-013</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Shri Varadvinayak Mitra Mandal (PAN-014)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.795216,20.018387,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Laxman Nagar, Peth Road, Panchavati<br/><b>Crowd (Procession):</b> 500 to 450<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Shri Varadvinayak Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Laxman Nagar, Peth Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.018387</value></Data>
+          <Data name="Longitude"><value>73.795216</value></Data>
+          <Data name="Procession Crowd"><value>500 to 450</value></Data>
+          <Data name="Mandal Code"><value>PAN-014</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mrityunjay Pratishthan (PAN-015)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.811813,20.018267,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shaktinagar, Hirawadi, Panchavati<br/><b>Crowd (Procession):</b> 100-125<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Mrityunjay Pratishthan</value></Data>
+          <Data name="Mandal Address"><value>Shaktinagar, Hirawadi, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.018267</value></Data>
+          <Data name="Longitude"><value>73.811813</value></Data>
+          <Data name="Procession Crowd"><value>100-125</value></Data>
+          <Data name="Mandal Code"><value>PAN-015</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Youngstar Mitra Mandal (PAN-016)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.791726,20.007351,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kalaram Mandir East Gate<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Youngstar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Kalaram Mandir East Gate</value></Data>
+          <Data name="Latitude"><value>20.007351</value></Data>
+          <Data name="Longitude"><value>73.791726</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-016</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Samrajya Cultural Arts and Sports Mandal (PAN-017)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.809933,20.017612,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Myco School Hirawadi Panchavati<br/><b>Crowd (Procession):</b> 200-225<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Samrajya Cultural Arts and Sports Mandal</value></Data>
+          <Data name="Mandal Address"><value>Myco School Hirawadi Panchavati</value></Data>
+          <Data name="Latitude"><value>20.017612</value></Data>
+          <Data name="Longitude"><value>73.809933</value></Data>
+          <Data name="Procession Crowd"><value>200-225</value></Data>
+          <Data name="Mandal Code"><value>PAN-017</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Loktantrik Foundation, Nashik (PAN-018)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.797687,20.018945,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Devi Mandir, Dindori Road, Panchavati<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Loktantrik Foundation, Nashik</value></Data>
+          <Data name="Mandal Address"><value>Devi Mandir, Dindori Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.018945</value></Data>
+          <Data name="Longitude"><value>73.797687</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-018</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kailas Mitra Mandal (PAN-019)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.790469,20.012117,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Makhmalabad Naka, Panchavati, Nashik<br/><b>Crowd (Procession):</b> 100 to 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Kailas Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Makhmalabad Naka, Panchavati, Nashik</value></Data>
+          <Data name="Latitude"><value>20.012117</value></Data>
+          <Data name="Longitude"><value>73.790469</value></Data>
+          <Data name="Procession Crowd"><value>100 to 150</value></Data>
+          <Data name="Mandal Code"><value>PAN-019</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Malegaon Stand Mitra Mandal (PAN-020)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.792046,20.009633,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Malegaon Stand, Panchavati, Nashik<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Malegaon Stand Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Malegaon Stand, Panchavati, Nashik</value></Data>
+          <Data name="Latitude"><value>20.009633</value></Data>
+          <Data name="Longitude"><value>73.792046</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-020</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Vighnaharta Mitra Mandal (PAN-021)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.789854,20.014496,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Rajpal Colony, in front of Bhaskar Dairy, Panchavati<br/><b>Crowd (Procession):</b> 40 to 50<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Vighnaharta Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Rajpal Colony, in front of Bhaskar Dairy, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.014496</value></Data>
+          <Data name="Longitude"><value>73.789854</value></Data>
+          <Data name="Procession Crowd"><value>40 to 50</value></Data>
+          <Data name="Mandal Code"><value>PAN-021</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Durga Friend Circle (PAN-022)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.814835,20.017429,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kamalnagar, Hirawadi, Panchavati<br/><b>Crowd (Procession):</b> 500 to 450<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Durga Friend Circle</value></Data>
+          <Data name="Mandal Address"><value>Kamalnagar, Hirawadi, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.017429</value></Data>
+          <Data name="Longitude"><value>73.814835</value></Data>
+          <Data name="Procession Crowd"><value>500 to 450</value></Data>
+          <Data name="Mandal Code"><value>PAN-022</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Ujjwal Friend Circle (PAN-023)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.794291,20.020817,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Awhad Chal, Ganesh Chowk, Kantinagar, Makhmalabad Road, Panchavati<br/><b>Crowd (Procession):</b> 100-125<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sunny Ujjwal Friend Circle</value></Data>
+          <Data name="Mandal Address"><value>Awhad Chal, Ganesh Chowk, Kantinagar, Makhmalabad Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.020817</value></Data>
+          <Data name="Longitude"><value>73.794291</value></Data>
+          <Data name="Procession Crowd"><value>100-125</value></Data>
+          <Data name="Mandal Code"><value>PAN-023</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>S K Group (PAN-024)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.784195,20.012866,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Phulenagar Market Yard, Panchavati, Nashik<br/><b>Crowd (Procession):</b> 100-150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>S K Group</value></Data>
+          <Data name="Mandal Address"><value>Phulenagar Market Yard, Panchavati, Nashik</value></Data>
+          <Data name="Latitude"><value>20.012866</value></Data>
+          <Data name="Longitude"><value>73.784195</value></Data>
+          <Data name="Procession Crowd"><value>100-150</value></Data>
+          <Data name="Mandal Code"><value>PAN-024</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ganesh Chowk Mitra Mandal (PAN-025)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.786238,20.013513,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Awhad Chal, Ganesh Chowk, Kantinagar, Makhmalabad Road, Panchavati<br/><b>Crowd (Procession):</b> 200-225<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Ganesh Chowk Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Awhad Chal, Ganesh Chowk, Kantinagar, Makhmalabad Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.013513</value></Data>
+          <Data name="Longitude"><value>73.786238</value></Data>
+          <Data name="Procession Crowd"><value>200-225</value></Data>
+          <Data name="Mandal Code"><value>PAN-025</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Maungiri Nagar Mitra Mandal (PAN-026)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.808273,20.015948,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Maungiri Nagar Bhikusa Paper Mill near, Hirawadi Road, Panchavati<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Maungiri Nagar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Maungiri Nagar Bhikusa Paper Mill near, Hirawadi Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.015948</value></Data>
+          <Data name="Longitude"><value>73.808273</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-026</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Audumbar Nagar Mitra Mandal (PAN-027)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.790475,20.017662,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shinde Savkar Chowk Navnath Nagar, Peth Road, Panchavati<br/><b>Crowd (Procession):</b> 100 to 150<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Audumbar Nagar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Shinde Savkar Chowk Navnath Nagar, Peth Road, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.017662</value></Data>
+          <Data name="Longitude"><value>73.790475</value></Data>
+          <Data name="Procession Crowd"><value>100 to 150</value></Data>
+          <Data name="Mandal Code"><value>PAN-027</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Adarsh Nagar Mitra Mandal (PAN-028)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.784195,20.012866,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Adarsh Nagar, Ramwadi<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Adarsh Nagar Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Adarsh Nagar, Ramwadi</value></Data>
+          <Data name="Latitude"><value>20.012866</value></Data>
+          <Data name="Longitude"><value>73.784195</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>PAN-028</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Vakratund Mitra Mandal (PAN-029)</name>
+        <styleUrl>#PanchavatiStyle</styleUrl>
+        <Point><coordinates>73.828107,20.018643,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Amrutdham Nagar, Amrutdham, Panchavati<br/><b>Crowd (Procession):</b> 40 to 50<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Vakratund Mitra Mandal</value></Data>
+          <Data name="Mandal Address"><value>Amrutdham Nagar, Amrutdham, Panchavati</value></Data>
+          <Data name="Latitude"><value>20.018643</value></Data>
+          <Data name="Longitude"><value>73.828107</value></Data>
+          <Data name="Procession Crowd"><value>40 to 50</value></Data>
+          <Data name="Mandal Code"><value>PAN-029</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Indiranagar Police Station</name>
+      <Placemark>
+        <name>Chhava Kantiveer Sena Shambho Narayan Group Nashikcha Vighnaharta (IND-001)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.767273,19.957551,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Gamnemidan, Vasnagar, Pathardi Fata, Nashik<br/><b>Crowd (Procession):</b> 200 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Chhava Kantiveer Sena Shambho Narayan Group Nashikcha Vighnaharta</value></Data>
+          <Data name="Mandal Address"><value>Gamnemidan, Vasnagar, Pathardi Fata, Nashik</value></Data>
+          <Data name="Latitude"><value>19.957551</value></Data>
+          <Data name="Longitude"><value>73.767273</value></Data>
+          <Data name="Procession Crowd"><value>200 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-001</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hindavi Swarajya Pratishthan, Matoshri Chowk, Rajivanagar (IND-002)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.769876,19.966344,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In front of Sharda School, Ranenagar, Indiranagar, Nashik<br/><b>Crowd (Procession):</b> 201 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Hindavi Swarajya Pratishthan, Matoshri Chowk, Rajivanagar</value></Data>
+          <Data name="Mandal Address"><value>In front of Sharda School, Ranenagar, Indiranagar, Nashik</value></Data>
+          <Data name="Latitude"><value>19.966344</value></Data>
+          <Data name="Longitude"><value>73.769876</value></Data>
+          <Data name="Procession Crowd"><value>201 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-002</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Late Dharmaraj Barode Bahu-Uddeshiya Sanstha Pranit Shripratishthan, Indiranagar (IND-003)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.779961,19.96497,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Shradha Vihar near Gajanan Mandir, Pathardi Road, Indiranagar, Nashik<br/><b>Crowd (Procession):</b> 202 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Late Dharmaraj Barode Bahu-Uddeshiya Sanstha Pranit Shripratishthan, Indiranagar</value></Data>
+          <Data name="Mandal Address"><value>Shradha Vihar near Gajanan Mandir, Pathardi Road, Indiranagar, Nashik</value></Data>
+          <Data name="Latitude"><value>19.96497</value></Data>
+          <Data name="Longitude"><value>73.779961</value></Data>
+          <Data name="Procession Crowd"><value>202 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-003</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Indiranagar Utsav Samiti, Indiranagar (IND-004)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.786212,19.973329,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Madhusudan Park Bapu Bungalow, Indiranagar, Nashik<br/><b>Crowd (Procession):</b> 203 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Indiranagar Utsav Samiti, Indiranagar</value></Data>
+          <Data name="Mandal Address"><value>Madhusudan Park Bapu Bungalow, Indiranagar, Nashik</value></Data>
+          <Data name="Latitude"><value>19.973329</value></Data>
+          <Data name="Longitude"><value>73.786212</value></Data>
+          <Data name="Procession Crowd"><value>203 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-004</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Unique Group, Rajivanagar, Indiranagar (IND-005)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.775928,19.965457,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> In front of Kalibari Temple, Matoshri Chowk to Aditya Hall<br/><b>Crowd (Procession):</b> 204 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Unique Group, Rajivanagar, Indiranagar</value></Data>
+          <Data name="Mandal Address"><value>In front of Kalibari Temple, Matoshri Chowk to Aditya Hall</value></Data>
+          <Data name="Latitude"><value>19.965457</value></Data>
+          <Data name="Longitude"><value>73.775928</value></Data>
+          <Data name="Procession Crowd"><value>204 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-005</value></Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sangharsh Sevabhavi Sanstha, Kala Nagar, Indiranagar (IND-006)</name>
+        <styleUrl>#IndiranagarStyle</styleUrl>
+        <Point><coordinates>73.782964,19.969508,0</coordinates></Point>
+        <description><![CDATA[<b>Address:</b> Kalanagar Chowk, Indiranagar, Nashik<br/><b>Crowd (Procession):</b> 205 to 250<br/><b>Police Station Address:</b> Not specified in sources.<br/><b>Notes:</b> None.]]></description>
+        <ExtendedData>
+          <Data name="Mandal Name"><value>Sangharsh Sevabhavi Sanstha, Kala Nagar, Indiranagar</value></Data>
+          <Data name="Mandal Address"><value>Kalanagar Chowk, Indiranagar, Nashik</value></Data>
+          <Data name="Latitude"><value>19.969508</value></Data>
+          <Data name="Longitude"><value>73.782964</value></Data>
+          <Data name="Procession Crowd"><value>205 to 250</value></Data>
+          <Data name="Mandal Code"><value>IND-006</value></Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>No-Geo</name>
+      <description>Mandals without geographical coordinates (empty based on current data).</description>
+      <!-- No Placemarks currently in this folder based on the provided sources. -->
+    </Folder>
+
+  </Document>
+</kml>

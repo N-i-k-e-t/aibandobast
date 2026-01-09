@@ -1,0 +1,177 @@
+{
+  "project": "Ganpati Bandobast 2025 – Nashik (2 Zones/14 PS)",
+  "generated_ist": "2025-08-23 10:35",
+  "goal": "Police-ready, AI-enhanced plan for routes, diversions, safety, and deployments per PS.",
+  "festival_window": {
+    "start_ist": "2025-08-27 00:00",
+    "end_ist": "2025-09-07 03:00",
+    "final_immersion": [
+      "2025-09-06",
+      "2025-09-07"
+    ],
+    "eid_overlap": "2025-09-05",
+    "source_of_truth": "working_assumption"
+  },
+  "ps_roster_14": [
+    "Panchavati",
+    "Adgaon",
+    "Mhasrul",
+    "Bhadrakali",
+    "Sarkarwada",
+    "Mumbai Naka",
+    "Ambad",
+    "Indiranagar",
+    "Satpur",
+    "Upnagar",
+    "Nashik Road",
+    "Deolali Camp",
+    "Gangapur",
+    "MIDC Chunchale"
+  ],
+  "counts": {
+    "public_mandals_total": 790,
+    "public_mandals_large": 201,
+    "public_mandals_small": 562,
+    "valuable_mandals": 35,
+    "household_ganpatis": 125389
+  },
+  "kml_design": {
+    "folders": [
+      "Zone 1 (TO-VERIFY mapping)",
+      "Zone 2 (TO-VERIFY mapping)",
+      "Unassigned (TO-VERIFY)"
+    ],
+    "layer_types": [
+      "mandals_general",
+      "mandals_valuable",
+      "ghats",
+      "sensitive_points",
+      "ps_posts",
+      "procession_routes",
+      "diversions",
+      "ps_boundaries"
+    ],
+    "styles": {
+      "mandal_valuable": {
+        "icon": "yellow_star",
+        "scale": 1.2
+      },
+      "mandal_general": {
+        "icon": "blue_circle",
+        "scale": 1.0
+      },
+      "ghat": {
+        "icon": "cyan_square",
+        "scale": 1.1
+      },
+      "sensitive": {
+        "icon": "red_diamond",
+        "scale": 1.0
+      },
+      "post": {
+        "icon": "green_triangle",
+        "scale": 0.9
+      },
+      "route": {
+        "line_color": "ff00aaff",
+        "width": 3
+      },
+      "diversion": {
+        "line_color": "ffffaa00",
+        "width": 3
+      },
+      "boundary": {
+        "poly_color": "5500ff00",
+        "outline": "ff00ff00"
+      }
+    },
+    "extended_data_keys": {
+      "mandal": [
+        "id",
+        "name",
+        "type",
+        "ps",
+        "zone",
+        "address",
+        "ward",
+        "contact_name",
+        "contact_phone",
+        "day",
+        "immersion_point",
+        "crowd_band",
+        "risk_flags"
+      ],
+      "ghat": [
+        "id",
+        "ghat_name",
+        "ps",
+        "zone",
+        "river_section",
+        "approach_roads",
+        "barriers",
+        "lighting",
+        "boats_available",
+        "lifeguards",
+        "nearest_hospital"
+      ],
+      "post": [
+        "ps",
+        "post_id",
+        "location_desc",
+        "shift",
+        "start_ist",
+        "end_ist",
+        "hc_required",
+        "pc_required",
+        "hg_required",
+        "srpf_required",
+        "reserve_percent",
+        "incharge",
+        "radio_call"
+      ],
+      "route_segment": [
+        "procession_id",
+        "name",
+        "priority",
+        "time_window",
+        "crowd_band"
+      ],
+      "diversion_segment": [
+        "diversion_id",
+        "location",
+        "from_to",
+        "alt_route",
+        "signage",
+        "cones",
+        "steward_count"
+      ],
+      "boundary": [
+        "ps",
+        "source",
+        "notes"
+      ]
+    }
+  },
+  "to_verify": [
+    {
+      "item": "Finalize final immersion day (06 vs 07 Sep)",
+      "owner": "Niket",
+      "due_ist": "2025-08-23 17:00"
+    },
+    {
+      "item": "Zone mapping for Gangapur & MIDC Chunchale",
+      "owner": "Niket",
+      "due_ist": "2025-08-23 18:00"
+    },
+    {
+      "item": "Ghats master list (names & PS)",
+      "owner": "Niket",
+      "due_ist": "2025-08-23 18:30"
+    },
+    {
+      "item": "2025 PS manpower actuals or use placeholders",
+      "owner": "Niket",
+      "due_ist": "2025-08-23 19:30"
+    }
+  ]
+}

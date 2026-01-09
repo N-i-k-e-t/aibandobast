@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Nashik Ganpati Mandals 2025</name>
+  <Style id="style_green">
+    <IconStyle>
+      <scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style_yellow">
+    <IconStyle>
+      <scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style_red">
+    <IconStyle>
+      <scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Folder>
+    <name>Nashik Road PS</name>
+    <Placemark>
+      <name>Kala Krida Shetkari Sanskrutik Mandal</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Nashik Road PS<br/>
+        <b>Address:</b> Sai Datta Mandir, Gayatri Nagar, Dindori Road, Nashik<br/>
+        <b>Expected Crowd:</b> 400 - 1500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Nashik Road PS</value></Data>
+        <Data name="Address"><value>Sai Datta Mandir, Gayatri Nagar, Dindori Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>400 - 1500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.809926,20.034587,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jinjupada Kala Krida Sanskrutik Mandal</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Nashik Road PS<br/>
+        <b>Address:</b> Jinja Hotel Pump, Jinjupada, Dindori Road, Nashik<br/>
+        <b>Expected Crowd:</b> Medium
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Nashik Road PS</value></Data>
+        <Data name="Address"><value>Jinja Hotel Pump, Jinjupada, Dindori Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>Medium</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.823887,20.034639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rajmudra Pratishthan</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Nashik Road PS<br/>
+        <b>Address:</b> Manakar Nagar, Nandini Tower, Manakar Hotel, Nashik<br/>
+        <b>Expected Crowd:</b> Medium
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Nashik Road PS</value></Data>
+        <Data name="Address"><value>Manakar Nagar, Nandini Tower, Manakar Hotel, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>Medium</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.819423,20.048918,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swayam Kala Krida Sanskrutik Mandal</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Nashik Road PS<br/>
+        <b>Address:</b> Shantinagar Bus Stop, Nashik<br/>
+        <b>Expected Crowd:</b> Medium
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Nashik Road PS</value></Data>
+        <Data name="Address"><value>Shantinagar Bus Stop, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>Medium</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.817123,20.089498,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Upnagar PS</name>
+    <Placemark>
+      <name>Shri Ganesh Mitra Mandal (Shivshakti area)</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Suyog Sosa, Takli Road, Nashik<br/>
+        <b>Expected Crowd:</b> 200 - 2500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Suyog Sosa, Takli Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>200 - 2500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.83131,19.94598,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sai Surya Bahuuddeshiya Sanstha</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Shriram Nagar, Deolali Gaon, Nashik Road<br/>
+        <b>Expected Crowd:</b> 900 - 1500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Shriram Nagar, Deolali Gaon, Nashik Road</value></Data>
+        <Data name="Expected Crowd"><value>900 - 1500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.83291,19.9748,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shakti Foundation</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Manmad Road, Nashik<br/>
+        <b>Expected Crowd:</b> 200 - 2500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Manmad Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>200 - 2500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.80737,19.97421,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navratna Ganesh Mitra Mandal</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Shivshakti Complex, Nashik<br/>
+        <b>Expected Crowd:</b> 800 - 1500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Shivshakti Complex, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>800 - 1500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.83585,19.94744,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shri Ekadashi Ganesh Mitra Mandal</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Datta Mandir Road, Nashik<br/>
+        <b>Expected Crowd:</b> 1500 - 2000
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Datta Mandir Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>1500 - 2000</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.84076,19.97366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shri Hanuman Ganesh Mitra Mandal</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Deolali Camp, Nashik<br/>
+        <b>Expected Crowd:</b> 400 - 1000
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Deolali Camp, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>400 - 1000</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.81124,19.97515,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pujya Pratishthan Kala Krida Sanskrutik Mandal</name>
+      <styleUrl>#style_red</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Rane Colony, Nashik Road<br/>
+        <b>Expected Crowd:</b> 900 - 1500
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Rane Colony, Nashik Road</value></Data>
+        <Data name="Expected Crowd"><value>900 - 1500</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.80576,19.97643,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shri Krushna Maharana Mitra Mandal</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Khole Mala, Nashik Road<br/>
+        <b>Expected Crowd:</b> 900 - 1000
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Khole Mala, Nashik Road</value></Data>
+        <Data name="Expected Crowd"><value>900 - 1000</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.82693,19.94646,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Radhakrishna Foundation (Women’s Mandal)</name>
+      <styleUrl>#style_yellow</styleUrl>
+      <description>
+        <![CDATA[
+        <b>Police Station:</b> Upnagar PS<br/>
+        <b>Address:</b> Vasant Nagar, Bhavani Road, Nashik<br/>
+        <b>Expected Crowd:</b> 600 - 1000
+        ]]></description>
+      <ExtendedData>
+        <Data name="Police Station"><value>Upnagar PS</value></Data>
+        <Data name="Address"><value>Vasant Nagar, Bhavani Road, Nashik</value></Data>
+        <Data name="Expected Crowd"><value>600 - 1000</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>73.82507,19.95251,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

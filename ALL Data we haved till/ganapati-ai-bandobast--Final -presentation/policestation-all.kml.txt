@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashik Police Stations</name>
+    <description>Locations of Police Stations in Nashik City.</description>
+
+    <!-- Style for Police Station Markers -->
+    <Style id="policeStationStyle">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Folder>
+      <name>Police Station Locations</name>
+      
+      <Placemark>
+        <name>Adgaon Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.826945,20.015486,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Ambad Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.763443,19.96586,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Bhadrakali Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.789208,19.997799,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Devlali camp Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.826855,19.905098,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Gangapur Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.75007,20.014267,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Indiranagar Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.778583,19.974576,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Mhasrul Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.802388,20.032542,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Mumbai naka Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.783917,19.987591,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Nashik road Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.797048,20.017919,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Panchavati Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.796739,20.015643,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Sarkarwada Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.779772,20.00562,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Satpur Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.742909,19.991434,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+        <name>Upnagar Police station</name>
+        <styleUrl>#policeStationStyle</styleUrl>
+        <Point>
+          <coordinates>73.824402,19.967381,0</coordinates>
+        </Point>
+      </Placemark>
+      
+    </Folder>
+  </Document>
+</kml>

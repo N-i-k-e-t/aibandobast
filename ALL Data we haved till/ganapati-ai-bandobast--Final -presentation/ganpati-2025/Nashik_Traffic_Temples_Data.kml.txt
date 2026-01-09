@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashik City Important Locations</name>
+
+    <!-- Style Definitions -->
+    <Style id="cityEntryExitPointsStyle">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- Red -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="centralTrafficChowksStyle">
+      <IconStyle>
+        <color>ffff0000</color> <!-- Blue -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="pilgrimMovementRouteStyle">
+      <IconStyle>
+        <color>ff00ff00</color> <!-- Green -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="transportHubsStyle">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- Yellow -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="peripheralBypassControlStyle">
+      <IconStyle>
+        <color>ff00a5ff</color> <!-- Orange -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="majorTemplesStyle">
+      <IconStyle>
+        <color>ffff00ff</color> <!-- Purple -->
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Folder for City Entry / Exit Points -->
+    <Folder>
+      <name>City Entry / Exit Points</name>
+      <Placemark>
+        <name>Mumbai Naka</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>NH3 / Mumbai–Agra Highway</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.7841145,19.9870096,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dwarka Circle</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>NH3 &amp; NH50 Junction</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.7795,19.99245,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilholi Junction</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Aurangabad Highway NH160</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.714803,19.921439,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pathardi Phata</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Mumbai–Agra Highway Bypass</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.765434,19.946922,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wani–Niphad Phata</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Nagpur Highway NH753B</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>78.95313,20.05507,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sinnar Phata</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Pune Highway NH60</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.99866,19.84505,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambad–Garware Point</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Industrial Corridor</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.765429,19.935373,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jail Road Junction</name>
+        <styleUrl>#cityEntryExitPointsStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Towards Peth / Manmad</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.839996,19.968925,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <!-- Folder for Central Traffic Chowks -->
+    <Folder>
+      <name>Central Traffic Chowks</name>
+      <Placemark>
+        <name>Canada Corner / Ashok Stambh</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>College Road</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.767365,20.007376,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarda Circle</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Sharanpur Road</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.789957,19.993042,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Model Colony / College Rd</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>College Road</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.756414,20.008234,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golf Club Circle</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Golf Club Road</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.83675,20.00505,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shalimar Junction</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Old Agra Road</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.785483,20.001359,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Road Chowk (Saraf Bazaar)</name>
+        <styleUrl>#centralTrafficChowksStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Area / Road"><value>Saraf Bazaar, Old City Core</value></Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.788964,20.003829,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <!-- Folder for Pilgrim Movement Route -->
+    <Folder>
+      <name>Pilgrim Movement Route</name>
+        <Placemark>
+            <name>Ramkund Access</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Godavari Ghat area / Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.79216,20.008271,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kapaleshwar Mandir Access</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ramkund Area / Panchavati Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.792181,20.00568,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kalaram Mandir Approach Road</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.792715,20.013042,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Panchavati Entry Chowk</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati Main Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.793049,20.013152,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Naroshankar Mandir Chowk</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.793816,20.011778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sundarnarayan Mandir Approach</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ahilyabai Holkar Bridge</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.791846,20.008583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trimbak Road – Sakal Circle</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbak Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.776497,19.984973,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trimbak Road – MICO Circle</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbak Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.773324,19.984338,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trimbak Road – Mahindra Circle</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbak Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.770913,19.981935,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Someshwar Access Point</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.697295,19.954472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gangapur Road – Prasad Circle</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.779659,20.019612,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gangapur Road – Vidya Vikas</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.779622,20.029873,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gangapur Road – KBT Circle</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.775452,20.014322,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gangapur Road – Marathon Chowk</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.778321,20.018287,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anjneri Approach Road Junction</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbakeshwar Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.631564,19.932015,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vani Route Junction</name>
+            <styleUrl>#pilgrimMovementRouteStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Bhendali - Vani Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.902685,20.234522,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+
+    <!-- Folder for Transport Hubs -->
+    <Folder>
+      <name>Transport Hubs</name>
+        <Placemark>
+            <name>Nashik Road Railway Station</name>
+            <styleUrl>#transportHubsStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Bytco Point</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.842084,19.948058,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>New CBS (Central Bus Stand)</name>
+            <styleUrl>#transportHubsStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Shivaji Nagar / Nashik Main City</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.786348,19.997326,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Old CBS</name>
+            <styleUrl>#transportHubsStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Mahatma Gandhi Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.78297,19.99353,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mhasrul Bus Stop</name>
+            <styleUrl>#transportHubsStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Mhasrul (towards Ozar)</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.814061,20.033824,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Adgaon Bus Hub</name>
+            <styleUrl>#transportHubsStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Adgaon (towards Aurangabad)</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.789,20.0257,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    
+    <!-- Folder for Peripheral / Bypass Control -->
+    <Folder>
+      <name>Peripheral / Bypass Control</name>
+        <Placemark>
+            <name>Ambad MIDC Junction</name>
+            <styleUrl>#peripheralBypassControlStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ambad MIDC Access</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.75738,19.93794,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pathardi–Ambad Bypass Junction</name>
+            <styleUrl>#peripheralBypassControlStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Pathardi Road-Ambad Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.764548,19.927085,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vilholi Industrial Corr. Jn</name>
+            <styleUrl>#peripheralBypassControlStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Vilholi (NH160 Industrial Corridor)</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.714803,19.921439,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ozar / Ojhar Airport Junction</name>
+            <styleUrl>#peripheralBypassControlStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ozar Airport access road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.928489,20.094237,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sinnar Toll Naka</name>
+            <styleUrl>#peripheralBypassControlStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>NH60 / Sinnar Bypass</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.99866,19.84505,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+
+    <!-- Folder for Major Temples -->
+    <Folder>
+      <name>Major Temples</name>
+        <Placemark>
+            <name>Trimbakeshwar Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbak</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>74.709358,19.622037,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kalaram Mandir</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.792715,20.013042,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sita Gufa</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.791991,20.013511,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kapaleshwar Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ramkund/Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.792181,20.00568,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Muktidham Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Nashik Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.828769,19.972341,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ramkund (Godavari Ghat)</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.79216,20.008271,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Naroshankar Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.793816,20.011778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sundarnarayan Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Ahilyabai Holkar Bridge/Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.791846,20.008583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Someshwar Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.697295,19.954472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Navshya Ganapati Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Anandvalli/Peshwe Colony</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.76889,20.01731,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ganga Godavari Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati Road/Godavari Banks</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.792241,20.011364,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jain Mandir</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Vilholi/Industrial Area</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.713155,19.918976,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saptashrungi Devi Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Vani/ Saptashrungi Hill</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.911682,20.354118,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anjneri Temple / Anjaneri Hill</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Trimbak Road / Anjaneri</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.630822,19.933357,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bhadrakali Devi Mandir</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Near City Centre Mall</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.790823,19.995083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gomay Hanuman Mandir</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Gangapur Road</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.770459,20.01447,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laxmanji Sheshavatar Mandir</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Panchavati</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.793215,20.014822,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gajpanth Jain Pilgrimage Site</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Mhasrul</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>73.805771,20.056095,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gondeshwar Temple</name>
+            <styleUrl>#majorTemplesStyle</styleUrl>
+            <ExtendedData>
+            <Data name="Area / Road"><value>Sinnar</value></Data>
+            </ExtendedData>
+            <Point>
+            <coordinates>74.001245,19.853397,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+  </Document>
+</kml>

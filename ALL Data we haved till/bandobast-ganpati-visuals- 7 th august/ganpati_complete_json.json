@@ -1,0 +1,306 @@
+{
+  "nashik_ganpati_data": {
+    "metadata": {
+      "collection_period": "2015-2024",
+      "jurisdiction": "Nashik Police Commissionerate",
+      "primary_focus": "Panchavati Police Station area for detailed counts",
+      "data_completeness": "partial_with_gaps",
+      "last_updated": "2024"
+    },
+    "crowd_data": {
+      "annual_counts": [
+        {
+          "year": 2015,
+          "valuable_mandals": 3,
+          "large_mandals": 18,
+          "small_mandals": 46,
+          "household_ganpatis": 9000,
+          "total_public_mandals": 67
+        },
+        {
+          "year": 2016,
+          "valuable_mandals": 2,
+          "large_mandals": 22,
+          "small_mandals": 43,
+          "household_ganpatis": 9300,
+          "total_public_mandals": 67
+        },
+        {
+          "year": 2017,
+          "valuable_mandals": 3,
+          "large_mandals": 16,
+          "small_mandals": 39,
+          "household_ganpatis": 9700,
+          "total_public_mandals": 58
+        },
+        {
+          "year": 2018,
+          "valuable_mandals": 6,
+          "large_mandals": 18,
+          "small_mandals": 61,
+          "household_ganpatis": 10000,
+          "total_public_mandals": 85
+        },
+        {
+          "year": 2019,
+          "valuable_mandals": 4,
+          "large_mandals": 22,
+          "small_mandals": 41,
+          "household_ganpatis": 10200,
+          "total_public_mandals": 67
+        },
+        {
+          "year": 2020,
+          "valuable_mandals": 4,
+          "large_mandals": 9,
+          "small_mandals": 6,
+          "household_ganpatis": 4750,
+          "total_public_mandals": 19
+        },
+        {
+          "year": 2021,
+          "valuable_mandals": 3,
+          "large_mandals": 12,
+          "small_mandals": 25,
+          "household_ganpatis": 7800,
+          "total_public_mandals": 40
+        },
+        {
+          "year": 2022,
+          "valuable_mandals": 3,
+          "large_mandals": 18,
+          "small_mandals": 42,
+          "household_ganpatis": 8103,
+          "total_public_mandals": 63
+        },
+        {
+          "year": 2023,
+          "valuable_mandals": 4,
+          "large_mandals": 18,
+          "small_mandals": 52,
+          "household_ganpatis": 14000,
+          "total_public_mandals": 74
+        },
+        {
+          "year": 2024,
+          "valuable_mandals": 3,
+          "large_mandals": 22,
+          "small_mandals": 36,
+          "household_ganpatis": 23000,
+          "total_public_mandals": 61
+        }
+      ],
+      "crowd_patterns": {
+        "installation_phase": {
+          "high_density_locations": ["Panchavati Karanja", "Malegaon Stand", "Sardar Chowk"],
+          "daily_visitors": "100-150",
+          "regular_mandals_visitors": "30-40",
+          "large_mandals_visitors": "300-400"
+        },
+        "immersion_peaks": {
+          "bhadrakali_route": {
+            "peak_crowd": "8000-10000",
+            "peak_hours": "15:00-21:00",
+            "start_time": "11:00"
+          },
+          "nashik_road_route": {
+            "peak_crowd": "5000-6000",
+            "peak_hours": "11:30-14:00"
+          },
+          "village_processions": {
+            "timing": "06:00-11:00"
+          }
+        }
+      },
+      "festival_timeline_2025": {
+        "ganesh_sthapana": "2025-08-27",
+        "madhyahna_puja": "11:06-13:40",
+        "gauri_agman": "2025-08-31",
+        "gauri_pujan": "2025-09-01",
+        "gauri_visarjan": "2025-09-02",
+        "7_day_immersion": "2025-09-13",
+        "anant_chaturdashi": "2025-09-17",
+        "eid_coincidence": "2025-09-05"
+      }
+    },
+    "incidents": [
+      {
+        "year": 2016,
+        "type": "noise_pollution",
+        "location": "Panchavati",
+        "police_station": "Panchavati PS",
+        "severity": "minor",
+        "details": "Loudspeaker/DJ violations"
+      },
+      {
+        "year": 2017,
+        "date": "2017-09-XX",
+        "type": "drowning",
+        "location": "Darana River",
+        "police_station": "Nashik Road PS",
+        "fatalities": 1,
+        "severity": "fatal"
+      },
+      {
+        "year": 2017,
+        "date": "2017-09-XX",
+        "type": "drowning", 
+        "location": "Godavari River",
+        "police_station": "Panchavati PS",
+        "fatalities": 1,
+        "severity": "fatal"
+      },
+      {
+        "year": 2018,
+        "type": "crowd_disturbance",
+        "location": "Kapila Sangam Tapovan",
+        "police_station": "Panchavati PS",
+        "severity": "moderate",
+        "details": "Illegal gathering, pushing, shouting"
+      },
+      {
+        "year": 2019,
+        "type": "drowning",
+        "location": "Godavari River", 
+        "police_station": "Gangapur PS",
+        "fatalities": 1,
+        "severity": "fatal"
+      },
+      {
+        "year": 2020,
+        "type": "drowning",
+        "location": "Darana & Valdevi Rivers",
+        "police_station": "Multiple",
+        "fatalities": 2,
+        "severity": "fatal"
+      },
+      {
+        "year": 2021,
+        "type": "accidental_death",
+        "location": "Mhasoba Patangan",
+        "police_station": "Panchavati PS", 
+        "fatalities": 1,
+        "severity": "fatal",
+        "details": "Negligent driving of mini-truck"
+      },
+      {
+        "year": 2022,
+        "date": "2022-09-09",
+        "time": "20:45",
+        "type": "assault",
+        "location": "Panchavati area",
+        "police_station": "Panchavati PS",
+        "severity": "serious",
+        "ipc_sections": ["326", "324", "323", "504", "34"],
+        "details": "Knife assault during procession dispute"
+      },
+      {
+        "year": 2023,
+        "date": "2023-09-28",
+        "type": "drowning",
+        "location": "Gangaghat Panchavati",
+        "police_station": "Panchavati PS",
+        "fatalities": 4,
+        "severity": "fatal"
+      }
+    ],
+    "resource_deployment": {
+      "police_personnel": {
+        "DCP": {"min": 4, "max": 4},
+        "ACP": {"min": 7, "max": 8},
+        "PI_SPI": {"min": 45, "max": 53},
+        "PSI_API_ASI": {"min": 75, "max": 134},
+        "male_constables": {"min": 1075, "max": 1100},
+        "female_constables": {"min": 240, "max": 261}
+      },
+      "special_units": {
+        "home_guards_male": {"min": 800, "max": 840},
+        "home_guards_female": {"min": 250, "max": 255},
+        "SRPF_companies": {"min": 1, "max": 2},
+        "QRT_personnel": 48,
+        "RCP_personnel": 62,
+        "striking_force_platoons": {"min": 5, "max": 6},
+        "mandal_volunteers": {"min": 10, "max": 60}
+      },
+      "equipment": {
+        "vajra_vahan": {"min": 2, "max": 3},
+        "varun_vahan": {"min": 1, "max": 2},
+        "watch_towers": 4,
+        "cctv_cameras": {"estimated": "50-100"},
+        "drones": {"min": 3, "max": 5}
+      }
+    },
+    "weather_environmental": {
+      "rainfall_data": [
+        {"year": 2015, "nashik_rainfall_mm": 429, "risk_level": "low"},
+        {"year": 2016, "nashik_rainfall_mm": 800, "gangapur_discharge_cusecs": 42642, "risk_level": "very_high"},
+        {"year": 2017, "nashik_rainfall_mm": 1200, "risk_level": "high"},
+        {"year": 2018, "nashik_rainfall_mm": 750, "risk_level": "moderate"},
+        {"year": 2019, "nashik_rainfall_mm": 1731, "gangapur_discharge_cusecs": 42642, "risk_level": "very_high"},
+        {"year": 2020, "nashik_rainfall_mm": 1100, "risk_level": "high"},
+        {"year": 2021, "nashik_rainfall_mm": 850, "risk_level": "moderate"},
+        {"year": 2022, "nashik_rainfall_mm": 1200, "risk_level": "high"},
+        {"year": 2023, "nashik_rainfall_mm": 950, "risk_level": "moderate"}
+      ],
+      "flood_vulnerable_areas": {
+        "highest_risk_wards": [13, 15],
+        "moderate_risk_wards": [3, 5, 7, 17, 18, 24],
+        "total_vulnerable_wards": "21 out of 31"
+      }
+    },
+    "geographical_zones": {
+      "main_procession_routes": [
+        {
+          "name": "Perimeter 01",
+          "start": "Wakadi Barav (Bhadrakali PS)",
+          "end": "Mahsoba Maharaj Patangan (Panchavati PS)",
+          "distance_km": 3.5,
+          "key_points": ["Chowk Mandai", "Kadri Market", "Phule Mandai", "Abdul Hamid Chowk", "Godaghat"]
+        },
+        {
+          "name": "Perimeter 02", 
+          "start": "Bitco Chowk (Nashik Road PS)",
+          "end": "Valdevi River (Upnagar PS)",
+          "distance_km": 3.0,
+          "key_points": ["Anjuman Gosavi Wadi", "MG Road", "Muktidham", "Mahatma Gandhi statue Deolali"]
+        }
+      ],
+      "sensitive_areas": [
+        "Bidi Kamgar Nagar", "Nilgiri Bagh (Adgaon)", "Bitco Chowk", 
+        "Jail Road (Nashik Road)", "Devlali Gaon", "Bhagur", 
+        "Pavan Nagar", "Uttam Nagar (Ambad)", "Town Chowki"
+      ]
+    },
+    "data_gaps": {
+      "missing_elements": [
+        "Exact festival dates for each year 2015-2024",
+        "Precise daily crowd counts by location",
+        "Hour-by-hour resource deployment logs",
+        "Detailed weather impact correlation with incident rates",
+        "Complete volunteer registration and training records",
+        "Specific intelligence summaries by year"
+      ],
+      "consistent_nil_reports": [
+        "Volunteer training records",
+        "Local intelligence gathering",
+        "Technical/security system training",
+        "Real-time communication protocols for mandals"
+      ]
+    },
+    "key_insights": {
+      "trends": {
+        "covid_impact": "Severe reduction in 2020-2021, full recovery by 2023-2024",
+        "household_growth": "Significant increase from 14,000 (2023) to 23,000 (2024)",
+        "drowning_risk": "Consistent annual fatalities at immersion sites",
+        "weather_correlation": "High rainfall years (2016, 2019) coincide with major incidents"
+      },
+      "improvement_areas": [
+        "Volunteer training implementation",
+        "Real-time communication systems",
+        "Water safety measures",
+        "Weather contingency planning",
+        "Inter-community coordination for overlapping festivals"
+      ]
+    }
+  }
+}

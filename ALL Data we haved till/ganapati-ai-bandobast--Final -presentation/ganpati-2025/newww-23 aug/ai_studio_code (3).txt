@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashik Mandals</name>
+    <Style id="mumbaiNakaStyle">
+      <IconStyle>
+        <color>ffcecd93</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="midcChunchaleStyle">
+      <IconStyle>
+        <color>ff84a4c4</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Mumbai naka Police station</name>
+      <Placemark>
+        <name>Yuva Mitra Mandal (Mulyavan)</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Ware Mala, Vasan Bajaj Shejari, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.783535,19.987648,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United Friends Circle</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Ware Mala, Vasan Bajaj Shejari, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.785635,19.988926,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Happy Home Colony Cultural Arts and Sports Friends Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Happy Home Colony, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.798251,19.985909,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United Friends Circle</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>In front of Sadip Hotel, Mumbai Naka, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.782819,19.990102,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muchita Nagar Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.78231,19.980255,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morya Friends Circle</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Gurudwara Road, Datta Mandir Chowk, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.785411,19.992635,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalpataru Nagar Yuva Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Kalpataru Nagar, Lane No. 02, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.799031,19.979864,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Janata Raja Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>In front of Siddhivinayak Park, Ashok Marg, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.780855,19.991284,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Sri Ravi Shankar Marg Friends Circle</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.799506,19.969593,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dharma Ekta Sai Group</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Happy Home Colony, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.793872,19.985188,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Renuka Yuva Cultural Arts and Sports Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Renuka Nagar, Wadala Naka, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.792294,19.993012,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wadala Naka Friends Circle</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Wadala Naka, Kapote Market, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.785316,19.994098,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhim Eko Hinur Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Renuka Nagar, Ambedkar Chowk, Wadala Naka, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.793411,19.992424,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shitaladevi Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Shivajiwadi, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.795554,19.984865,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vighnaharta Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Shivajiwadi, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.792093,19.98364,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sai Shraddha Youth Foundation</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Vidhane Nagar, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.801326,19.972974,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>General Arunkumar Vaidya Nagar Art, Sports and Cultural Friends Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Vaidya Nagar, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.798275,19.987608,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shivgarjana Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Muralidhar Warenagar, Govindnagar, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.776252,19.985762,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vighnaraj Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Pandurang Chowk, Khode Nagar, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.797411,19.971993,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Om Sai Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Shivajiwadi, Wadala Road, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.792307,19.984271,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahyadri Mitra Mandal</name>
+        <styleUrl>#mumbaiNakaStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Suchita Nagar, In front of Sangeeta House, Nashik</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.784305,19.9795875,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MIDC Chunchale Police Chowki, Ambad Police Station</name>
+      <Placemark>
+        <name>Shinde Sai Foundation Vishal</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Near Samaj Mandir Gharkul</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.713112,19.941795,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omkareshwar Mitra Mandal</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Near Rahul Medical Datta Nagar</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.726591,19.955535,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rudra Pratishthan Jadhav Sankul</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Swaraj Hospital Adjacent Jadhav Sankul</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.721776,19.973557,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siddhivinayak Ganpati Mandir Jadhav Sankul</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Siddhivinayak Ganpati Mandir</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.722575,19.973046,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shivkapaleshwar Yuva Pratishthan Jadhav Sankul</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Jadhav Sankul Opposite MHADA Om Tailors Near</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.721493,19.969549,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambika Yuva Foundation</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Near Kakade Maharaj Ashram, Ambika Society</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.728585,19.960326,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ganraj Mitra Mandal</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Godavari Nagar Datta Mandir MHADA Colony</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.720659,19.969565,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>S.D. S.R. Foundation</name>
+        <styleUrl>#midcChunchaleStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Kargil Chowk, Behind Jai Collection Datta Nagar</value>
+          </Data>
+          <Data name="Procession Crowd Size">
+            <value>100 to 150</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.726674,19.958484,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

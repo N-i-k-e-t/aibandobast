@@ -1,0 +1,21 @@
+resource_type,category,minimum_count,maximum_count,deployment_zone,equipment,primary_function
+Police,DCP,4,4,City-wide,Communication devices,Overall command and control
+Police,ACP,7,8,Division-wise,Wireless sets,Divisional coordination
+Police,PI_SPI,45,53,Police station wise,Walkie-talkies,Station-level operations
+Police,PSI_API_ASI,75,134,Beat-wise,Standard police equipment,Field supervision
+Police,Male_Constables,1075,1100,Crowd control points,Lathis shields helmets,Crowd management
+Police,Female_Constables,240,261,Women safety zones,Standard equipment,Women and children safety
+Home_Guards,Male,800,840,Support zones,Basic equipment,Police assistance
+Home_Guards,Female,250,255,Sensitive areas,Basic equipment,Women-focused assistance
+Special_Units,SRPF,60,120,High-risk routes,Riot control gear,Crowd control and riot prevention
+Special_Units,QRT,48,48,Mobile response,Gas guns grenades,Quick incident response
+Special_Units,RCP,62,62,Standby locations,Shields helmets gas equipment,Riot control
+Special_Units,Striking_Force,300,360,Reserve,Combat equipment,Emergency deployment
+Special_Units,BDDS,10,15,Key locations,Detection equipment,Anti-sabotage operations
+Special_Units,ATC,15,25,Intelligence zones,Surveillance equipment,Counter-terrorism
+Volunteers,Mandal_Swayamsevak,10,60,Individual mandals,Basic safety equipment,Mandal security and crowd guidance
+Equipment,Vajra_Vahan,2,3,Mobile,Riot control features,Mobile riot control
+Equipment,Varun_Vahan,1,2,Mobile,Water cannons,Crowd dispersal
+Equipment,CCTV_Cameras,50,100,Fixed locations,Surveillance,Area monitoring
+Equipment,Drones,3,5,Mobile,Camera and communication,Aerial surveillance
+Equipment,Watch_Towers,4,4,Main immersion route,Binoculars cameras,Elevated monitoring

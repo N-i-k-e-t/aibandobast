@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Adgaon Police Station Mandals</name>
+    <Style id="adgaonStyle">
+      <IconStyle>
+        <color>ff82c296</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Adgaon Police Station</name>
+      <Placemark>
+        <name>Shivraj Foundation</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Saptrushungi Mata Mandir, Pragati Society, Vrindavan Nagar, Adgaon Shivar, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>No procession</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.845222,20.016167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mhasoba Maharaj Mitra Mandal</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Nandur Naka, Chhatrapati Sambhaji Maharaj Road, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>No procession</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.843667,19.996694,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swarajya Mitra Mandal</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Sambhaji Chowk, Adgaon</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>No procession</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.865417,20.033639,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shivgarjana Mitra Mandal</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Vrindavan Nagar, Adgaon Naka, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>No procession</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.843056,20.018361,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kapaleshwar Kala Krida and Sanskrutik Mitra Mandal</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Shri Kapaleshwar Nagar, behind Indrayani Lawns, Sambhaji Nagar Road, Panchavati, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>150 to 200</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.821666,20.010132,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuva Chhava Group</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Shilapur, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.899111,19.996694,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vetal Baba Mitra Mandal</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Lakhalgaon, Nashik</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>150 to 200</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.922833,19.999944,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jai Bajrang Yuva Foundation, Madsangvi Village</name>
+        <styleUrl>#adgaonStyle</styleUrl>
+        <ExtendedData>
+          <Data name="Address">
+            <value>Madsangvi Village</value>
+          </Data>
+          <Data name="Annual Procession Crowd Size">
+            <value>200 to 250</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>73.874111,20.001306,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

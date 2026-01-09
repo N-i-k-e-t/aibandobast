@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Locations</name>
+    <Placemark>
+      <name>Truck Terminal (Dhule area)</name>
+      <Point>
+        <coordinates>74.76821,20.88783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mirchi Hotel (Nashik)</name>
+      <Point>
+        <coordinates>73.845,20.021,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Takli Ghat (Nashik)</name>
+      <Point>
+        <coordinates>73.809125,19.992306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jatra Chowk</name>
+      <Point>
+        <coordinates>73.8434997,20.01893507,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madsangavi</name>
+      <Point>
+        <coordinates>73.8690958,20.0006625,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nandurgaon</name>
+      <Point>
+        <coordinates>74.655937,20.306379,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>apovan</name>
+      <Point>
+        <coordinates>73.81617,19.98928,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gadge Maharaj Bridge</name>
+      <Point>
+        <coordinates>73.7934,20.0043,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ramkund</name>
+      <Point>
+        <coordinates>73.79216,20.008271,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Odha Railway Station</name>
+      <Point>
+        <coordinates>73.7739048,20.0109256,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bhadrakali Police Station</name>
+      <Point>
+        <coordinates>73.7934,19.9981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mumbai Naka Police Station</name>
+      <Point>
+        <coordinates>73.789354,20.004871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gangapur Police Station</name>
+      <Point>
+        <coordinates>73.759447,20.01163,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Satpur Police Station</name>
+      <Point>
+        <coordinates>73.739409,19.997043,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gangapur Road</name>
+      <Point>
+        <coordinates>73.770193,20.007844,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dindori Road / Mhasrul</name>
+      <Point>
+        <coordinates>73.80777,20.046701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peth Road (Mhasrul Police Station)</name>
+      <Point>
+        <coordinates>74.23868,20.143536,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deolali Camp Police Station</name>
+      <Point>
+        <coordinates>73.788841,20.000161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trimbak Road, Satpur</name>
+      <Point>
+        <coordinates>73.721283,19.99744,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ambad Police Station</name>
+      <Point>
+        <coordinates>73.78906,19.9991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indira Nagar Police Station</name>
+      <Point>
+        <coordinates>73.7965,20.0013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nandur Ghat</name>
+      <Point>
+        <coordinates>74.0995,20.03655,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Talkuteshwar Ghat</name>
+      <Point>
+        <coordinates>73.782,20.007,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kannamwar Ghat</name>
+      <Point>
+        <coordinates>73.789,20.004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lakshminarayan Ghat</name>
+      <Point>
+        <coordinates>73.7902364,20.0112475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tapovan Cross Road</name>
+      <Point>
+        <coordinates>73.8121,20.0008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laxminarayan Chowk</name>
+      <Point>
+        <coordinates>73.7902364,20.0112475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tapovan Police Post</name>
+      <Point>
+        <coordinates>73.8121,20.0008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indiranagar Bogda</name>
+      <Point>
+        <coordinates>73.781497,19.973945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mahamarg Inner Parking</name>
+      <Point>
+        <coordinates>73.79096,19.99727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sai Pritam Hotel</name>
+      <Point>
+        <coordinates>73.814,19.995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dwarka Chowk</name>
+      <Point>
+        <coordinates>73.79722,19.994296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kathe Galli Signal</name>
+      <Point>
+        <coordinates>73.79917,19.99056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mumbai Naka Circle</name>
+      <Point>
+        <coordinates>73.789354,20.004871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dwarka Circle</name>
+      <Point>
+        <coordinates>73.79722,19.994296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sarda Circle</name>
+      <Point>
+        <coordinates>73.784532,19.993159,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kathe Galli Signal</name>
+      <Point>
+        <coordinates>73.79917,19.990556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jakir Hussain Hospital</name>
+      <Point>
+        <coordinates>73.7926,19.9595,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shankar Nagar</name>
+      <Point>
+        <coordinates>79.065918,21.1333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kannamwar Bridge</name>
+      <Point>
+        <coordinates>73.789,20.004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lakshminarayan Ghat</name>
+      <Point>
+        <coordinates>73.790236,20.011247,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chincholi Outer Bus Stand</name>
+      <Point>
+        <coordinates>74.55072,19.50724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chincholi Phata</name>
+      <Point>
+        <coordinates>74.55072,19.50724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sinnarphata</name>
+      <Point>
+        <coordinates>73.99866,19.84505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eklahara T-point</name>
+      <Point>
+        <coordinates>73.908,19.9915,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chhatrapati Shivaji Maharaj Statue</name>
+      <Point>
+        <coordinates>73.7914,20.0086,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nashik Road Railway Station</name>
+      <Point>
+        <coordinates>73.842084,19.948058,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hanuman Sangam Takli Ghat</name>
+      <Point>
+        <coordinates>73.785069,20.016911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Muktidham</name>
+      <Point>
+        <coordinates>73.8363,19.9518,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tapovan Chowfuli</name>
+      <Point>
+        <coordinates>73.8121,20.0008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anandvali Bus Stop</name>
+      <Point>
+        <coordinates>73.8143,20.0134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shahid Circle</name>
+      <Point>
+        <coordinates>73.7762,20.0111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prasad Circle</name>
+      <Point>
+        <coordinates>73.7761,20.0111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanskruti Hotel (Trimbak Road)</name>
+      <Point>
+        <coordinates>73.7,19.957,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belgav Dhaga T-point</name>
+      <Point>
+        <coordinates>73.72,19.997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pimpalgaon Bahula Jakat Naka</name>
+      <Point>
+        <coordinates>73.71064,19.981157,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pimpalgaon Bahula T-point/Bus Stand</name>
+      <Point>
+        <coordinates>73.71064,19.981157,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashoknagar Police Chowki</name>
+      <Point>
+        <coordinates>73.71381,19.98938,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Satpur Bus Stand</name>
+      <Point>
+        <coordinates>73.7213,19.9974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Satpur Village T-point/Old Bus Stand</name>
+      <Point>
+        <coordinates>73.7213,19.9974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Malegaon Stand</name>
+      <Point>
+        <coordinates>74.52507,20.560797,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Makhmalabad Naka</name>
+      <Point>
+        <coordinates>73.827192,20.204177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panchavati Karanja</name>
+      <Point>
+        <coordinates>73.792992,20.007357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dindori Naka</name>
+      <Point>
+        <coordinates>73.833056,20.199722,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peth Naka</name>
+      <Point>
+        <coordinates>74.23868,20.143536,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sitagumpha</name>
+      <Point>
+        <coordinates>73.786,19.997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Katya Maruti Chowk</name>
+      <Point>
+        <coordinates>73.8029,19.9815,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Khandave Sabhagriha</name>
+      <Point>
+        <coordinates>73.803,19.968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nimani Bus Stand</name>
+      <Point>
+        <coordinates>73.797,20.01,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gauri Patangan</name>
+      <Point>
+        <coordinates>73.793,20.007,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ekamukhi Datta Mandir</name>
+      <Point>
+        <coordinates>73.789,20.006,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dhikle Library</name>
+      <Point>
+        <coordinates>73.792,20.007,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sardar Chowk</name>
+      <Point>
+        <coordinates>73.7896,20.0085,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalaram Mandir</name>
+      <Point>
+        <coordinates>73.787,20,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gandhi Talav</name>
+      <Point>
+        <coordinates>73.789,20.012,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RTO Corner</name>
+      <Point>
+        <coordinates>73.806,20.048,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shivaji Chowk</name>
+      <Point>
+        <coordinates>73.791,20.01,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maruti Wafers Kannamwar Pul</name>
+      <Point>
+        <coordinates>73.737587,20.015174,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shitaladevi Mandir</name>
+      <Point>
+        <coordinates>73.8307,19.901,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shalimar</name>
+      <Point>
+        <coordinates>73.788964,20.003829,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indira Nagar Bogda</name>
+      <Point>
+        <coordinates>73.781497,19.973945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tapovan</name>
+      <Point>
+        <coordinates>73.8121,20.0008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laxmi Narayan Mandir</name>
+      <Point>
+        <coordinates>73.790236,20.011248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laxmi Narayan Chowk</name>
+      <Point>
+        <coordinates>73.790236,20.011248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Khamgaon Sabha Mandap</name>
+      <Point>
+        <coordinates>76.56827,20.70738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madsangavi Toll Naka (Parking)</name>
+      <Point>
+        <coordinates>73.869096,20.000663,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deolali Camp Station</name>
+      <Point>
+        <coordinates>73.833109,19.885941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Parking Areas Deolali Camp</name>
+      <Point>
+        <coordinates>73.833109,19.885941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nashik Road Station (Platform 4)</name>
+      <Point>
+        <coordinates>73.842084,19.948058,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Raja Dashrath Ghat</name>
+      <Point>
+        <coordinates>73.79,20.015,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adgaon Police Station</name>
+      <Point>
+        <coordinates>73.856606,20.039238,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mhasrul Police Station Area</name>
+      <Point>
+        <coordinates>73.80777,20.046701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peth Road</name>
+      <Point>
+        <coordinates>74.23868,20.143536,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panchavati</name>
+      <Point>
+        <coordinates>73.792992,20.007357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madsangavi Toll Naka</name>
+      <Point>
+        <coordinates>73.869096,20.000663,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pathardi Phata</name>
+      <Point>
+        <coordinates>73.765434,19.946922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indiranagar Jogging Track</name>
+      <Point>
+        <coordinates>73.781497,19.973945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RTO Corner</name>
+      <Point>
+        <coordinates>73.8057,20.0477,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

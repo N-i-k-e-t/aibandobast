@@ -1,0 +1,9 @@
+Date,Event,Risk_Level,Estimated_Crowd,Personnel_Required,Medical_Teams
+2025-08-27,Ganesh Sthapana,Medium,50000,2500,8
+2025-08-31,Gauri Agman,Medium,40000,2200,7
+2025-09-01,Gauri Pujan,High,60000,2655,10
+2025-09-02,Gauri Visarjan,High,65000,2655,12
+2025-09-05,Eid Coincidence,Very High,45000,2400,8
+2025-09-13,7-Day Visarjan,High,55000,2400,10
+2025-09-17,Anant Chaturdashi,Critical,100000,2655,15
+2025-09-18,Post Festival,Low,10000,1000,3

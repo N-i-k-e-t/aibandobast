@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CCTV Camera Points</name>
+    
+    <!-- Style definitions for different priorities -->
+    <Style id="priorityA">
+      <IconStyle>
+        <color>ff0000ff</color> <!-- Red for Priority A -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="priorityB">
+      <IconStyle>
+        <color>ff00ffff</color> <!-- Yellow for Priority B -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="priorityC">
+      <IconStyle>
+        <color>ffff00ff</color> <!-- Purple for Priority C -->
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Placemarks for each CCTV camera point -->
+    <Placemark>
+      <name>SHRI KRUSHN AAES FACTARI</name>
+      <description>Police Station: PANCHAVATI 1, Sr. No.: 1, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.803286,20.008296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TAKALE NAGAR CHOUKE BOARD</name>
+      <description>Police Station: PANCHAVATI 2, Sr. No.: 2, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.801197,20.008188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAHATMA FULE CHOUKE GANESHAWADI</name>
+      <description>Police Station: PANCHAVATI 3, Sr. No.: 3, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.797862,20.005901,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MUNJOBA CHOUKE GANESHWADI</name>
+      <description>Police Station: PANCHAVATI 4, Sr. No.: 4, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.797079,20.005691,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FULBAJAR PANCHVATI</name>
+      <description>Police Station: PANCHAVATI 5, Sr. No.: 5, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.795986,20.005392,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GOURI PATANGAN DEVI MANDIR CORNER</name>
+      <description>Police Station: PANCHAVATI 6, Sr. No.: 6, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.794253,20.004216,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SNJIVANI SAMADHI MANDIR HAYMAS JAWAL MHASOBA PATANGAN</name>
+      <description>Police Station: PANCHAVATI 7, Sr. No.: 7, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793404,20.005065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SARDAR CHOUKE</name>
+      <description>Police Station: PANCHAVATI 8, Sr. No.: 8, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793459,20.006115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JUNE BHAJI PATANGAN HAYMAS JAWAL</name>
+      <description>Police Station: PANCHAVATI 9, Sr. No.: 9, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792728,20.006712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAMKUND PANYACHI TAKI</name>
+      <description>Police Station: PANCHAVATI 10, Sr. No.: 10, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792538,20.008303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SITA GUNFA</name>
+      <description>Police Station: PANCHAVATI 11, Sr. No.: 11, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.796248,20.007712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GOURI PATANGAN HAYMAS JAWAL</name>
+      <description>Police Station: PANCHAVATI 12, Sr. No.: 12, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.794137,20.003108,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TALKUTESHWAR MANDIR JAWAL</name>
+      <description>Police Station: PANCHAVATI 13, Sr. No.: 13, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.797365,20.001936,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KAPURTALA PATANGAN</name>
+      <description>Police Station: PANCHAVATI 14, Sr. No.: 14, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.796722,20.005731,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NILAKANTESHWAR MANDIR</name>
+      <description>Police Station: PANCHAVATI 15, Sr. No.: 15, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792147,20.006462,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EKMUKHI DATTA MANDIR HAYMAS JAWAL</name>
+      <description>Police Station: PANCHAVATI 16, Sr. No.: 16, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.791124,20.007442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DEV MAMALEDAR MANDIR</name>
+      <description>Police Station: PANCHAVATI 17, Sr. No.: 17, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792024,20.00711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GANDHI JYOT TALAV</name>
+      <description>Police Station: PANCHAVATI 18, Sr. No.: 18, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.792112,20.008167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JANARDHAN SWAMI STAMBH</name>
+      <description>Police Station: PANCHAVATI 19, Sr. No.: 19, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.791179,20.008372,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KHANDVE SABHAGRAH</name>
+      <description>Police Station: PANCHAVATI 20, Sr. No.: 20, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.793984,20.008688,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MALVIYA CHOUK</name>
+      <description>Police Station: PANCHAVATI 21, Sr. No.: 21, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.794515,20.008659,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PATHARAVAT LANE HNUMAN MANDIR</name>
+      <description>Police Station: PANCHAVATI 22, Sr. No.: 22, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.797215,20.008905,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GAJANAN CHOUKE</name>
+      <description>Police Station: PANCHAVATI 23, Sr. No.: 23, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.798163,20.008818,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NAG CHOUKE</name>
+      <description>Police Station: PANCHAVATI 24, Sr. No.: 24, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.798191,20.008028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MOGARE KRIDA SANKUL CHOUK</name>
+      <description>Police Station: PANCHAVATI 25, Sr. No.: 25, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.815468,20.02276,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAMBHAJI MAHARAJ CHOUK</name>
+      <description>Police Station: PANCHAVATI 26, Sr. No.: 26, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.804703,20.025314,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHERE MALA</name>
+      <description>Police Station: PANCHAVATI 27, Sr. No.: 27, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.798833,20.005404,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUKENKAR LANE CORNER</name>
+      <description>Police Station: PANCHAVATI 28, Sr. No.: 28, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.795348,20.008982,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHIVIJI CHOUK</name>
+      <description>Police Station: PANCHAVATI 29, Sr. No.: 29, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.796368,20.008807,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AMARDHAM CORNER</name>
+      <description>Police Station: PANCHAVATI 30, Sr. No.: 30, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityA</styleUrl>
+      <Point>
+        <coordinates>73.802172,20.008664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KATYA MARUTI CHOUKE</name>
+      <description>Police Station: PANCHAVATI 31, Sr. No.: 31, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.801581,20.008423,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KATYA MARUTI CHOUKE TRIKONI CORNER SITA MANDIR</name>
+      <description>Police Station: PANCHAVATI 32, Sr. No.: 32, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.799483,20.006468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DEVI CHOUKE AMARDHAM ROAD</name>
+      <description>Police Station: PANCHAVATI 33, Sr. No.: 33, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.793466,20.004383,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GADGE MAHARAJ PULAKHALI</name>
+      <description>Police Station: PANCHAVATI 34, Sr. No.: 34, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.794106,20.004546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GADGE MAHARAJ PULAWAR</name>
+      <description>Police Station: PANCHAVATI 35, Sr. No.: 35, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.792598,20.007637,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AAHILYABAI WYAMSHALA MANDIR JAWAL</name>
+      <description>Police Station: PANCHAVATI 36, Sr. No.: 36, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.792877,20.007727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHRIVARAD VINAYAK GANESH MANDIR GORERAM LANE</name>
+      <description>Police Station: PANCHAVATI 37, Sr. No.: 37, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.792538,20.008302,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KAPALESHWAR MANDIR SAMOR</name>
+      <description>Police Station: PANCHAVATI 38, Sr. No.: 38, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.792588,20.007957,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAMKUND VASRANTAR GRUHA</name>
+      <description>Police Station: PANCHAVATI 39, Sr. No.: 39, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.792791,20.009263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUNIL ART DHIKALE WACHNALAY ROAD</name>
+      <description>Police Station: PANCHAVATI 40, Sr. No.: 40, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.793991,20.009977,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAHARASHTRA AAYARN BHANDAR PANCHVATI KARANJA</name>
+      <description>Police Station: PANCHVATI 41, Sr. No.: 41, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.803354,20.009216,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ST DEPO NO 2</name>
+      <description>Police Station: PANCHAVATI 42, Sr. No.: 42, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.795463,20.029907,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MARKET YARD DINDORI ROAD GET</name>
+      <description>Police Station: PANCHAVATI 43, Sr. No.: 43, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.821049,20.015115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>K K WAGH CHOUK</name>
+      <description>Police Station: PANCHAVATI 44, Sr. No.: 44, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.793968,20.007707,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHANI CHOUK</name>
+      <description>Police Station: PANCHAVATI 45, Sr. No.: 45, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.793267,20.003713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ROKDOBA PATANGAN</name>
+      <description>Police Station: PANCHAVATI 46, Sr. No.: 46, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.79297,20.004287,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DILLI DARWAJA CHOUK</name>
+      <description>Police Station: PANCHAVATI 47, Sr. No.: 47, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.79296,20.007345,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAI BABA MANDIR SHIVANJALI LOG</name>
+      <description>Police Station: PANCHAVATI 48, Sr. No.: 48, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.791204,20.008664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VICTIORIYA BRIJ KHALI</name>
+      <description>Police Station: PANCHAVATI 49, Sr. No.: 49, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.794515,20.008659,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JANKI SADI CENTAR CORNER</name>
+      <description>Police Station: PANCHAVATI 50, Sr. No.: 50, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.803939,20.00701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RTO CORNER</name>
+      <description>Police Station: PANCHAVATI 51, Sr. No.: 51, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityB</styleUrl>
+      <Point>
+        <coordinates>73.802753,20.008849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>G T TAYER TAPOVAN CORNER</name>
+      <description>Police Station: PANCHAVATI 52, Sr. No.: 52, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.800829,20.007473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHRI KRUSHN TIRTH ASRAM</name>
+      <description>Police Station: PANCHAVATI 53, Sr. No.: 53, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.798652,20.006129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PASHAN HANUMAN MANDIR LYABARI SAMOR</name>
+      <description>Police Station: PANCHAVATI 54, Sr. No.: 54, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.795098,20.004925,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DHANDAI OPTISHION DUKAN SAMOR</name>
+      <description>Police Station: PANCHAVATI 55, Sr. No.: 55, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.793592,20.005623,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GADGE MAHARAJ PUL CORNER FHUL BAZAR</name>
+      <description>Police Station: PANCHAVATI 56, Sr. No.: 56, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.79296,20.007345,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAMSETU PULL CORNER NARUSHANKAR MANDIR</name>
+      <description>Police Station: PANCHAVATI 57, Sr. No.: 57, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.793254,20.007303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAI BABA MANDIR TOYLET JAWAL</name>
+      <description>Police Station: PANCHAVATI 58, Sr. No.: 58, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.79456,20.009927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>INDRA KUND</name>
+      <description>Police Station: PANCHAVATI 59, Sr. No.: 59, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.795234,20.010468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PANCHVATI KARANJA</name>
+      <description>Police Station: PANCHAVATI 60, Sr. No.: 60, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.796163,20.011394,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAI CHAYNIJ CORNER PANCHVATI KARANJA</name>
+      <description>Police Station: PANCHAVATI 61, Sr. No.: 61, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.796603,20.011106,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DINDORI NAKA</name>
+      <description>Police Station: PANCHAVATI 62, Sr. No.: 62, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.798215,20.010072,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NIMANI BAS STAND</name>
+      <description>Police Station: PANCHAVATI 63, Sr. No.: 63, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>83.799238,20.009576,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEVAKUNJ SIGNAL</name>
+      <description>Police Station: PANCHAVATI 64, Sr. No.: 64, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.800567,20.009034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RATHI CHAL ZUND HANUMAN MANDIR</name>
+      <description>Police Station: PANCHAVATI 65, Sr. No.: 65, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.804581,20.009471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VALMIK NAGAR BOARD</name>
+      <description>Police Station: PANCHAVATI 66, Sr. No.: 66, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.806092,20.00944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ZUDIO MALL JAWAL</name>
+      <description>Police Station: PANCHAVATI 67, Sr. No.: 67, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.810095,20.010142,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SANTOSH T POINT</name>
+      <description>Police Station: PANCHAVATI 68, Sr. No.: 68, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.807699,20.001071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GADHAKH DUKAN SAMOR BRIJKHALI</name>
+      <description>Police Station: PANCHAVATI 69, Sr. No.: 69, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.807558,20.010142,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAMRAT RUNDAVAN BILDING SAMOR BRIJ KHALI</name>
+      <description>Police Station: PANCHAVATI 70, Sr. No.: 70, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.810095,20.010846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>INDIAN OIL PETROL PAMP SAMOR BRIJKHALI</name>
+      <description>Police Station: PANCHAVATI 71, Sr. No.: 71, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.810093,20.010846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HALDI LAWNS SAMOR BRIJKHALI</name>
+      <description>Police Station: PANCHAVATI 72, Sr. No.: 72, Purpose: KUMBH SHAHI ROUTE IMPORTANT SQURE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.814103,20.012564,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAMBHAJI NAGAR SIGNAL</name>
+      <description>Police Station: PANCHAVATI 73, Sr. No.: 73, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.791522,20.008519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MINATAI THAKARE STEDIUM CORNER</name>
+      <description>Police Station: PANCHAVATI 74, Sr. No.: 74, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.799938,20.008703,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DIN BANDHU KARYALAY JAWAL</name>
+      <description>Police Station: PANCHAVATI 75, Sr. No.: 75, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.800465,20.008351,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GURUDWARA JAWAL</name>
+      <description>Police Station: PANCHAVATI 76, Sr. No.: 76, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.794846,20.007466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HATTI PULL</name>
+      <description>Police Station: PANCHAVATI 77, Sr. No.: 77, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.794846,20.007466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHABARICHI BOL</name>
+      <description>Police Station: PANCHAVATI 78, Sr. No.: 78, Purpose: KUMBH IMPORTAN SQURE CRIMINAL AREA CROEDED PLACE, Cameras: 4</description>
+      <styleUrl>#priorityC</styleUrl>
+      <Point>
+        <coordinates>73.794846,20.007466,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

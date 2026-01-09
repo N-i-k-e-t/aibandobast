@@ -1,0 +1,148 @@
+{
+  "project": "Ganpati Bandobast 2025 – Nashik (2 Zones/14 PS)",
+  "generated_ist": "2025-08-23 11:55",
+  "goal": "Police-ready, AI-enhanced plan for routes, diversions, crowd & water safety, deployments per PS.",
+  "festival_window": {
+    "start_ist": "2025-08-27 00:00",
+    "end_ist": "2025-09-07 03:00",
+    "final_immersion_candidates": [
+      "2025-09-06",
+      "2025-09-07"
+    ],
+    "eid_overlap": "2025-09-05"
+  },
+  "ps_roster_14": [
+    "Panchavati",
+    "Adgaon",
+    "Mhasrul",
+    "Bhadrakali",
+    "Sarkarwada",
+    "Mumbai Naka",
+    "Ambad",
+    "Indiranagar",
+    "Satpur",
+    "Upnagar",
+    "Nashik Road",
+    "Deolali Camp",
+    "Gangapur",
+    "MIDC Chunchale"
+  ],
+  "counts": {
+    "public_mandals_total": 790,
+    "public_mandals_large": 201,
+    "public_mandals_small": 562,
+    "valuable_mandals": 35,
+    "household_ganpatis": 125389
+  },
+  "files_manifest": [
+    {
+      "filename": "Adgaon PS GANPATI UTSAV 2025..pdf",
+      "ext": ".pdf",
+      "size_bytes": 950136
+    },
+    {
+      "filename": "Bhadrakali PS GANPATI UTSAV 2025..pdf",
+      "ext": ".pdf",
+      "size_bytes": 816715
+    },
+    {
+      "filename": "GANPATI UTSAV 2025 nashik r ps.pdf",
+      "ext": ".pdf",
+      "size_bytes": 355908
+    },
+    {
+      "filename": "GANPATIL MANDAL 2025 10 years.pdf",
+      "ext": ".pdf",
+      "size_bytes": 404836
+    },
+    {
+      "filename": "Ganpati visrajan mirvanuk shamil mandal 2024.docx",
+      "ext": ".docx",
+      "size_bytes": 116501
+    },
+    {
+      "filename": "Miting -  10 YEAR   2025.pdf",
+      "ext": ".pdf",
+      "size_bytes": 838705
+    },
+    {
+      "filename": "Nashik Ganpati Festival 2025 - Planning Dashboard.pdf",
+      "ext": ".pdf",
+      "size_bytes": 2076838
+    },
+    {
+      "filename": "Nashik Ganpati Festival Data Analysis (2015-2024).pdf",
+      "ext": ".pdf",
+      "size_bytes": 242343
+    },
+    {
+      "filename": "Nashik Road PS GANPATI UTSAV 2025..pdf",
+      "ext": ".pdf",
+      "size_bytes": 356787
+    },
+    {
+      "filename": "SANGATA AHVAL 15-24.docx",
+      "ext": ".docx",
+      "size_bytes": 34675
+    },
+    {
+      "filename": "complete-expected-visragan fileNashik Ganpati Mandals By Police Station .kml",
+      "ext": ".kml",
+      "size_bytes": 518512
+    },
+    {
+      "filename": "gangapur ganpati ustav.pdf",
+      "ext": ".pdf",
+      "size_bytes": 758994
+    },
+    {
+      "filename": "ganpati vivaran 2024.docx",
+      "ext": ".docx",
+      "size_bytes": 23434
+    },
+    {
+      "filename": "ghunhe mahiti ganpati.docx",
+      "ext": ".docx",
+      "size_bytes": 21405
+    },
+    {
+      "filename": "mandal yadi-2022.docx",
+      "ext": ".docx",
+      "size_bytes": 19678
+    },
+    {
+      "filename": "maulyawan ganpati mandale.docx",
+      "ext": ".docx",
+      "size_bytes": 23308
+    },
+    {
+      "filename": "midc chunchale GANPATIL MANDA.pdf",
+      "ext": ".pdf",
+      "size_bytes": 795198
+    },
+    {
+      "filename": "new-doc-7th august (1).pdf",
+      "ext": ".pdf",
+      "size_bytes": 331682
+    },
+    {
+      "filename": "new-doc-7th august.pdf",
+      "ext": ".pdf",
+      "size_bytes": 792069
+    },
+    {
+      "filename": "prompt-1 ouput.txt",
+      "ext": ".txt",
+      "size_bytes": 67997
+    },
+    {
+      "filename": "sb branch mahiti.docx",
+      "ext": ".docx",
+      "size_bytes": 58851
+    }
+  ],
+  "validation": {
+    "ps_count_ok": true
+  },
+  "to_verify": []
+}

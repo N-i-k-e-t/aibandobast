@@ -1,53 +1,24 @@
 # Dependencies
-node_modules
-.pnp
-.pnp.js
+portal/node_modules/
+portal/.next/
+portal/out/
+portal/build/
 
-# Testing
-coverage
+# Environment
+portal/.env
+portal/.env.local
+portal/.env.production
+portal/.env.*.local
 
-# Next.js
-.next/
-out/
-build
+# Database
+portal/*.db
+portal/*.db-journal
 
-# Production
-dist
+# Logs
+portal/npm-debug.log*
+portal/yarn-debug.log*
+portal/yarn-error.log*
 
-# Misc
+# System
 .DS_Store
-*.pem
 Thumbs.db
-
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Local env files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Vercel
-.vercel
-
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
-# Prisma
-prisma/dev.db
-prisma/dev.db-journal
-
-# IDE
-.idea
-.vscode
-*.swp
-*.swo
-
-# Uploads (Include demo files for showcase)
-# public/uploads/*
-# !public/uploads/.gitkeep

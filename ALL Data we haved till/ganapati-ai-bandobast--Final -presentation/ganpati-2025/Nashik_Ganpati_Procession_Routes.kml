@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashik Ganpati Immersion Procession Routes 2024-25</name>
+    <description>Complete mapping of all Ganpati immersion procession routes in Nashik city including main routes, police station limits, religious places, and smaller procession locations. Created for comprehensive route planning and management.</description>
+
+    <!-- Define styles for different route types -->
+    <Style id="route1Style">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0000ff</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="route2Style">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffff0000</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="route3Style">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ff00</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="bhagurStyle">
+      <IconStyle>
+        <color>ff00a5ff</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/orange-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00a5ff</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="policeStyle">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff000000</color>
+        <scale>1.0</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="religiousStyle">
+      <IconStyle>
+        <color>ff8000ff</color>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/mosque.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff8000ff</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="otherStyle">
+      <IconStyle>
+        <color>ff800080</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff800080</color>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Line styles for route paths -->
+    <Style id="route1LineStyle">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330000ff</color>
+      </PolyStyle>
+    </Style>
+
+    <Style id="route2LineStyle">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>33ff0000</color>
+      </PolyStyle>
+    </Style>
+
+    <Style id="route3LineStyle">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3300ff00</color>
+      </PolyStyle>
+    </Style>
+
+    <Style id="bhagurLineStyle">
+      <LineStyle>
+        <color>ff00a5ff</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3300a5ff</color>
+      </PolyStyle>
+    </Style>
+
+    <Folder>
+      <name>Other Smaller Processions (9 locations)</name>
+      <description>Locations along Other Smaller Processions</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Satpur</name>
+        <description>
+            <![CDATA[
+            <h3>Satpur</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Satpur</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.997000, 73.805000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>1.76 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422007</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>MIDC industrial area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.805000,19.997000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambad</name>
+        <description>
+            <![CDATA[
+            <h3>Ambad</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Ambad</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.960000, 73.800000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>5.31 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422009</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Residential area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.800000,19.960000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gangapur</name>
+        <description>
+            <![CDATA[
+            <h3>Gangapur</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Gangapur</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.010000, 73.780000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>1.47 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422005</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Township area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.780000,20.010000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anandvali</name>
+        <description>
+            <![CDATA[
+            <h3>Anandvali</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Gangapur</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.015000, 73.775000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>2.17 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422005</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Residential area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.775000,20.015000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Adgaon</name>
+        <description>
+            <![CDATA[
+            <h3>Adgaon</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Adgaon</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.020000, 73.770000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>2.91 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422010</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Village area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.770000,20.020000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makhmalabad Village</name>
+        <description>
+            <![CDATA[
+            <h3>Makhmalabad Village</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Panchavati</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.025000, 73.765000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>3.67 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Village</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.765000,20.025000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhagur De. Camp</name>
+        <description>
+            <![CDATA[
+            <h3>Bhagur De. Camp</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.930000, 73.828000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>9.42 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Camp area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.828000,19.930000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shinde</name>
+        <description>
+            <![CDATA[
+            <h3>Shinde</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Various</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.980000, 73.790000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>3.05 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422003</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Area name</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.790000,19.980000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palse</name>
+        <description>
+            <![CDATA[
+            <h3>Palse</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Other Smaller Processions</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Various</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.985000, 73.785000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>2.64 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422003</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Area name</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#otherStyle</styleUrl>
+        <Point>
+          <coordinates>73.785000,19.985000,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Police Stations (6 locations)</name>
+      <description>Locations along Police Stations</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Bhadrakali Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Bhadrakali Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007357, 73.792992</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.0 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Behind Mahatma Fule Market</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.792992,20.007357,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarkarwada Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Sarkarwada Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.000000, 73.800000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>1.13 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Opp. K.T.H.M. College, Gangapur Road</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.800000,20.000000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panchavati Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Panchavati Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Panchavati</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007357, 73.792992</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.0 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Opp. Market Yard, Near Dr. Chopra Hospital</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.792992,20.007357,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nashik Road Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Nashik Road Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.970000, 73.814000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.76 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Bytco Point, Nashik-Pune Road</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.814000,19.970000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upnagar Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Upnagar Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Upnagar</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.975000, 73.820000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.68 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422006</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Upnagar, Nashik-Pune Highway</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.820000,19.975000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deolali Camp Police Station</name>
+        <description>
+            <![CDATA[
+            <h3>Deolali Camp Police Station</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Police Stations</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.945000, 73.821000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.59 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Near New Bus Stand, Vadner Road</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.821000,19.945000,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 1 - Bhadrakali/Sarkarwada/Panchavati (13 locations)</name>
+      <description>Locations along Route 1 - Bhadrakali/Sarkarwada/Panchavati</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Chowk Mandai (Wakdi Barav)</name>
+        <description>
+            <![CDATA[
+            <h3>Chowk Mandai (Wakdi Barav)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007300, 73.793000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.01 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Starting point of main procession</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.793000,20.007300,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kader Market</name>
+        <description>
+            <![CDATA[
+            <h3>Kader Market</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007500, 73.793500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.06 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Market area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.793500,20.007500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fule Mandai</name>
+        <description>
+            <![CDATA[
+            <h3>Fule Mandai</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007357, 73.792992</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.0 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Mahatma Fule Market area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.792992,20.007357,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abdul Hamid Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Abdul Hamid Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007000, 73.794000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.12 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Important junction</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.794000,20.007000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Badshahi Corner</name>
+        <description>
+            <![CDATA[
+            <h3>Badshahi Corner</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.006800, 73.794500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.18 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Historical corner</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.794500,20.006800,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gadge Maharaj Statue</name>
+        <description>
+            <![CDATA[
+            <h3>Gadge Maharaj Statue</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.006500, 73.795000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.24 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Memorial statue</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.795000,20.006500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dhumal Point</name>
+        <description>
+            <![CDATA[
+            <h3>Dhumal Point</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.006200, 73.795500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.31 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Important junction point</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.795500,20.006200,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sangali Bank</name>
+        <description>
+            <![CDATA[
+            <h3>Sangali Bank</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.006000, 73.796000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.37 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Banking area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.796000,20.006000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meher Signal</name>
+        <description>
+            <![CDATA[
+            <h3>Meher Signal</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.005800, 73.796500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.43 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Traffic signal junction - Dawa Bazar area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.796500,20.005800,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ashokstambh</name>
+        <description>
+            <![CDATA[
+            <h3>Ashokstambh</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Sarkarwada</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.005500, 73.797000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.49 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Ashoka pillar area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.797000,20.005500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ravivar Karanja</name>
+        <description>
+            <![CDATA[
+            <h3>Ravivar Karanja</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Panchavati</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.005200, 73.797500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.55 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Sunday market area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.797500,20.005200,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malegaon Stand</name>
+        <description>
+            <![CDATA[
+            <h3>Malegaon Stand</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Panchavati</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.005000, 73.798000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.61 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Bus stand area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.798000,20.005000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mhasoba Maharaj Patangan</name>
+        <description>
+            <![CDATA[
+            <h3>Mhasoba Maharaj Patangan</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Bhadrakali/Sarkarwada/Panchavati</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Panchavati</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.004800, 73.798500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.67 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Final immersion site - Temple complex</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route1Style</styleUrl>
+        <Point>
+          <coordinates>73.798500,20.004800,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 1 - Religious Places (3 locations)</name>
+      <description>Locations along Route 1 - Religious Places</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Jahangir Masjid</name>
+        <description>
+            <![CDATA[
+            <h3>Jahangir Masjid</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Religious Places</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007200, 73.793200</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.03 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Mosque within Bhadrakali limits</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#religiousStyle</styleUrl>
+        <Point>
+          <coordinates>73.793200,20.007200,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jahangir Kabrastan</name>
+        <description>
+            <![CDATA[
+            <h3>Jahangir Kabrastan</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Religious Places</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007400, 73.793400</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.05 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Cemetery within Bhadrakali limits</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#religiousStyle</styleUrl>
+        <Point>
+          <coordinates>73.793400,20.007400,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helavti Masjid</name>
+        <description>
+            <![CDATA[
+            <h3>Helavti Masjid</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 1 - Religious Places</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Bhadrakali</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>20.007600, 73.793600</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>0.07 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422001</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Mosque within Bhadrakali limits</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#religiousStyle</styleUrl>
+        <Point>
+          <coordinates>73.793600,20.007600,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 2 - Nashik Road/Upnagar (8 locations)</name>
+      <description>Locations along Route 2 - Nashik Road/Upnagar</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Bitco Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Bitco Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.968000, 73.812000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.85 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Starting point of Route 2</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.812000,19.968000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chhatrapati Shivaji Maharaj Statue</name>
+        <description>
+            <![CDATA[
+            <h3>Chhatrapati Shivaji Maharaj Statue</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.968500, 73.812500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.83 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Memorial statue</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.812500,19.968500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Devi Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Devi Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.969000, 73.813000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.8 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Junction area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.813000,19.969000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nashik Road Railway Station Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Nashik Road Railway Station Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.970000, 73.814000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.76 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Railway station area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.814000,19.970000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Satkar Point</name>
+        <description>
+            <![CDATA[
+            <h3>Satkar Point</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.970500, 73.814500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.74 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Junction point</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.814500,19.970500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shriram Mandir</name>
+        <description>
+            <![CDATA[
+            <h3>Shriram Mandir</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Upnagar</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.971000, 73.815000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.72 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422006</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Temple in Upnagar limits</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.815000,19.971000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deolali Village</name>
+        <description>
+            <![CDATA[
+            <h3>Deolali Village</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Upnagar</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.971500, 73.815500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.7 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422006</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Village area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.815500,19.971500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valdevi River</name>
+        <description>
+            <![CDATA[
+            <h3>Valdevi River</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Nashik Road/Upnagar</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Upnagar</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.972000, 73.816000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.68 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422006</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Final immersion site</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route2Style</styleUrl>
+        <Point>
+          <coordinates>73.816000,19.972000,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 2 - Religious Places (1 locations)</name>
+      <description>Locations along Route 2 - Religious Places</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Jama Masjid (Near Route 2)</name>
+        <description>
+            <![CDATA[
+            <h3>Jama Masjid (Near Route 2)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 2 - Religious Places</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Nashik Road</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.968800, 73.812800</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>4.81 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422101</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Mosque 50 feet from route</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#religiousStyle</styleUrl>
+        <Point>
+          <coordinates>73.812800,19.968800,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 3 - Bhagur Sub-route (9 locations)</name>
+      <description>Locations along Route 3 - Bhagur Sub-route</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Shivaji Chowk (Bhagur)</name>
+        <description>
+            <![CDATA[
+            <h3>Shivaji Chowk (Bhagur)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.920000, 73.830000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.53 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Starting point of Bhagur procession</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.830000,19.920000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marwadi Gali</name>
+        <description>
+            <![CDATA[
+            <h3>Marwadi Gali</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.920500, 73.830500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.5 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Street area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.830500,19.920500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Balkavde Patsanstha</name>
+        <description>
+            <![CDATA[
+            <h3>Balkavde Patsanstha</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.921000, 73.831000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.47 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Institution</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.831000,19.921000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banjar Gali</name>
+        <description>
+            <![CDATA[
+            <h3>Banjar Gali</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.921500, 73.831500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.44 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Street area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.831500,19.921500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sitla Devi Mandir</name>
+        <description>
+            <![CDATA[
+            <h3>Sitla Devi Mandir</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.922000, 73.832000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.42 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Temple</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.832000,19.922000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhagur Municipality</name>
+        <description>
+            <![CDATA[
+            <h3>Bhagur Municipality</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.922500, 73.832500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.39 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Municipal office</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.832500,19.922500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kranti Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Kranti Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.923000, 73.833000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.36 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Junction</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.833000,19.923000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rajwada (Bhagur)</name>
+        <description>
+            <![CDATA[
+            <h3>Rajwada (Bhagur)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.923500, 73.833500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.34 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Historical area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.833500,19.923500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darna River (Bhagur)</name>
+        <description>
+            <![CDATA[
+            <h3>Darna River (Bhagur)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Bhagur Sub-route</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.924000, 73.834000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>10.31 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Immersion site</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#bhagurStyle</styleUrl>
+        <Point>
+          <coordinates>73.834000,19.924000,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route 3 - Deolali Camp (9 locations)</name>
+      <description>Locations along Route 3 - Deolali Camp</description>
+      <open>1</open>
+
+      <Placemark>
+        <name>Sansari Naka</name>
+        <description>
+            <![CDATA[
+            <h3>Sansari Naka</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.943000, 73.820000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.75 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Starting/ending point of Deolali procession</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.820000,19.943000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Selection Corner</name>
+        <description>
+            <![CDATA[
+            <h3>Selection Corner</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.943500, 73.820500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.72 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Important junction</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.820500,19.943500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Bus Stop</name>
+        <description>
+            <![CDATA[
+            <h3>Old Bus Stop</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.944000, 73.821000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.69 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Bus stop area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.821000,19.944000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zhonda Chowk</name>
+        <description>
+            <![CDATA[
+            <h3>Zhonda Chowk</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.944500, 73.821500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.66 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Junction</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.821500,19.944500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel Sharda</name>
+        <description>
+            <![CDATA[
+            <h3>Hotel Sharda</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.945000, 73.822000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.63 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Hotel landmark</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.822000,19.945000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel Welcome</name>
+        <description>
+            <![CDATA[
+            <h3>Hotel Welcome</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.945500, 73.822500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.61 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Hotel landmark</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.822500,19.945500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanuman Mandir (Deolali)</name>
+        <description>
+            <![CDATA[
+            <h3>Hanuman Mandir (Deolali)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.946000, 73.823000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.58 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Temple</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.823000,19.946000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sansari Village</name>
+        <description>
+            <![CDATA[
+            <h3>Sansari Village</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.946500, 73.823500</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.56 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Village area</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.823500,19.946500,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darna River (Deolali)</name>
+        <description>
+            <![CDATA[
+            <h3>Darna River (Deolali)</h3>
+            <table border="1" cellpadding="3" cellspacing="0">
+              <tr><td><b>Route:</b></td><td>Route 3 - Deolali Camp</td></tr>
+              <tr><td><b>Police Limit:</b></td><td>Deolali Camp</td></tr>
+              <tr><td><b>Coordinates:</b></td><td>19.947000, 73.824000</td></tr>
+              <tr><td><b>Distance from Center:</b></td><td>7.53 km</td></tr>
+              <tr><td><b>Pin Code:</b></td><td>422401</td></tr>
+              <tr><td><b>District:</b></td><td>Nashik, Maharashtra</td></tr>
+              <tr><td><b>Description:</b></td><td>Immersion site</td></tr>
+            </table>
+            ]]>
+            </description>
+        <styleUrl>#route3Style</styleUrl>
+        <Point>
+          <coordinates>73.824000,19.947000,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <!-- Route Lines showing procession paths -->
+    <Folder>
+      <name>Procession Route Paths</name>
+      <description>Lines showing the flow of procession routes with directional arrows</description>
+      <open>1</open>
+
+      <!-- Route 1 Path Line -->
+      <Placemark>
+        <name>Main Procession Route 1 Path</name>
+        <description><![CDATA[
+          <h3>Main Immersion Route (Route 1)</h3>
+          <p><b>Start:</b> Chowk Mandai (Wakdi Barav)<br/>
+          <b>End:</b> Mhasoba Maharaj Patangan<br/>
+          <b>Police Limits:</b> Bhadrakali → Sarkarwada → Panchavati<br/>
+          <b>Total Distance:</b> Approximately 0.67 km<br/>
+          <b>Population:</b> Muslim-majority area from Wakdi Barav to Abdul Hamid Chowk</p>
+        ]]></description>
+        <styleUrl>#route1LineStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>73.792992,20.007357,0 73.793000,20.007300,0 73.793500,20.007500,0 73.794000,20.007000,0 73.794500,20.006800,0 73.795000,20.006500,0 73.795500,20.006200,0 73.796000,20.006000,0 73.796500,20.005800,0 73.797000,20.005500,0 73.797500,20.005200,0 73.798000,20.005000,0 73.798500,20.004800,0 
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <!-- Route 2 Path Line -->
+      <Placemark>
+        <name>Procession Route 2 Path</name>
+        <description><![CDATA[
+          <h3>Nashik Road/Upnagar Route (Route 2)</h3>
+          <p><b>Start:</b> Bitco Chowk<br/>
+          <b>End:</b> Valdevi River<br/>
+          <b>Police Limits:</b> Nashik Road → Upnagar<br/>
+          <b>Total Distance:</b> Approximately 4.24 km from city center<br/>
+          <b>Population:</b> Mixed population area<br/>
+          <b>Note:</b> Jama Masjid is 50 feet away from this route</p>
+        ]]></description>
+        <styleUrl>#route2LineStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>73.816000,19.972000,0 73.815500,19.971500,0 73.815000,19.971000,0 73.814500,19.970500,0 73.814000,19.970000,0 73.813000,19.969000,0 73.812500,19.968500,0 73.812000,19.968000,0 
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <!-- Route 3 Path Line -->
+      <Placemark>
+        <name>Procession Route 3 Path - Deolali Camp</name>
+        <description><![CDATA[
+          <h3>Deolali Camp Route (Route 3)</h3>
+          <p><b>Start:</b> Sansari Naka<br/>
+          <b>End:</b> Darna River (Deolali)<br/>
+          <b>Police Limits:</b> Deolali Camp<br/>
+          <b>Total Distance:</b> Approximately 7.03 km from city center<br/>
+          <b>Population:</b> No Muslim or mixed population on this route<br/>
+          <b>Note:</b> Masjid is 800-1000 meters away from procession route</p>
+        ]]></description>
+        <styleUrl>#route3LineStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>73.824000,19.947000,0 73.823500,19.946500,0 73.823000,19.946000,0 73.822500,19.945500,0 73.822000,19.945000,0 73.821500,19.944500,0 73.821000,19.944000,0 73.820500,19.943500,0 73.820000,19.943000,0 
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <!-- Bhagur Sub-route Path Line -->
+      <Placemark>
+        <name>Bhagur Sub-route Path</name>
+        <description><![CDATA[
+          <h3>Bhagur Sub-route</h3>
+          <p><b>Start:</b> Shivaji Chowk (Bhagur)<br/>
+          <b>End:</b> Darna River (Bhagur)<br/>
+          <b>Police Limits:</b> Deolali Camp<br/>
+          <b>Total Distance:</b> Approximately 9.69 km from city center<br/>
+          <b>Population:</b> No Muslim or mixed population on this route<br/>
+          <b>Route:</b> Marwadi Gali → Balkavde Patsanstha → Banjar Gali → Sitla Devi Mandir → Municipality → Kranti Chowk → Rajwada</p>
+        ]]></description>
+        <styleUrl>#bhagurLineStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>73.834000,19.924000,0 73.833500,19.923500,0 73.833000,19.923000,0 73.832500,19.922500,0 73.832000,19.922000,0 73.831500,19.921500,0 73.831000,19.921000,0 73.830500,19.920500,0 73.830000,19.920000,0 
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    </Folder>
+
+    <!-- Summary Information -->
+    <Folder>
+      <name>Route Summary & Statistics</name>
+      <description>Summary information about all procession routes</description>
+      <open>0</open>
+
+      <Placemark>
+        <name>Nashik City Center Reference Point</name>
+        <description><![CDATA[
+          <h3>Nashik City Center (Panchavati)</h3>
+          <p><b>Coordinates:</b> 20.007357°N, 73.792992°E<br/>
+          <b>Reference Point:</b> Mahatma Fule Market Area<br/>
+          <b>All distances calculated from this point</b></p>
+
+          <h4>Route Statistics:</h4>
+          <ul>
+            <li><b>Route 1:</b> 13 main locations + 3 religious places</li>
+            <li><b>Route 2:</b> 8 main locations + 1 religious place</li>
+            <li><b>Route 3:</b> 9 Deolali Camp + 9 Bhagur sub-route locations</li>
+            <li><b>Other Processions:</b> 9 locations</li>
+            <li><b>Police Stations:</b> 6 locations</li>
+          </ul>
+
+          <h4>Total Coverage:</h4>
+          <p><b>Total Locations Mapped:</b> 58<br/>
+          <b>Police Station Limits Covered:</b> 6<br/>
+          <b>Pin Codes Covered:</b> 7 different areas</p>
+        ]]></description>
+        <styleUrl>#policeStyle</styleUrl>
+        <Point>
+          <coordinates>73.792992,20.007357,0</coordinates>
+        </Point>
+      </Placemark>
+
+    </Folder>
+
+  </Document>
+</kml>

@@ -1,0 +1,16 @@
+Mandal Name / Location,Police Station,Zone,Fixed Point / Location,Perimeter Route,Known Crowd Size,Risk Tier,Special Note
+Ganesh Mandir,Panchavati,Zone 1,"Near Shubham Apartment, Shantinagar",Perimeter 01,100-150 people daily (Idol Installation),Tier 2,
+Panchavati Karanja,Panchavati,Zone 1,Junction Point,Perimeter 01,100-150 people daily (Idol Installation),Tier 1,Major traffic junction.
+Malegaon Stand,Panchavati,Zone 1,Junction Point,Perimeter 01,100-150 people daily (Idol Installation),Tier 1,Major traffic junction.
+Sardar Chowk,Panchavati,Zone 1,Junction Point,Perimeter 01,100-150 people daily (Idol Installation),Tier 1,Major traffic junction.
+Navashya Ganpati Temple,N/A,N/A,N/A,N/A,High crowd density,Tier 1,Known for high crowds. Immersion is prohibited.
+Wakadi Barav,Bhadrakali,Zone 1,Starting Point,Perimeter 01,"8,000-10,000 people (peak day)",Tier 1,Starting point of main procession.
+Chowk Mandai,Bhadrakali,Zone 1,Barracading point,Perimeter 01,"8,000-10,000 people (peak day)",Tier 1,
+Ashok Stambh,Sarkarwada,Zone 1,Junction Point,Perimeter 01,N/A,Tier 1,High-traffic junction.
+Government Colony,Bhadrakali,Zone 1,N/A,N/A,N/A,Tier 2,"Mixed population area, requires vigilance."
+Dwarka Circle,Mumbai Naka,Zone 1,Shaheed Bhagat Singh Chowk,N/A,N/A,Tier 1,Major traffic hub.
+Mumbai Naka,Mumbai Naka,Zone 1,Junction Point,N/A,N/A,Tier 1,Major traffic hub.
+Bhadrakali Police Station,Bhadrakali,Zone 1,N/A,N/A,N/A,Tier 3,Headquarters for Bhadrakali Division.
+Sarkarwada Police Station,Sarkarwada,Zone 1,N/A,N/A,N/A,Tier 3,Headquarters for Sarkarwada Division.
+Mhasrul Police Station,Mhasrul,Zone 1,N/A,N/A,N/A,Tier 3,Headquarters for Mhasrul Division.
+Adgaon Police Station,Adgaon,Zone 1,N/A,N/A,N/A,Tier 3,Headquarters for Adgaon Division.

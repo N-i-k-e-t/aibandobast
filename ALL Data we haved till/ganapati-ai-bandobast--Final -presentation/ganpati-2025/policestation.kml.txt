@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Police Stations</name>
+    
+    <!-- Color Styles -->
+    <Style id="red">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="green">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="blue">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="yellow">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="purple">
+        <IconStyle>
+            <color>ffff00ff</color>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="cyan">
+        <IconStyle>
+            <color>ffffff00</color>
+            <scale>1.1</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="orange">
+      <IconStyle>
+        <color>ff00a5ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="pink">
+      <IconStyle>
+        <color>ffffc0cb</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lime">
+      <IconStyle>
+        <color>ff32cd32</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="teal">
+      <IconStyle>
+        <color>ff808000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lavender">
+      <IconStyle>
+        <color>ffe6e6fa</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="brown">
+      <IconStyle>
+        <color>ffa52a2a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="white">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Placemarks -->
+    <Placemark>
+      <name>Adgaon Police station</name>
+      <styleUrl>#red</styleUrl>
+      <Point>
+        <coordinates>73.826945,20.015486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AmbadPolice station</name>
+      <styleUrl>#green</styleUrl>
+      <Point>
+        <coordinates>73.763443,19.96586,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bhadrakali Police station</name>
+      <styleUrl>#blue</styleUrl>
+      <Point>
+        <coordinates>73.789208,19.997799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Devlali camp Police station</name>
+      <styleUrl>#yellow</styleUrl>
+      <Point>
+        <coordinates>73.826855,19.905098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gangapur Police station</name>
+      <styleUrl>#purple</styleUrl>
+      <Point>
+        <coordinates>73.75007,20.014267,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Indiranagar Police station</name>
+      <styleUrl>#cyan</styleUrl>
+      <Point>
+        <coordinates>73.778583,19.974576,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mhasrul Police station</name>
+      <styleUrl>#orange</styleUrl>
+      <Point>
+        <coordinates>73.802388,20.032542,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mumbai naka Police station</name>
+      <styleUrl>#pink</styleUrl>
+      <Point>
+        <coordinates>73.783917,19.987591,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nashik road Police station</name>
+      <styleUrl>#lime</styleUrl>
+      <Point>
+        <coordinates>73.797048,20.017919,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panchavati Police station</name>
+      <styleUrl>#teal</styleUrl>
+      <Point>
+        <coordinates>73.796739,20.015643,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sarkarwada Police station</name>
+      <styleUrl>#lavender</styleUrl>
+      <Point>
+        <coordinates>73.779772,20.00562,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Satpur Police station</name>
+      <styleUrl>#brown</styleUrl>
+      <Point>
+        <coordinates>73.742909,19.991434,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Upnagar Police station</name>
+      <styleUrl>#white</styleUrl>
+      <Point>
+        <coordinates>73.824402,19.967381,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
