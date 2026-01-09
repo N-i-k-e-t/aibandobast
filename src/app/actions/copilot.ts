@@ -1,5 +1,7 @@
 'use server';
 
+import { prisma } from '@/lib/db';
+
 export type CopilotResponse = {
     text: string;
     mapAction?: MapAction;

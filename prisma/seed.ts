@@ -7,6 +7,19 @@ async function main() {
     console.log('🌱 Starting seed...');
 
     // Clean existing data
+    await prisma.deploymentShift.deleteMany();
+    await prisma.deploymentPost.deleteMany();
+    await prisma.deploymentPerson.deleteMany();
+    await prisma.supplyPlan.deleteMany();
+    await prisma.supplyItem.deleteMany();
+    await prisma.taskPlan.deleteMany();
+    await prisma.scenarioPlan.deleteMany();
+    await prisma.serviceDependency.deleteMany();
+    await prisma.configThreshold.deleteMany();
+    await prisma.extractionJob.deleteMany();
+    await prisma.extractedEntity.deleteMany();
+    await prisma.insight.deleteMany();
+
     await prisma.auditLog.deleteMany();
     await prisma.decisionNote.deleteMany();
     await prisma.evidenceFile.deleteMany();

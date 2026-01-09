@@ -1,9 +1,7 @@
 'use server';
 
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/db';
 import { revalidatePath } from 'next/cache';
-
-const prisma = new PrismaClient();
 
 export async function getJobs() {
     return await prisma.extractionJob.findMany({
@@ -86,17 +84,58 @@ export async function approveEntity(entityId: string) {
                     eventId: eventId!,
                     psId: await getPsId(data.psName),
                     unitName: data.unitName,
+                    unitType: 'MANDAL',
                     riskTier: data.riskTier || 'LOW',
                     crowdMax: data.crowdMax || 0,
-                    // ... other fields
+                    address: data.address || 'Unknown'
                 }
             });
         }
-        // Add other types...
+        else if (entity.entityType === 'ROUTE') {
+            await prisma.route.create({
+                data: {
+                    eventId: eventId!,
+                    psId: await getPsId(data.psName || ''),
+                    routeName: data.routeName,
+                    routeType: 'PROCESSION',
+                    startLabel: data.startLabel,
+                    endLabel: data.endLabel,
+                    timeStart: data.timeWindow?.split('-')[0] || '10:00',
+                    timeEnd: data.timeWindow?.split('-')[1] || '22:00',
+                }
+            });
+        }
+        else if (entity.entityType === 'GHAT') {
+            await prisma.ghat.create({
+                data: {
+                    eventId: eventId!,
+                    ghatName: data.ghatName,
+                    latitude: 19.9975,
+                    longitude: 73.7898,
+                    capacityEst: data.capacity || 1000
+                }
+            });
+        }
+        else if (entity.entityType === 'ZONE') {
+            await prisma.zone.create({
+                data: {
+                    eventId: eventId!,
+                    psId: await getPsId(data.psName || ''),
+                    zoneName: data.zoneName,
+                    zoneType: 'SECURITY',
+                    riskTier: data.riskTier || 'MEDIUM',
+                    polygonGeojson: '{}'
+                }
+            });
+        }
 
         await prisma.extractedEntity.update({
             where: { id: entityId },
-            data: { approved: true, needsReview: false }
+            data: {
+                approved: true,
+                needsReview: false,
+                mappedTable: entity.entityType
+            }
         });
 
         revalidatePath('/ingestion');
