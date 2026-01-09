@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "npm run build:manifest && next dev",
+    "build": "npm run build:manifest && next build",
     "start": "next start",
     "lint": "eslint",
+    "build:manifest": "tsx scripts/buildManifest.ts",
     "postinstall": "prisma generate"
   },
   "dependencies": {

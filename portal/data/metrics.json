@@ -1,0 +1,49 @@
+{
+  "totalFiles": 561,
+  "filesByYear": {
+    "2015": 1,
+    "2016": 3,
+    "2017": 8,
+    "2018": 6,
+    "2019": 11,
+    "2020": 8,
+    "2021": 12,
+    "2022": 14,
+    "2023": 33,
+    "2024": 38,
+    "2025": 427
+  },
+  "filesByPS": {
+    "Nashik City": 467,
+    "Ambad": 8,
+    "Adgaon": 28,
+    "Bhadrakali": 30,
+    "Panchavati": 7,
+    "Nashik Road": 2,
+    "Indiranagar": 5,
+    "Gangapur": 5,
+    "Mhasrul": 4,
+    "Satpur": 3,
+    "Upnagar": 2
+  },
+  "filesByCategory": {
+    "Other": 383,
+    "Crime-incident": 7,
+    "Final Report": 14,
+    "Dashboard": 2,
+    "Data Analysis": 1,
+    "PS Pack": 88,
+    "KML": 15,
+    "Mandal List": 46,
+    "Meeting": 5
+  },
+  "filesByStage": {
+    "STAGE_1": 419,
+    "STAGE_6": 84,
+    "STAGE_2": 2,
+    "STAGE_4": 8,
+    "STAGE_7": 22,
+    "STAGE_3": 17,
+    "STAGE_5": 9
+  }
+}

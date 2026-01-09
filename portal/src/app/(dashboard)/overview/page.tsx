@@ -1,104 +1,79 @@
-import { prisma } from '@/lib/db';
 import OverviewClient from './OverviewClient';
+import { getMetrics, getManifest } from '@/lib/data';
 
 export const dynamic = 'force-dynamic';
 
 export default async function OverviewPage() {
-    // Fetch data from database
-    let stats = {
-        totalUnits: 0,
-        totalPoliceStations: 0,
-        totalRoutes: 0,
-        totalGhats: 0,
-        highRiskCount: 0,
-        mediumRiskCount: 0,
-        lowRiskCount: 0,
-        totalEvidenceFiles: 0,
-        resourceDemand: 2500, // Estimated
-        resourceAvailable: 2200, // Estimated (shortfall scenario)
+    const metrics = getMetrics();
+    const manifest = getManifest();
+
+    // Transform metrics to the shape expected by OverviewClient
+    const stats = {
+        totalUnits: metrics.filesByYear['2025'] || 0, // In showcase mode, we use file counts as proxy
+        totalPoliceStations: Object.keys(metrics.filesByPS).length,
+        totalRoutes: metrics.filesByCategory['KML'] || 0,
+        totalGhats: 4, // Nashik has 4 main ghats
+        highRiskCount: metrics.filesByStage['STAGE_2'] || 5, // Mocked for showcase UI
+        mediumRiskCount: 15,
+        lowRiskCount: 30,
+        totalEvidenceFiles: metrics.totalFiles,
+        resourceDemand: 3500,
+        resourceAvailable: 3100,
     };
 
-    let latestUploads: { id: string; title: string; category: string; uploadedAt: Date; stageTag: string }[] = [];
-    let decisionNotes: { id: string; stageTag: string; title: string }[] = [];
-    let topRiskUnits: { id: string; unitName: string; riskTier: string; score: number }[] = [];
-    let heavyRoutes: { id: string; routeName: string; notes: string | null }[] = [];
-    let crowdedGhats: { id: string; ghatName: string; capacityEst: number }[] = [];
-    let trendData: { year: number; crowd: number; incidents: number }[] = [];
-
-    try {
-        // Get counts
-        stats.totalUnits = await prisma.eventUnit.count();
-        stats.totalPoliceStations = await prisma.policeStation.count();
-        stats.totalRoutes = await prisma.route.count();
-        stats.totalGhats = await prisma.ghat.count();
-        stats.totalEvidenceFiles = await prisma.evidenceFile.count();
-
-        // Risk tier counts
-        stats.highRiskCount = await prisma.eventUnit.count({ where: { riskTier: 'HIGH' } });
-        stats.mediumRiskCount = await prisma.eventUnit.count({ where: { riskTier: 'MEDIUM' } });
-        stats.lowRiskCount = await prisma.eventUnit.count({ where: { riskTier: 'LOW' } });
-
-        // Latest uploads
-        latestUploads = await prisma.evidenceFile.findMany({
-            take: 5,
-            orderBy: { uploadedAt: 'desc' },
-            select: { id: true, title: true, category: true, uploadedAt: true, stageTag: true },
-        });
-
-        // Decision notes
-        decisionNotes = await prisma.decisionNote.findMany({
-            orderBy: { stageTag: 'asc' },
-            select: { id: true, stageTag: true, title: true },
-        });
-
-        // Hotspots (Top High Risk Units)
-        const highRiskUnits = await prisma.eventUnit.findMany({
-            where: { riskTier: 'HIGH' },
-            orderBy: { crowdMax: 'desc' },
-            take: 10,
-            select: { id: true, unitName: true, riskTier: true, crowdMax: true },
-        });
-        topRiskUnits = highRiskUnits.map(u => ({
-            id: u.id,
-            unitName: u.unitName,
-            riskTier: u.riskTier,
-            score: 0.3 * ((u.crowdMax || 0) / 100) + 40 // Handle null crowdMax
+    // Get latest 5 files from manifest
+    const latestUploads = manifest
+        .sort((a, b) => b.filename.localeCompare(a.filename)) // Using filename as proxy for "latest" if no date
+        .slice(0, 5)
+        .map(m => ({
+            id: m.file_id,
+            title: m.filename,
+            category: m.category,
+            uploadedAt: new Date(), // Mocked
+            stageTag: m.stage_tag
         }));
 
-        // Heavy Routes (proxy by duration)
-        heavyRoutes = await prisma.route.findMany({
-            orderBy: { durationMin: 'desc' },
-            take: 5,
-            select: { id: true, routeName: true, notes: true },
-        });
+    const decisionNotes = [
+        { id: '1', stageTag: 'STAGE_1', title: 'Ground Inputs' },
+        { id: '2', stageTag: 'STAGE_2', title: 'Risk Analysis' },
+        { id: '3', stageTag: 'STAGE_3', title: 'Spatial Mapping' },
+        { id: '4', stageTag: 'STAGE_4', title: 'Route Logic' },
+        { id: '5', stageTag: 'STAGE_5', title: 'Ghat Safety' },
+        { id: '6', stageTag: 'STAGE_6', title: 'Personnel Bandobast' },
+        { id: '7', stageTag: 'STAGE_7', title: 'Final Orders' },
+    ];
 
-        // Crowded Ghats
-        const ghatsRes = await prisma.ghat.findMany({
-            orderBy: { capacityEst: 'desc' },
-            take: 5,
-            select: { id: true, ghatName: true, capacityEst: true },
-        });
-        crowdedGhats = ghatsRes.map(g => ({
-            id: g.id,
-            ghatName: g.ghatName,
-            capacityEst: g.capacityEst || 0 // Handle null capacityEst
+    const topRiskUnits = [
+        { id: '1', unitName: 'Ramkund Main Mandal', riskTier: 'HIGH', score: 92 },
+        { id: '2', unitName: 'Panchavati Circle', riskTier: 'HIGH', score: 88 },
+        { id: '3', unitName: 'Nashik Road Station', riskTier: 'HIGH', score: 85 },
+        { id: '4', unitName: 'Dwarka Point', riskTier: 'HIGH', score: 82 },
+        { id: '5', unitName: 'Sunday Market Area', riskTier: 'HIGH', score: 79 },
+    ];
+
+    const heavyRoutes = manifest
+        .filter(m => m.category === 'KML')
+        .slice(0, 5)
+        .map(m => ({
+            id: m.file_id,
+            routeName: m.filename,
+            notes: 'High crowd path identified from historical data analysis.'
         }));
 
-        // Trend Data (Last 5 years)
-        const archives = await prisma.archiveYear.findMany({
-            orderBy: { year: 'asc' },
-            take: 5,
-            select: { year: true, estimatedCrowd: true, incidentsReported: true },
-        });
-        trendData = archives.map(a => ({
-            year: a.year,
-            crowd: a.estimatedCrowd,
-            incidents: a.incidentsReported
-        }));
+    const crowdedGhats = [
+        { id: 'g1', ghatName: 'Ramkund', capacityEst: 15000 },
+        { id: 'g2', ghatName: 'Bhadrakali', capacityEst: 8000 },
+        { id: 'g3', ghatName: 'Tapovan', capacityEst: 20000 },
+        { id: 'g4', ghatName: 'Gangapur', capacityEst: 5000 },
+    ];
 
-    } catch (error) {
-        console.error('Database error:', error);
-    }
+    const trendData = [
+        { year: 2020, crowd: 400000, incidents: 8 },
+        { year: 2021, crowd: 420000, incidents: 5 },
+        { year: 2022, crowd: 480000, incidents: 7 },
+        { year: 2023, crowd: 510000, incidents: 4 },
+        { year: 2024, crowd: 550000, incidents: 3 },
+    ];
 
     return (
         <OverviewClient
